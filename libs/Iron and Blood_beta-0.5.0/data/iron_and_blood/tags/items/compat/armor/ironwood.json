@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "twilightforest:ironwood_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_leggings",
+      "required": false
+    }
+  ]
+}

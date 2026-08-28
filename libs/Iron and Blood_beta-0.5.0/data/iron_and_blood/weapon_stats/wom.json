@@ -1,0 +1,220 @@
+{
+  "entries": [
+    {
+      "items": ["wom:agony"],
+      "category": "armor_piercing_polearm",
+      "body_damage": 4.704,
+      "defense_damage": 2.52,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:tormented_mind"],
+      "category": "heavy_axe",
+      "body_damage": 7.84,
+      "defense_damage": 2.688,
+      "stamina_damage_multiplier": 1.60,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:ruine"],
+      "category": "heavy_sword",
+      "body_damage": 5.6,
+      "defense_damage": 1.232,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:satsujin", "wom:satsujin_sheath"],
+      "category": "sword",
+      "body_damage": 5.824,
+      "defense_damage": 1.232,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:herrscher", "wom:herrscher_aura"],
+      "category": "sword",
+      "body_damage": 5.376,
+      "defense_damage": 1.12,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:gesetz", "wom:gesetz_handle", "wom:gesetz_aura"],
+      "category": "hammer",
+      "body_damage": 3.92,
+      "defense_damage": 2.688,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["wom:moonless", "wom:moonless_handle"],
+      "category": "sword",
+      "body_damage": 6.0,
+      "defense_damage": 1.2,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:solar", "wom:solar_obscuridad"],
+      "category": "heavy_sword",
+      "body_damage": 6.944,
+      "defense_damage": 2.016,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:antitheus"],
+      "category": "scythe",
+      "body_damage": 7.056,
+      "defense_damage": 2.24,
+      "bleeding_capable": true,
+      "captures_projectiles": true,
+      "projectile": {
+        "category": "bow",
+        "body_damage": 4.704,
+        "defense_damage": 1.008,
+        "bleeding_capable": false
+      }
+    },
+    {
+      "items": ["wom:ender_blaster"],
+      "category": "pistol",
+      "body_damage": 2.24,
+      "defense_damage": 0.336,
+      "bleeding_capable": false,
+      "projectile": {
+        "category": "pistol",
+        "body_damage": 5.04,
+        "defense_damage": 2.016,
+        "bleeding_capable": false
+      }
+    },
+    {
+      "items": ["wom:napoleon"],
+      "category": "heavy_sword",
+      "body_damage": 5.824,
+      "defense_damage": 1.344,
+      "bleeding_capable": true,
+      "projectile": {
+        "category": "rifle",
+        "body_damage": 5.376,
+        "defense_damage": 2.688,
+        "bleeding_capable": true
+      }
+    },
+    {
+      "items": ["wom:evil_tachi"],
+      "category": "heavy_sword",
+      "body_damage": 6.72,
+      "defense_damage": 1.792,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:hollow_longsword"],
+      "category": "heavy_sword",
+      "body_damage": 6.16,
+      "defense_damage": 1.568,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:jabberwocky"],
+      "category": "dagger",
+      "body_damage": 3.92,
+      "defense_damage": 0.672,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:nova"],
+      "category": "heavy_sword",
+      "body_damage": 6.72,
+      "defense_damage": 1.792,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:orbit"],
+      "category": "staff",
+      "body_damage": 3.36,
+      "defense_damage": 0.784,
+      "bleeding_capable": false,
+      "projectile": {
+        "category": "bow",
+        "body_damage": 5.04,
+        "defense_damage": 1.12,
+        "bleeding_capable": false
+      }
+    },
+    {
+      "items": ["wom:blackstar"],
+      "category": "armor_piercing_polearm",
+      "body_damage": 6.72,
+      "defense_damage": 4.256,
+      "bleeding_capable": true,
+      "captures_projectiles": true
+    },
+    {
+      "items": ["wom:iron_greataxe"],
+      "category": "heavy_axe",
+      "body_damage": 6.72,
+      "defense_damage": 2.016,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:golden_greataxe"],
+      "category": "heavy_axe",
+      "body_damage": 4.704,
+      "defense_damage": 1.12,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:diamond_greataxe"],
+      "category": "heavy_axe",
+      "body_damage": 7.392,
+      "defense_damage": 2.352,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:netherite_greataxe"],
+      "category": "heavy_axe",
+      "body_damage": 7.616,
+      "defense_damage": 2.576,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["wom:wooden_staff"],
+      "category": "staff",
+      "body_damage": 1.568,
+      "defense_damage": 0.224,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["wom:stone_staff"],
+      "category": "staff",
+      "body_damage": 2.016,
+      "defense_damage": 0.448,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["wom:golden_staff"],
+      "category": "staff",
+      "body_damage": 1.904,
+      "defense_damage": 0.336,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["wom:iron_staff"],
+      "category": "staff",
+      "body_damage": 2.24,
+      "defense_damage": 0.504,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["wom:diamond_staff"],
+      "category": "staff",
+      "body_damage": 2.688,
+      "defense_damage": 0.672,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["wom:netherite_staff"],
+      "category": "staff",
+      "body_damage": 2.912,
+      "defense_damage": 0.84,
+      "bleeding_capable": false
+    }
+  ]
+}

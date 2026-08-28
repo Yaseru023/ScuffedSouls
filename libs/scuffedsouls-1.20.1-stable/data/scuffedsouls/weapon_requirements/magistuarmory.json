@@ -1,0 +1,460 @@
+{
+  "requirements": [
+    {
+      "item": "magistuarmory:iron_stylet",
+      "stats": [
+        {"stat": "dexterity", "min": 8}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_stylet",
+      "stats": [
+        {"stat": "dexterity", "min": 16}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_stylet",
+      "stats": [
+        {"stat": "dexterity", "min": 16}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_stylet",
+      "stats": [
+        {"stat": "dexterity", "min": 24}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_shortsword",
+      "stats": [
+        {"stat": "dexterity", "min": 8}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_shortsword",
+      "stats": [
+        {"stat": "dexterity", "min": 16}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_shortsword",
+      "stats": [
+        {"stat": "dexterity", "min": 16}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_shortsword",
+      "stats": [
+        {"stat": "dexterity", "min": 24}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_katzbalger",
+      "stats": [
+        {"stat": "dexterity", "min": 10}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_katzbalger",
+      "stats": [
+        {"stat": "dexterity", "min": 18}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_katzbalger",
+      "stats": [
+        {"stat": "dexterity", "min": 18}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_katzbalger",
+      "stats": [
+        {"stat": "dexterity", "min": 26}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_ransuer",
+      "stats": [
+        {"stat": "dexterity", "min": 10}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_ransuer",
+      "stats": [
+        {"stat": "dexterity", "min": 20}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_ransuer",
+      "stats": [
+        {"stat": "dexterity", "min": 20}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_ransuer",
+      "stats": [
+        {"stat": "dexterity", "min": 28}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_ahlspiess",
+      "stats": [
+        {"stat": "dexterity", "min": 10}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_ahlspiess",
+      "stats": [
+        {"stat": "dexterity", "min": 20}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_ahlspiess",
+      "stats": [
+        {"stat": "dexterity", "min": 20}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_ahlspiess",
+      "stats": [
+        {"stat": "dexterity", "min": 28}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_pike",
+      "stats": [
+        {"stat": "dexterity", "min": 10}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_pike",
+      "stats": [
+        {"stat": "dexterity", "min": 20}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_pike",
+      "stats": [
+        {"stat": "dexterity", "min": 20}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_pike",
+      "stats": [
+        {"stat": "dexterity", "min": 28}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_estoc",
+      "stats": [
+        {"stat": "dexterity", "min": 12}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_estoc",
+      "stats": [
+        {"stat": "dexterity", "min": 22}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_estoc",
+      "stats": [
+        {"stat": "dexterity", "min": 22}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_estoc",
+      "stats": [
+        {"stat": "dexterity", "min": 32}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_bastardsword",
+      "stats": [
+        {"stat": "strength", "min": 12}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_bastardsword",
+      "stats": [
+        {"stat": "strength", "min": 22}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_bastardsword",
+      "stats": [
+        {"stat": "strength", "min": 22}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_bastardsword",
+      "stats": [
+        {"stat": "strength", "min": 32}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_claymore",
+      "stats": [
+        {"stat": "strength", "min": 14}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_claymore",
+      "stats": [
+        {"stat": "strength", "min": 26}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_claymore",
+      "stats": [
+        {"stat": "strength", "min": 26}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_claymore",
+      "stats": [
+        {"stat": "strength", "min": 36}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_flamebladedsword",
+      "stats": [
+        {"stat": "strength", "min": 16}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_flamebladedsword",
+      "stats": [
+        {"stat": "strength", "min": 30}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_flamebladedsword",
+      "stats": [
+        {"stat": "strength", "min": 30}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_flamebladedsword",
+      "stats": [
+        {"stat": "strength", "min": 40}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_zweihander",
+      "stats": [
+        {"stat": "strength", "min": 18}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_zweihander",
+      "stats": [
+        {"stat": "strength", "min": 32}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_zweihander",
+      "stats": [
+        {"stat": "strength", "min": 32}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_zweihander",
+      "stats": [
+        {"stat": "strength", "min": 44}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_guisarme",
+      "stats": [
+        {"stat": "strength", "min": 13}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_guisarme",
+      "stats": [
+        {"stat": "strength", "min": 24}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_guisarme",
+      "stats": [
+        {"stat": "strength", "min": 24}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_guisarme",
+      "stats": [
+        {"stat": "strength", "min": 34}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_concavehalberd",
+      "stats": [
+        {"stat": "strength", "min": 14}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_concavehalberd",
+      "stats": [
+        {"stat": "strength", "min": 26}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_concavehalberd",
+      "stats": [
+        {"stat": "strength", "min": 26}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_concavehalberd",
+      "stats": [
+        {"stat": "strength", "min": 36}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_lochaberaxe",
+      "stats": [
+        {"stat": "strength", "min": 15}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_lochaberaxe",
+      "stats": [
+        {"stat": "strength", "min": 27}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_lochaberaxe",
+      "stats": [
+        {"stat": "strength", "min": 27}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_lochaberaxe",
+      "stats": [
+        {"stat": "strength", "min": 37}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_lucernhammer",
+      "stats": [
+        {"stat": "strength", "min": 15}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_lucernhammer",
+      "stats": [
+        {"stat": "strength", "min": 28}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_lucernhammer",
+      "stats": [
+        {"stat": "strength", "min": 28}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_lucernhammer",
+      "stats": [
+        {"stat": "strength", "min": 38}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_morgenstern",
+      "stats": [
+        {"stat": "strength", "min": 14}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_morgenstern",
+      "stats": [
+        {"stat": "strength", "min": 26}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_morgenstern",
+      "stats": [
+        {"stat": "strength", "min": 26}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_morgenstern",
+      "stats": [
+        {"stat": "strength", "min": 36}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_chainmorgenstern",
+      "stats": [
+        {"stat": "strength", "min": 15}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_chainmorgenstern",
+      "stats": [
+        {"stat": "strength", "min": 27}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_chainmorgenstern",
+      "stats": [
+        {"stat": "strength", "min": 27}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_chainmorgenstern",
+      "stats": [
+        {"stat": "strength", "min": 37}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_heavymace",
+      "stats": [
+        {"stat": "strength", "min": 16}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_heavymace",
+      "stats": [
+        {"stat": "strength", "min": 28}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_heavymace",
+      "stats": [
+        {"stat": "strength", "min": 28}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_heavymace",
+      "stats": [
+        {"stat": "strength", "min": 38}
+      ]
+    },
+    {
+      "item": "magistuarmory:iron_heavywarhammer",
+      "stats": [
+        {"stat": "strength", "min": 20}
+      ]
+    },
+    {
+      "item": "magistuarmory:gold_heavywarhammer",
+      "stats": [
+        {"stat": "strength", "min": 34}
+      ]
+    },
+    {
+      "item": "magistuarmory:diamond_heavywarhammer",
+      "stats": [
+        {"stat": "strength", "min": 34}
+      ]
+    },
+    {
+      "item": "magistuarmory:netherite_heavywarhammer",
+      "stats": [
+        {"stat": "strength", "min": 46}
+      ]
+    }
+  ]
+}

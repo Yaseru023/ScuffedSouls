@@ -1,0 +1,12 @@
+{
+  "lychnus_theme": {
+    "category": "records",
+    "sounds": [
+      {
+        "name": "scuffedsouls:lychnus_theme",
+        "stream": true,
+        "attenuation_distance": 100
+      }
+    ]
+  }
+}

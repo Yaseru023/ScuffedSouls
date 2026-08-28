@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "the_faint_radiance:lychnus", "required": false }
+  ]
+}

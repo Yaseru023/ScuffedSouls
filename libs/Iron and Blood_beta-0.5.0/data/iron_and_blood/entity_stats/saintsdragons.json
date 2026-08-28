@@ -1,0 +1,85 @@
+{
+  "entries": [
+    {
+      "entities": ["saintsdragons:atroxiia"],
+      "max_health": 130.0,
+      "natural_defense": 12.0,
+      "natural_body_damage": 7.0,
+      "natural_defense_damage": 3.5,
+      "can_bleed": true,
+      "size_variants": false
+    },
+    {
+      "entities": ["saintsdragons:cindervane"],
+      "max_health": 60.0,
+      "natural_defense": 6.0,
+      "natural_body_damage": 4.2,
+      "natural_defense_damage": 2.1,
+      "can_bleed": true,
+      "size_variants": false
+    },
+    {
+      "entities": ["saintsdragons:raevyx"],
+      "max_health": 110.0,
+      "natural_defense": 8.0,
+      "natural_body_damage": 5.0,
+      "natural_defense_damage": 2.5,
+      "can_bleed": true,
+      "size_variants": false
+    },
+    {
+      "entities": ["saintsdragons:varasuchus"],
+      "max_health": 120.0,
+      "natural_defense": 10.0,
+      "natural_body_damage": 5.8,
+      "natural_defense_damage": 2.9,
+      "can_bleed": true,
+      "size_variants": false
+    },
+    {
+      "entities": ["saintsdragons:ignivorus"],
+      "max_health": 190.0,
+      "natural_defense": 12.0,
+      "natural_body_damage": 8.0,
+      "natural_defense_damage": 4.0,
+      "can_bleed": true,
+      "size_variants": false
+    },
+    {
+      "entities": ["saintsdragons:stegonaut"],
+      "max_health": 70.0,
+      "natural_defense": 14.0,
+      "natural_body_damage": 7.0,
+      "natural_defense_damage": 3.5,
+      "can_bleed": true,
+      "size_variants": false
+    },
+    {
+      "entities": ["saintsdragons:volitans"],
+      "max_health": 30.0,
+      "natural_defense": 8.0,
+      "natural_body_damage": 5.0,
+      "natural_defense_damage": 2.5,
+      "can_bleed": true,
+      "size_variants": false
+    },
+    {
+      "entities": ["saintsdragons:nulljaw"],
+      "max_health": 50.0,
+      "natural_defense": 6.0,
+      "natural_body_damage": 4.0,
+      "natural_defense_damage": 2.0,
+      "can_bleed": true,
+      "size_variants": false
+    },
+    {
+      "entities": ["saintsdragons:mossback"],
+      "max_health": 10.0,
+      "natural_defense": 3.0,
+      "natural_body_damage": 1.0,
+      "natural_defense_damage": 0.3,
+      "can_bleed": true,
+      "size_variants": false
+    }
+  ]
+}

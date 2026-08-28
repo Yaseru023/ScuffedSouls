@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"slavicarmory:kaftan_boots","required":false},
+    {"id":"slavicarmory:rus_gambeson_boots","required":false}
+  ]
+}

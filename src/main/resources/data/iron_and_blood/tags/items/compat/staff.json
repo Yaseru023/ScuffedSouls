@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "epicfight_dd:amethyst_battlestaff", "required": false },
+    { "id": "epicfight_dd:wooden_battlestaff", "required": false },
+    { "id": "epicfight_dd:iron_battlestaff", "required": false },
+    { "id": "epicfight_dd:golden_battlestaff", "required": false },
+    { "id": "epicfight_dd:diamond_battlestaff", "required": false },
+    { "id": "epicfight_dd:netherite_battlestaff", "required": false },
+    { "id": "sw_wukong:iron_wukong_staff", "required": false },
+    { "id": "sw_wukong:wukong_staff", "required": false },
+    { "id": "sw_wukong:ghost_wukong_staff", "required": false },
+    { "id": "sw_wukong:dark_wukong_staff", "required": false }
+
+  ]
+}

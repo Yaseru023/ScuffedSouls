@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"tconstruct:slime_helmet","required":false},
+    {"id":"tconstruct:slime_chestplate","required":false},
+    {"id":"tconstruct:slime_leggings","required":false},
+    {"id":"tconstruct:slime_boots","required":false}
+  ]
+}

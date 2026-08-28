@@ -1,0 +1,301 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"tconstruct:hand_axe","required":false},
+    {"id":"tconstruct:mattock","required":false},
+    {"id":"tconstruct:kama","required":false},
+    {"id":"tconstruct:throwing_axe","required":false},
+    {
+      "id": "#forge:tools/axe",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/axes",
+      "required": false
+    },
+    {
+      "id": "#minecraft:axes",
+      "required": false
+    },
+    {
+      "id": "call_of_yucutan:jade_axe",
+      "required": false
+    },
+    {
+      "id": "cataclysm:black_steel_axe",
+      "required": false
+    },
+    {
+      "id": "companions:crystallized_blood_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:blessed_gold_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:blessed_gold_axe_war",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:blesseed_gold_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:coppeer_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:copper_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:copper_axe_war",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:crimson_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:ebony_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:hand_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_dark_steel_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:old_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:sandstone_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:sandstone_axe_war",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:silver_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:steeel_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:steel_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:steel_tomahawk_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:the_gravedigger_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:titanium_axe",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:axe_of_the_sky",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:draco_arcanus_axe",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:reinforced_deorum_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:copper_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonbone_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_fire_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_ice_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_lightning_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:silver_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:troll_weapon_axe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_francisca_axe",
+      "required": false
+    },
+    {
+      "id": "oceanvillagertrader:turtle_axe",
+      "required": false
+    },
+    {
+      "id": "realmrpg_seadwellers:depth_axe",
+      "required": false
+    },
+    {
+      "id": "scguns:anthralite_axe",
+      "required": false
+    },
+    {
+      "id": "seadwellers:depth_axe",
+      "required": false
+    },
+    {
+      "id": "slavicarmory:steel_rus_axe",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:cooked_tomahawk_smeak",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:grilled_tomahawk_smeak",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:raw_tomahawk_smeak",
+      "required": false
+    },
+    {
+      "id": "twilightforest:diamond_minotaur_axe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:gold_minotaur_axe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_axe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_axe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_axe",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bandit_axeman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:dwarven_axe",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:heavy_axe",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:light_axe",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:undead_axe",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:razor_leaf_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:diamond_sickle",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:cryolite_sickle",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_cryolite_sickle",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:sunrise_sickle",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_sickle",
+      "required": false
+    }
+  ]
+}

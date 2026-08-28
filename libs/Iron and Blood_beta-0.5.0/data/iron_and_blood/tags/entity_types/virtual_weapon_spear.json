@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "goety:piker", "required": false },
+    { "id": "goety:piker_servant", "required": false },
+    { "id": "goety:vanguard_servant", "required": false },
+    { "id": "cataclysm:cindaria", "required": false },
+    { "id": "cataclysm:wadjet", "required": false }
+  ]
+}

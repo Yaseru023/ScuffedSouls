@@ -1,0 +1,181 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "magistuarmoryaddon:dark_gilded_greenwich_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_gilded_greenwich_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_articulated_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_gothic_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_gothic_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_gothic_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_greenwich_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_greenwich_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_grilled_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_jousting_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_jousting_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_jousting_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_jousting_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_kastenbrust_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_kastenbrust_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_kastenbrust_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_knight_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_knight_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_knight_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_maximilian_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_maximilian_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fully_gilded_maximilian_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_dark_close_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_dark_gothic_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_dark_gothic_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_dark_gothic_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_dark_gothic_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_dark_peascod_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_darkblued_greenwich_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_darkblued_greenwich_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_darkblued_greenwich_close_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_gothic_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_gothic_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_greenwich_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_greenwich_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_greenwich_close_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_maximilian_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_maximilian_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:exalted_aurum_armor_chest",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:exalted_aurum_armor_feet",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:exalted_aurum_armor_head",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:exalted_aurum_armor_legs",
+      "required": false
+    }
+  ]
+}

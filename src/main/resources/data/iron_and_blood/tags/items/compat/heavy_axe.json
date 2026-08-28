@@ -1,0 +1,15 @@
+{ 
+    "replace": false,
+    "values": [
+        { "id": "epicfight_dd:steelaxe", "required": false },
+        { "id": "epicfight_dd:iron_halberd", "required": false },
+        { "id": "epicfight_dd:golden_halberd", "required": false },
+        { "id": "epicfight_dd:diamond_halberd", "required": false },
+        { "id": "epicfight_dd:netherite_halberd", "required": false },
+        { "id": "epicfight_dd:iudex_gundyr_halberd", "required": false},
+        { "id": "epicfight_dd:war_sickle", "required": false},
+        { "id": "legendary_monsters:axe_of_lightning", "required": false},
+        { "id": "legendary_monsters:golden_halbert", "required": false},
+        { "id": "tkvm_dark_knight:dark_knight_halberd", "required": false}
+    ]
+}

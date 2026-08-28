@@ -1,0 +1,53 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "magistuarmory:bronze_estoc",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_estoc",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_estoc",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_estoc",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_estoc",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_estoc",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:rusted_estoc",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_estoc",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_estoc",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_estoc",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_estoc",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_estoc",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "requirements": [
+    {
+      "item": "cdmoveset:s_wooden_sword",
+      "stats": [
+        {"stat": "strength", "min": 5}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_wooden_longsword",
+      "stats": [
+        {"stat": "strength", "min": 5},
+        {"stat": "dexterity", "min": 5}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_wooden_greatsword",
+      "stats": [
+        {"stat": "strength", "min": 8}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_wooden_spear",
+      "stats": [
+        {"stat": "dexterity", "min": 5}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_wooden_tachi",
+      "stats": [
+        {"stat": "dexterity", "min": 5},
+        {"stat": "strength", "min": 5}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_stone_sword",
+      "stats": [
+        {"stat": "strength", "min": 8}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_stone_longsword",
+      "stats": [
+        {"stat": "strength", "min": 8},
+        {"stat": "dexterity", "min": 8}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_stone_greatsword",
+      "stats": [
+        {"stat": "strength", "min": 12}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_stone_spear",
+      "stats": [
+        {"stat": "dexterity", "min": 8}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_stone_tachi",
+      "stats": [
+        {"stat": "dexterity", "min": 8},
+        {"stat": "strength", "min": 8}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_iron_sword",
+      "stats": [
+        {"stat": "strength", "min": 12}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_iron_longsword",
+      "stats": [
+        {"stat": "strength", "min": 12},
+        {"stat": "dexterity", "min": 12}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_iron_greatsword",
+      "stats": [
+        {"stat": "strength", "min": 18}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_iron_spear",
+      "stats": [
+        {"stat": "dexterity", "min": 12}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_iron_tachi",
+      "stats": [
+        {"stat": "dexterity", "min": 12},
+        {"stat": "strength", "min": 12}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_golden_sword",
+      "stats": [
+        {"stat": "strength", "min": 8}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_golden_longsword",
+      "stats": [
+        {"stat": "strength", "min": 8},
+        {"stat": "dexterity", "min": 8}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_golden_greatsword",
+      "stats": [
+        {"stat": "strength", "min": 12}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_golden_spear",
+      "stats": [
+        {"stat": "dexterity", "min": 8}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_golden_tachi",
+      "stats": [
+        {"stat": "dexterity", "min": 8},
+        {"stat": "strength", "min": 8}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_diamond_sword",
+      "stats": [
+        {"stat": "strength", "min": 20}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_diamond_longsword",
+      "stats": [
+        {"stat": "strength", "min": 20},
+        {"stat": "dexterity", "min": 18}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_diamond_greatsword",
+      "stats": [
+        {"stat": "strength", "min": 28}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_diamond_spear",
+      "stats": [
+        {"stat": "dexterity", "min": 20}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_diamond_tachi",
+      "stats": [
+        {"stat": "dexterity", "min": 20},
+        {"stat": "strength", "min": 18}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_netherite_sword",
+      "stats": [
+        {"stat": "strength", "min": 30}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_netherite_longsword",
+      "stats": [
+        {"stat": "strength", "min": 30},
+        {"stat": "dexterity", "min": 26}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_netherite_greatsword",
+      "stats": [
+        {"stat": "strength", "min": 38}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_netherite_spear",
+      "stats": [
+        {"stat": "dexterity", "min": 30}
+      ]
+    },
+    {
+      "item": "cdmoveset:s_netherite_tachi",
+      "stats": [
+        {"stat": "dexterity", "min": 30},
+        {"stat": "strength", "min": 26}
+      ]
+    },
+    {
+      "item": "cdmoveset:katana",
+      "stats": [
+        {"stat": "dexterity", "min": 28},
+        {"stat": "strength", "min": 14}
+      ]
+    },
+    {
+      "item": "cdmoveset:phantom_katana",
+      "stats": [
+        {"stat": "dexterity", "min": 36},
+        {"stat": "strength", "min": 18}
+      ]
+    },
+    {
+      "item": "cdmoveset:yamato",
+      "stats": [
+        {"stat": "dexterity", "min": 44},
+        {"stat": "strength", "min": 22}
+      ]
+    },
+    {
+      "item": "cdmoveset:great_tachi",
+      "stats": [
+        {"stat": "strength", "min": 38},
+        {"stat": "dexterity", "min": 24}
+      ]
+    }
+  ]
+}

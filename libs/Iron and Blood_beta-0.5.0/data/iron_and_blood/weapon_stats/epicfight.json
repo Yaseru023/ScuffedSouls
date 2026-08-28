@@ -1,0 +1,23 @@
+{
+    "entries":  [
+                    {
+                        "items":  [
+                                      "epicfight:glove"
+                                  ],
+                        "category":  "fallback",
+                        "body_damage":  0.3,
+                        "defense_damage":  0.0,
+                        "bleeding_capable":  false
+                    },
+                    {
+                        "items":  [
+                                      "epicfight:bokken"
+                                  ],
+                        "category":  "staff",
+                        "body_damage":  1.2,
+                        "defense_damage":  0.12,
+                        "bleeding_capable":  false
+                    }
+                ]
+}
+

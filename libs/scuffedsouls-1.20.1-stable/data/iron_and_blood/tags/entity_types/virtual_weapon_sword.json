@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "legendary_monsters:chorusling", "required": false },
+    { "id": "legendary_monsters:spiky_worm", "required": false },
+    { "id": "legendary_monsters:ambusher", "required": false },
+    { "id": "legendary_monsters:stratling", "required": false },
+    { "id": "legendary_monsters:fractured_apostle", "required": false },
+    { "id": "legendary_monsters:fractured", "required": false },
+    { "id": "legendary_monsters:flame_drifter", "required": false },
+    { "id": "legendary_monsters:wandering_eye", "required": false }
+  ]
+}

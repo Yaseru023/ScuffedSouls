@@ -1,0 +1,12 @@
+{
+  "entity": "twilightforest:alpha_yeti",
+  "profile": "frost_brute_boss",
+  "hp": 100.0,
+  "defense": 5.0,
+  "damage_taken_multiplier": 0.94,
+  "stamina_damage_taken_multiplier": 0.75,
+  "stamina_multiplier": 2.5,
+  "final_stamina": 240.0,
+  "wounded_threshold_multiplier": 2.4,
+  "bleeding_multiplier": 0.20
+}

@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {"entity":"workers:miner","humanoid":true},
+    {"entity":"workers:lumberjack","humanoid":true},
+    {"entity":"workers:fisherman","humanoid":true},
+    {"entity":"workers:merchant","humanoid":true},
+    {"entity":"workers:farmer","humanoid":true},
+    {"entity":"workers:builder","humanoid":true},
+    {"entity":"workers:animal_farmer","humanoid":true},
+    {"entity":"workers:cook","humanoid":true},
+    {"entity":"workers:courier","humanoid":true},
+
+    {"entity":"recruits:recruit","humanoid":true},
+    {"entity":"recruits:bowman","humanoid":true},
+    {"entity":"recruits:recruit_shield","humanoid":true},
+    {"entity":"recruits:nomad","humanoid":true},
+    {"entity":"recruits:horseman","humanoid":true},
+    {"entity":"recruits:crossbowman","humanoid":true},
+    {"entity":"recruits:scout","humanoid":true},
+    {"entity":"recruits:captain","humanoid":true},
+    {"entity":"recruits:patrol_leader","humanoid":true},
+    {"entity":"recruits:messenger","humanoid":true},
+    {"entity":"recruits:villager_noble","humanoid":true},
+    {"entity":"recruits:siege_engineer","humanoid":true}
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"tconstruct:cleaver","required":false},
+    {
+      "id": "block_factorys_bosses:large_sword",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_incinerator",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:greatsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:longsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_diamond_greatsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_diamond_longsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_diamondgreatsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_diamondlongsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_golden_greatsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_golden_longsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_iron_greatsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_iron_longsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_irongreatsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_ironlongsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_netherite_greatsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_netherite_longsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_netheritegreatsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_netheritelongsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_stone_greatsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_stone_longsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_wooden_greatsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_wooden_longsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:cobalt_long_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:crimson_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:crimson_long_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:cryolite_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:crystal_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_greatsword_bone",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_greatsword_fire",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_greatsword_ice",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_greatsword_lightning",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_fire_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_fire_long_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_ice_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_ice_long_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_lightning_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_lightning_long_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:ebony_long_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:greatsword_oath",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_bone_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_cryolite_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:moonlight_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:netherite_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:oath_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:sandstorm_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:solid_gold_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:solid_gold_long_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:steel_wolf_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:titanium_greatsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:wulfrum_greatsword",
+      "required": false
+    },
+    {
+      "id": "efn:broadblade",
+      "required": false
+    },
+    {
+      "id": "efn:ruinsgreatsword",
+      "required": false
+    },
+    {
+      "id": "epicfight:diamond_greatsword",
+      "required": false
+    },
+    {
+      "id": "epicfight:golden_greatsword",
+      "required": false
+    },
+    {
+      "id": "epicfight:greatsword",
+      "required": false
+    },
+    {
+      "id": "epicfight:iron_greatsword",
+      "required": false
+    },
+    {
+      "id": "epicfight:netherite_greatsword",
+      "required": false
+    },
+    {
+      "id": "epicfight:stone_greatsword",
+      "required": false
+    },
+    {
+      "id": "epicfight:wooden_greatsword",
+      "required": false
+    },
+    {
+      "id": "hadean_breathe:guardian_greatsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_claymore",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_zweihander",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_claymore",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_zweihander",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_claymore",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_zweihander",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_claymore",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_zweihander",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_claymore",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_zweihander",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_claymore",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_zweihander",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:rusted_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_claymore",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_zweihander",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_claymore",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_zweihander",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_claymore",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_zweihander",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_claymore",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_zweihander",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_claymore",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_zweihander",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_german_greatsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_longsword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:giant_sword",
+      "required": false
+    },
+    {
+      "id": "wom:hollow_longsword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_sword_fire",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_sword_ice",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_sword_lightning",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_sword_bone",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_bone_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:cryolite_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_cryolite_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_fire_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_ice_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_lightning_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:titanium_dragon_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:steel_wolf_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:netherite_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:diamond_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:true_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:sandstorm_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:diamond_claymore",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:netherite_claymore",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:true_claymore",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_grand_falchion",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_two_handed_messer",
+      "required": false
+    }
+  ]
+}

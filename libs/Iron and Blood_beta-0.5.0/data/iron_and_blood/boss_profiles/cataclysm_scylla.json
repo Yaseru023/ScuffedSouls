@@ -1,0 +1,11 @@
+{
+  "entity": "cataclysm:scylla",
+  "profile": "storm_anchor_boss",
+  "hp": 130.0,
+  "damage_taken_multiplier": 1.0,
+  "stamina_damage_taken_multiplier": 0.78,
+  "stamina_multiplier": 3.0,
+  "final_stamina": 380.0,
+  "wounded_threshold_multiplier": 2.2,
+  "bleeding_multiplier": 0.60
+}

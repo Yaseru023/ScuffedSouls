@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "alexsmobs:skelewag", "required": false },
+    { "id": "goety:haunted_armor", "required": false },
+    { "id": "goety:haunted_armor_servant", "required": false }
+  ]
+}

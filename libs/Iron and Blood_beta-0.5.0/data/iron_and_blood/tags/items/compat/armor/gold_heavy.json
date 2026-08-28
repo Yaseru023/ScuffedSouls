@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "fantasy_armor:golden_execution_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:golden_execution_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:golden_execution_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:golden_execution_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:golden_horns_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:golden_horns_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:golden_horns_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:golden_horns_leggings",
+      "required": false
+    }
+  ]
+}

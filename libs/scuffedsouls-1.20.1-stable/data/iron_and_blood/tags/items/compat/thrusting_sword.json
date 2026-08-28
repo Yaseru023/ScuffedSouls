@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        { "id": "epicfight_dd:milady", "required": false },
+        { "id": "epicfight_dd:iron_florett", "required": false },
+        { "id": "epicfight_dd:golden_florett", "required": false },
+        { "id": "epicfight_dd:diamond_florett", "required": false },
+        { "id": "epicfight_dd:netherite_florett", "required": false },
+        { "id": "epicfight_dd:iron_light_greatsword", "required": false },
+        { "id": "epicfight_dd:golden_light_greatsword", "required": false },
+        { "id": "epicfight_dd:diamond_light_greatsword", "required": false },
+        { "id": "epicfight_dd:netherite_light_greatsword", "required": false }
+    ]
+}

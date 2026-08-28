@@ -1,0 +1,28 @@
+{
+  "requirements": [
+    {
+      "item": "epicfight_awaken:will_of_king",
+      "stats": [
+        {"stat": "strength", "min": 40},
+        {"stat": "intelligence", "min": 50},
+        {"stat": "dexterity", "min": 30}
+      ]
+    },
+    {
+      "item": "epicfight_awaken:rage_of_flame",
+      "stats": [
+        {"stat": "strength", "min": 50},
+        {"stat": "intelligence", "min": 40},
+        {"stat": "dexterity", "min": 30}
+      ]
+    },
+    {
+      "item": "epicfight_awaken:darknight_pursuiters",
+      "stats": [
+        {"stat": "strength", "min": 40},
+        {"stat": "luck", "min": 30},
+        {"stat": "dexterity", "min": 50}
+      ]
+    }
+  ]
+}

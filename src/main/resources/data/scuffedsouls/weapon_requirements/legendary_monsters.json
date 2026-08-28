@@ -1,0 +1,99 @@
+{
+  "requirements": [
+    {
+      "item": "legendary_monsters:chorus_blade",
+      "stats": [
+        {"stat": "dexterity", "min": 45},
+        {"stat": "luck", "min": 15}
+      ]
+    },
+    {
+      "item": "legendary_monsters:dinosaur_bone_club",
+      "stats": [
+        {"stat": "strength", "min": 48}
+      ]
+    },
+    {
+      "item": "legendary_monsters:withered_scythe",
+      "stats": [
+        {"stat": "dexterity", "min": 38},
+        {"stat": "intelligence", "min": 35}
+      ]
+    },
+    {
+      "item": "legendary_monsters:the_great_frost",
+      "stats": [
+        {"stat": "strength", "min": 42},
+        {"stat": "intelligence", "min": 35}
+      ]
+    },
+    {
+      "item": "legendary_monsters:wand_of_clouds",
+      "stats": [
+        {"stat": "intelligence", "min": 48},
+        {"stat": "dexterity", "min": 20}
+      ]
+    },
+    {
+      "item": "legendary_monsters:axe_of_lightning",
+      "stats": [
+        {"stat": "strength", "min": 45},
+        {"stat": "intelligence", "min": 35}
+      ]
+    },
+    {
+      "item": "legendary_monsters:mossy_hammer",
+      "stats": [
+        {"stat": "strength", "min": 45},
+        {"stat": "intelligence", "min": 25}
+      ]
+    },
+    {
+      "item": "legendary_monsters:monstrous_anchor",
+      "stats": [
+        {"stat": "strength", "min": 48},
+        {"stat": "vitality", "min": 20}
+      ]
+    },
+    {
+      "item": "legendary_monsters:knight_sword",      "stats": [
+        {"stat": "strength", "min": 30},
+        {"stat": "dexterity", "min": 25}
+      ]
+    },
+    {
+      "item": "legendary_monsters:golden_halbert",
+      "stats": [
+        {"stat": "strength", "min": 30},
+        {"stat": "dexterity", "min": 25}
+      ]
+    },
+    {
+      "item": "legendary_monsters:resurrected_javelin",
+      "stats": [
+        {"stat": "dexterity", "min": 35},
+        {"stat": "strength", "min": 15}
+      ]
+    },
+    {
+      "item": "legendary_monsters:shattered_greatsword",
+      "stats": [
+        {"stat": "strength", "min": 42}
+      ]
+    },
+    {
+      "item": "legendary_monsters:soul_great_sword",
+      "stats": [
+        {"stat": "strength", "min": 50},
+        {"stat": "intelligence", "min": 45}
+      ]
+    },
+    {
+      "item": "legendary_monsters:the_tesseract",
+      "stats": [
+        {"stat": "intelligence", "min": 55},
+        {"stat": "strength", "min": 45}
+      ]
+    }
+  ]
+}

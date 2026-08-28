@@ -1,0 +1,180 @@
+{
+    "entries":  [
+                    {
+                        "items":  [
+                                      "minecraft:leather_helmet"
+                                  ],
+                        "defense":  2.0,
+                        "response":  "soft"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:leather_chestplate"
+                                  ],
+                        "defense":  3.0,
+                        "response":  "soft"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:leather_leggings"
+                                  ],
+                        "defense":  2.5,
+                        "response":  "soft"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:leather_boots"
+                                  ],
+                        "defense":  2.0,
+                        "response":  "soft"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:golden_helmet"
+                                  ],
+                        "defense":  5.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:golden_chestplate"
+                                  ],
+                        "defense":  6.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:golden_leggings"
+                                  ],
+                        "defense":  5.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:golden_boots"
+                                  ],
+                        "defense":  4.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:chainmail_helmet"
+                                  ],
+                        "defense":  7.0,
+                        "response":  "mail"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:chainmail_chestplate"
+                                  ],
+                        "defense":  8.0,
+                        "response":  "mail"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:chainmail_leggings"
+                                  ],
+                        "defense":  7.5,
+                        "response":  "mail"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:chainmail_boots"
+                                  ],
+                        "defense":  6.0,
+                        "response":  "mail"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:iron_helmet"
+                                  ],
+                        "defense":  11.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:iron_chestplate"
+                                  ],
+                        "defense":  13.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:iron_leggings"
+                                  ],
+                        "defense":  11.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:iron_boots"
+                                  ],
+                        "defense":  9.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:diamond_helmet"
+                                  ],
+                        "defense":  14.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:diamond_chestplate"
+                                  ],
+                        "defense":  17.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:diamond_leggings"
+                                  ],
+                        "defense":  14.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:diamond_boots"
+                                  ],
+                        "defense":  12.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:netherite_helmet"
+                                  ],
+                        "defense":  17.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:netherite_chestplate"
+                                  ],
+                        "defense":  19.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:netherite_leggings"
+                                  ],
+                        "defense":  17.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:netherite_boots"
+                                  ],
+                        "defense":  14.0,
+                        "response":  "hard"
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:turtle_helmet"
+                                  ],
+                        "defense":  3.0,
+                        "response":  "hard"
+                    }
+                ]
+}
+

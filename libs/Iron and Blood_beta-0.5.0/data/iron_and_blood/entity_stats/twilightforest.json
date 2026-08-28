@@ -1,0 +1,52 @@
+{
+  "entries": [
+    {
+      "entities": ["twilightforest:alpha_yeti"],
+      "natural_body_damage": 5.5,
+      "natural_defense_damage": 2.8,
+      "can_bleed": true
+    },
+    {
+      "entities": ["twilightforest:hydra"],
+      "natural_body_damage": 8.0,
+      "natural_defense_damage": 4.0,
+      "can_bleed": true
+    },
+    {
+      "entities": ["twilightforest:knight_phantom"],
+      "natural_body_damage": 4.5,
+      "natural_defense_damage": 3.2,
+      "can_bleed": false
+    },
+    {
+      "entities": ["twilightforest:lich"],
+      "natural_body_damage": 3.5,
+      "natural_defense_damage": 1.8,
+      "can_bleed": false
+    },
+    {
+      "entities": ["twilightforest:minoshroom"],
+      "natural_body_damage": 6.5,
+      "natural_defense_damage": 3.5,
+      "can_bleed": true
+    },
+    {
+      "entities": ["twilightforest:naga"],
+      "natural_body_damage": 5.5,
+      "natural_defense_damage": 2.8,
+      "can_bleed": true
+    },
+    {
+      "entities": ["twilightforest:snow_queen"],
+      "natural_body_damage": 4.5,
+      "natural_defense_damage": 2.2,
+      "can_bleed": false
+    },
+    {
+      "entities": ["twilightforest:ur_ghast"],
+      "natural_body_damage": 5.0,
+      "natural_defense_damage": 2.5,
+      "can_bleed": false
+    }
+  ]
+}

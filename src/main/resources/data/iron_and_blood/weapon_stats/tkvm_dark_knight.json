@@ -1,0 +1,14 @@
+{
+  "replace": true,
+  "entries": [
+    {
+      "items": [
+        "tkvm_dark_knight:dark_knight_halberd"
+      ],
+      "category": "sword",
+      "body_damage": 4.00,
+      "defense_damage": 2.00,
+      "bleeding_capable": true
+    }
+  ]
+}

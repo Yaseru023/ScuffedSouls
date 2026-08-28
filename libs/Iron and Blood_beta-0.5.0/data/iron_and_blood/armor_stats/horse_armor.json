@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "tags": ["iron_and_blood:compat/horse_armor/leather"],
+      "defense": 3.0,
+      "response": "soft"
+    },
+    {
+      "tags": ["iron_and_blood:compat/horse_armor/gold"],
+      "defense": 6.0,
+      "response": "hard"
+    },
+    {
+      "tags": ["iron_and_blood:compat/horse_armor/mail"],
+      "defense": 8.0,
+      "response": "mail"
+    },
+    {
+      "tags": ["iron_and_blood:compat/horse_armor/iron"],
+      "defense": 13.0,
+      "response": "hard"
+    },
+    {
+      "tags": ["iron_and_blood:compat/horse_armor/steel_barding"],
+      "defense": 15.0,
+      "response": "hard"
+    },
+    {
+      "tags": ["iron_and_blood:compat/horse_armor/diamond"],
+      "defense": 21.0,
+      "response": "hard"
+    },
+    {
+      "tags": ["iron_and_blood:compat/horse_armor/netherite"],
+      "defense": 24.0,
+      "response": "hard"
+    }
+  ]
+}

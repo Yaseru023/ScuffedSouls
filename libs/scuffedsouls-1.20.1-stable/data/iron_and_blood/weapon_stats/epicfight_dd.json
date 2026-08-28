@@ -1,0 +1,319 @@
+{
+  "entries": [
+    {
+      "items": ["epicfight_dd:iron_fist"],
+      "category": "blunt",
+      "body_damage": 2.07,
+      "defense_damage": 0.3760,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:nailbat"],
+      "category": "blunt",
+      "body_damage": 5.45,
+      "defense_damage": 1.52,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:bat"],
+      "category": "blunt",
+      "body_damage": 2.15,
+      "defense_damage": 0.39,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["epicfight_dd:amethyst_battlestaff"],
+      "category": "blunt",
+      "body_damage": 2.89,
+      "defense_damage": 0.52,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:wooden_battlestaff"],
+      "category": "blunt",
+      "body_damage": 1.53,
+      "defense_damage": 0.28,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["epicfight_dd:iron_battlestaff"],
+      "category": "blunt",
+      "body_damage": 2.50,
+      "defense_damage": 0.45,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["epicfight_dd:golden_battlestaff"],
+      "category": "blunt",
+      "body_damage": 1.65,
+      "defense_damage": 0.30,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["epicfight_dd:diamond_battlestaff"],
+      "category": "blunt",
+      "body_damage": 2.90,
+      "defense_damage": 0.52,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["epicfight_dd:netherite_battlestaff"],
+      "category": "blunt",
+      "body_damage": 3.13,
+      "defense_damage": 0.56,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["epicfight_dd:steelaxe"],
+      "category": "heavy_axe",
+      "body_damage": 3.42,
+      "defense_damage": 0.62,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:iron_halberd"],
+      "category": "heavy_axe",
+      "body_damage": 2.67,
+      "defense_damage": 0.48,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:golden_halberd"],
+      "category": "heavy_axe",
+      "body_damage": 1.83,
+      "defense_damage": 0.33,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:diamond_halberd"],
+      "category": "heavy_axe",
+      "body_damage": 3.07,
+      "defense_damage": 0.55,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:netherite_halberd"],
+      "category": "heavy_axe",
+      "body_damage": 3.28,
+      "defense_damage": 0.59,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:iudex_gundyr_halberd"],
+      "category": "heavy_axe",
+      "body_damage": 3.68,
+      "defense_damage": 0.66,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:war_sickle"],
+      "category": "heavy_axe",
+      "body_damage": 3.13,
+      "defense_damage": 0.56,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:vitreus"],
+      "category": "heavy_sword",
+      "body_damage": 2.83,
+      "defense_damage": 0.51,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:bonecutting_saw"],
+      "category": "heavy_sword",
+      "body_damage": 4.00,
+      "defense_damage": 2.50,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:blood_ritus_dagger"],
+      "category": "piercing_dagger",
+      "body_damage": 2.50,
+      "defense_damage": 0.45,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:night_ritus_dagger"],
+      "category": "piercing_dagger",
+      "body_damage": 2.15,
+      "defense_damage": 0.39,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:backhand_blade"],
+      "category": "piercing_dagger",
+      "body_damage": 2.50,
+      "defense_damage": 0.45,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:iron_sickle"],
+      "category": "piercing_dagger",
+      "body_damage": 2.30,
+      "defense_damage": 0.41,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:golden_sickle"],
+      "category": "piercing_dagger",
+      "body_damage": 1.43,
+      "defense_damage": 0.26,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:diamond_sickle"],
+      "category": "piercing_dagger",
+      "body_damage": 2.71,
+      "defense_damage": 0.49,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:netherite_sickle"],
+      "category": "piercing_dagger",
+      "body_damage": 2.96,
+      "defense_damage": 0.53,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:iron_knife"],
+      "category": "piercing_dagger",
+      "body_damage": 2.07,
+      "defense_damage": 0.37,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:golden_knife"],
+      "category": "piercing_dagger",
+      "body_damage": 1.43,
+      "defense_damage": 0.26,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:diamond_knife"],
+      "category": "piercing_dagger",
+      "body_damage": 2.50,
+      "defense_damage": 0.45,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:netherite_knife"],
+      "category": "piercing_dagger",
+      "body_damage": 2.96,
+      "defense_damage": 0.53,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:poleblade"],
+      "category": "sword",
+      "body_damage": 1.78,
+      "defense_damage": 0.32,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:saber"],
+      "category": "sword",
+      "body_damage": 2.50,
+      "defense_damage": 0.45,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:iron_messer"],
+      "category": "sword",
+      "body_damage": 2.30,
+      "defense_damage": 0.41,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:golden_messer"],
+      "category": "sword",
+      "body_damage": 1.65,
+      "defense_damage": 0.30,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:diamond_messer"],
+      "category": "sword",
+      "body_damage": 2.71,
+      "defense_damage": 0.49,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:netherite_messer"],
+      "category": "sword",
+      "body_damage": 2.96,
+      "defense_damage": 0.53,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:hookclaws"],
+      "category": "sword",
+      "body_damage": 2.15,
+      "defense_damage": 0.39,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:milady"],
+      "category": "thrusting_sword",
+      "body_damage": 5.45,
+      "defense_damage": 1.52,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:iron_florett"],
+      "category": "thrusting_sword",
+      "body_damage": 2.30,
+      "defense_damage": 0.41,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:golden_florett"],
+      "category": "thrusting_sword",
+      "body_damage": 1.43,
+      "defense_damage": 0.26,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:diamond_florett"],
+      "category": "thrusting_sword",
+      "body_damage": 2.71,
+      "defense_damage": 0.49,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:netherite_florett"],
+      "category": "thrusting_sword",
+      "body_damage": 2.96,
+      "defense_damage": 0.53,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:iron_light_greatsword"],
+      "category": "thrusting_sword",
+      "body_damage": 2.67,
+      "defense_damage": 0.48,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:golden_light_greatsword"],
+      "category": "thrusting_sword",
+      "body_damage": 1.83,
+      "defense_damage": 0.33,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:diamond_light_greatsword"],
+      "category": "thrusting_sword",
+      "body_damage": 3.07,
+      "defense_damage": 0.55,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_dd:netherite_light_greatsword"],
+      "category": "thrusting_sword",
+      "body_damage": 3.28,
+      "defense_damage": 0.59,
+      "bleeding_capable": true
+    }
+  ]
+}

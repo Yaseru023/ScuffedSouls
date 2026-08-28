@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "magistuarmory:chainmail_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:chainmail_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:chainmail_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:chainmail_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:chainmail_armor_boots",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:chainmail_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:chainmail_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:chainmail_helm_helmet",
+      "required": false
+    }
+  ]
+}

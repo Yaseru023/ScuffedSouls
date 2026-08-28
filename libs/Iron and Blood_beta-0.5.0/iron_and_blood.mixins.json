@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ironblood.mixin",
+  "plugin": "com.ironblood.mixin.IronBloodMixinConfigPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "iron_and_blood.refmap.json",
+  "mixins": [
+    "FoodDataNaturalRegenerationMixin",
+    "IronSpellDefaultBalanceMixin",
+    "ColdSweatPlayerDamageSoundMixin",
+    "IronSpellSpellFilterMixin",
+    "ItemStackDurabilityMixin",
+    "LivingEntityWeaknessDamageFloorMixin",
+    "LivingEntityLocalizedArmorMixin",
+    "MobWeaknessDamageFloorMixin",
+    "PoisonMobEffectMixin",
+    "LivingEntityPeriodicDamageSoundMixin",
+    "ServerLevelPeriodicDamageEffectMixin"
+  ],
+  "client": [
+    "client.GameRendererBleedingHurtMixin",
+    "client.LivingEntityPeriodicDamageEffectMixin",
+    "client.MultiPlayerGameModeMedicalTreatmentMixin",
+    "client.PotionTooltipDurationMixin",
+    "client.PunchyArmRendererMixin",
+    "client.PlayerModelBloodWipeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

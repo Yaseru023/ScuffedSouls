@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"slavicarmory:rus_heavy_lamellar_chestplate","required":false},
+    {"id":"slavicarmory:rus_heavy_lamellar_boots","required":false},
+    {"id":"slavicarmory:gilded_rus_heavy_lamellar_chestplate","required":false},
+    {"id":"slavicarmory:gilded_rus_heavy_lamellar_boots","required":false}
+  ]
+}

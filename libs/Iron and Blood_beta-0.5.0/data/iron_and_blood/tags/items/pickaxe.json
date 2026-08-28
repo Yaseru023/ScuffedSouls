@@ -1,0 +1,164 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"tconstruct:pickaxe","required":false},
+    {"id":"tconstruct:pickadze","required":false},
+    {"id":"tconstruct:war_pick","required":false},
+    {
+      "id": "#forge:tools/pickaxe",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/pickaxes",
+      "required": false
+    },
+    {
+      "id": "#minecraft:pickaxes",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:ghostly_pickaxe",
+      "required": false
+    },
+    {
+      "id": "call_of_yucutan:jade_pickaxe",
+      "required": false
+    },
+    {
+      "id": "cataclysm:black_steel_pickaxe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:blessed_gold_pickaxe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:copper_pickaxe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:crimson_pickaxe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:ebony_pickaxe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_dark_steel_pickaxe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:sandstone_pickaxe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:silver_pickaxe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:steel_pickaxe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:titanium_pickaxe",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:pickaxe_of_the_sky",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:draco_arcanus_pickaxe",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:reinforced_deorum_pickaxe",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:slimec_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:copper_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonbone_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_fire_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_ice_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_lightning_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:silver_pickaxe",
+      "required": false
+    },
+    {
+      "id": "realmrpg_seadwellers:depth_pickaxe",
+      "required": false
+    },
+    {
+      "id": "scguns:anthralite_paxel",
+      "required": false
+    },
+    {
+      "id": "scguns:anthralite_pickaxe",
+      "required": false
+    },
+    {
+      "id": "seadwellers:depth_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:giant_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:mazebreaker_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_pickaxe",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:dwarven_pickaxe",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:razor_leaf_pickaxe",
+      "required": false
+    }
+  ]
+}

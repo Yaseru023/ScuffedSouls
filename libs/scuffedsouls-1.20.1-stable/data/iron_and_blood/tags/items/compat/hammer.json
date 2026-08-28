@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "epicfight_dd:monstrous_anchor", "required": false },
+    { "id": "epicfight_dd:dinosaur_bone_club", "required": false },
+    { "id": "epicfight_dd:mossy_hammer", "required": false }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "entries":  [
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/epicfight_stray_cloth"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  0.2,
+                                                "chest":  0.4,
+                                                "legs":  0.3,
+                                                "feet":  0
+                                            },
+                        "response":  "soft"
+                    }
+                ]
+}
+

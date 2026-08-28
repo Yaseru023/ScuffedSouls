@@ -1,0 +1,75 @@
+{
+  "creativetab.scuffedsouls": "§6Scuffed Souls",
+
+  "item.scuffedsouls.iron_stylet_template": "Iron Stilett o Template",
+  "item.scuffedsouls.iron_shortsword_template": "Iron Shortsword Template",
+  "item.scuffedsouls.iron_katzbalger_template": "Iron Katzbalger Template",
+  "item.scuffedsouls.iron_pike_template": "Iron Pike Template",
+  "item.scuffedsouls.iron_ranseur_template": "Iron Ranseur Template",
+  "item.scuffedsouls.iron_ahlspiess_template": "Iron Ahlspiess Template",
+  "item.scuffedsouls.iron_lochaberaxe_template": "Iron Lochaber Axe Template",
+  "item.scuffedsouls.iron_concavehalberd_template": "Iron Concave Edged Halberd Template",
+  "item.scuffedsouls.iron_guisarme_template": "Iron Guisarme Template",
+  "item.scuffedsouls.iron_heavymace_template": "Iron Heavy Mace Template",
+  "item.scuffedsouls.iron_heavywarhammer_template": "Iron War Hammer Template",
+  "item.scuffedsouls.iron_lucernhammer_template": "Iron Lucern Hammer Template",
+  "item.scuffedsouls.iron_morgenstern_template": "Iron Morningstar Template",
+  "item.scuffedsouls.iron_chainmorgenstern_template": "Iron Chained Morningstar Template",
+  "item.scuffedsouls.iron_estoc_template": "Iron Estoc Template",
+  "item.scuffedsouls.iron_claymore_template": "Iron Claymore Template",
+  "item.scuffedsouls.iron_bastardsword_template": "Iron Bastard Sword Template",
+  "item.scuffedsouls.iron_zweihander_template": "Iron Zweihander Template",
+  "item.scuffedsouls.iron_flamebladedsword_template": "Iron Flamebladed Sword Template",
+
+  "item.scuffedsouls.gold_stylet_template": "Gold Stilett o Template",
+  "item.scuffedsouls.gold_shortsword_template": "Gold Shortsword Template",
+  "item.scuffedsouls.gold_katzbalger_template": "Gold Katzbalger Template",
+  "item.scuffedsouls.gold_pike_template": "Gold Pike Template",
+  "item.scuffedsouls.gold_ranseur_template": "Gold Ranseur Template",
+  "item.scuffedsouls.gold_ahlspiess_template": "Gold Ahlspiess Template",
+  "item.scuffedsouls.gold_lochaberaxe_template": "Gold Lochaber Axe Template",
+  "item.scuffedsouls.gold_concavehalberd_template": "Gold Concave Edged Halberd Template",
+  "item.scuffedsouls.gold_guisarme_template": "Gold Guisarme Template",
+  "item.scuffedsouls.gold_heavymace_template": "Gold Heavy Mace Template",
+  "item.scuffedsouls.gold_heavywarhammer_template": "Gold War Hammer Template",
+  "item.scuffedsouls.gold_lucernhammer_template": "Gold Lucern Hammer Template",
+  "item.scuffedsouls.gold_morgenstern_template": "Gold Morningstar Template",
+  "item.scuffedsouls.gold_chainmorgenstern_template": "Gold Chained Morningstar Template",
+  "item.scuffedsouls.gold_estoc_template": "Gold Estoc Template",
+  "item.scuffedsouls.gold_claymore_template": "Gold Claymore Template",
+  "item.scuffedsouls.gold_bastardsword_template": "Gold Bastard Sword Template",
+  "item.scuffedsouls.gold_zweihander_template": "Gold Zweihander Template",
+  "item.scuffedsouls.gold_flamebladedsword_template": "Gold Flamebladed Sword Template",
+
+  "item.scuffedsouls.iron_halberd_template": "Iron Halberd Template",
+  "item.scuffedsouls.bat_template": "Bat Template",
+  "item.scuffedsouls.nailbat_template": "Nail Bat Template",
+  "item.scuffedsouls.iron_messer_template": "Iron Messer Template",
+  "item.scuffedsouls.iron_florett_template": "Iron Florett Template",
+  "item.scuffedsouls.iron_knife_template": "Iron Knife Template",
+  "item.scuffedsouls.backhand_blade_template": "Backhand Blade Template",
+  "item.scuffedsouls.iron_sickle_template": "Iron Sickle Template",
+  "item.scuffedsouls.iron_light_greatsword_template": "Iron Light Greatsword Template",
+
+  "item.scuffedsouls.iron_greataxe_template": "Iron Greataxe Template",
+
+  "item.scuffedsouls.iron_longsword_template": "Iron Longsword Template",
+  "item.scuffedsouls.iron_greatsword_template": "Iron Greatsword Template",
+  "item.scuffedsouls.iron_dagger_template": "Iron Dagger Template",
+  "item.scuffedsouls.uchigatana_template": "Uchigatana Template",
+  "item.scuffedsouls.iron_tachi_template": "Iron Tachi Template",
+
+  "item.scuffedsouls.katana_template": "Katana Template",
+  "item.scuffedsouls.phantom_katana_template": "Phantom Katana Template",
+
+  "item.scuffedsouls.iron_rapier_template": "Iron Rapier Template",
+
+
+
+
+
+  "item.scuffedsouls.tormented_soul": "Tormented Soul",
+  "tooltip.scuffedsouls.tormented_soul": "A soul filled with rage and despair, waiting to be unleashed...",
+  "item.scuffedsouls.weeping_core": "Weeping Core",
+  "tooltip.scuffedsouls.weeping_core": "A crystal shard, yeah, that's pretty much it. Comes from the Heart of the Sea, not sure if the sea has some grudges or not though."
+}

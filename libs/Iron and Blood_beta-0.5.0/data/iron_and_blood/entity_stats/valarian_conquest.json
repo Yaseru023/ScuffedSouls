@@ -1,0 +1,9 @@
+{
+  "entries": [
+    {"entity":"valarian_conquest:female_citizen","humanoid":true},
+    {"entity":"valarian_conquest:male_citizen","humanoid":true},
+    {"entity":"valarian_conquest:soldier","humanoid":true},
+    {"entity":"valarian_conquest:archer","humanoid":true},
+    {"entity":"valarian_conquest:troll","humanoid":true}
+  ]
+}

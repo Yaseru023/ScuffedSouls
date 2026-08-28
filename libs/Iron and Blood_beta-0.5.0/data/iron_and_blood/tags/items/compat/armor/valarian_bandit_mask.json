@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "valarian_conquest:bandit_mask_helmet",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bandit_mask_gray_helmet",
+      "required": false
+    }
+  ]
+}

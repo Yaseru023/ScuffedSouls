@@ -1,0 +1,333 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "fantasy_armor:gilded_hunt_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:gilded_hunt_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:gilded_hunt_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:gilded_hunt_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:hero_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:hero_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:hero_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:hero_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:malenia_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:malenia_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:malenia_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:malenia_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:spark_of_dawn_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:spark_of_dawn_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:spark_of_dawn_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:spark_of_dawn_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:sunset_wings_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:sunset_wings_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:sunset_wings_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:sunset_wings_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_amythest_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_amythest_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_amythest_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_amythest_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_sapphire_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_sapphire_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_sapphire_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_sapphire_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_silver_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_silver_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_silver_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_silver_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_silver_metal_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_silver_metal_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_silver_metal_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_silver_metal_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:mercenary_swordman_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:mercenary_swordman_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:mercenary_swordman_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:mercenary_swordman_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:norsian_armor_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:norsian_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:norsian_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:norsian_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:ceremonial_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:ceremonial_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:barathians_armor_1_boots",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:barathians_armor_1_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:barathians_armor_1_helmet",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:barathians_armor_1_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bohemian_armor_1_boots",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bohemian_armor_1_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bohemian_armor_1_helmet",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bohemian_armor_1_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:burgundian_armor_1_boots",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:burgundian_armor_1_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:burgundian_armor_1_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:hospitaller_armor_1_boots",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:hospitaller_armor_1_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:hospitaller_armor_1_helmet",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:hospitaller_armor_1_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:neutral_armor_1_boots",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:neutral_armor_1_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:neutral_armor_1_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:orleanian_armor_1_boots",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:orleanian_armor_1_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:orleanian_armor_1_helmet",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:orleanian_armor_1_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:templar_armor_1_boots",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:templar_armor_1_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:templar_armor_1_helmet",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:templar_armor_1_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:valarian_armor_1_boots",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:valarian_armor_1_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:valarian_armor_1_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:visgothian_armor_1_boots",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:visgothian_armor_1_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:visgothian_armor_1_leggings",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:japanese_light_armor_chest",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:japanese_light_armor_feet",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:japanese_light_armor_head",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:japanese_light_armor_legs",
+      "required": false
+    }
+  ]
+}

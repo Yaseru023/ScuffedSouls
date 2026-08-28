@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+MixinConfigs: iron_and_blood.mixins.json,flesh_and_bone.mixins.json
+Specification-Title: iron_and_blood
+Specification-Vendor: Simon Vaerion
+Specification-Version: 1
+Implementation-Title: iron-and-blood-suite
+Implementation-Version: 0.5.0
+Implementation-Vendor: Simon Vaerion
+Implementation-Timestamp: 2026-08-12T01:07:30+0800
+

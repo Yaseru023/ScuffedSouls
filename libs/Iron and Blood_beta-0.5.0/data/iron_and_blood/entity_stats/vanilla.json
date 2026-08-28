@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "entities": ["minecraft:stray"],
+      "defense": 0.35,
+      "armor_profile": "cloth"
+    },
+    {
+      "entities": ["minecraft:spider"],
+      "stamina_multiplier": 0.95
+    },
+    {
+      "entities": ["minecraft:cave_spider"],
+      "stamina_multiplier": 0.85
+    },
+    {
+      "entities": ["minecraft:cow", "minecraft:mooshroom", "minecraft:pig"],
+      "natural_defense": 0.0,
+      "max_health": 10.0,
+      "size_variants": false
+    },
+    {
+      "entities": ["minecraft:sheep"],
+      "natural_defense": 0.0,
+      "max_health": 8.0,
+      "size_variants": false
+    },
+    {
+      "entities": ["minecraft:silverfish", "minecraft:endermite"],
+      "stamina_multiplier": 0.80
+    },
+    {
+      "entities": ["minecraft:magma_cube"],
+      "stamina_multiplier": 1.10
+    },
+    {
+      "entities": ["minecraft:blaze"],
+      "stamina_multiplier": 1.10
+    },
+    {
+      "entities": ["minecraft:guardian"],
+      "stamina_multiplier": 1.25,
+      "size_variants": false
+    },
+    {
+      "entities": ["minecraft:elder_guardian"],
+      "max_stamina": 260.0,
+      "size_variants": false
+    },
+    {
+      "entities": ["minecraft:shulker"],
+      "max_stamina": 180.0,
+      "size_variants": false
+    },
+    {
+      "entities": ["minecraft:ravager"],
+      "stamina_multiplier": 1.80
+    },
+    {
+      "entities": ["minecraft:iron_golem"],
+      "natural_defense": 36.0,
+      "max_health": 80.0,
+      "max_stamina": 320.0,
+      "size_variants": false
+    },
+    {
+      "entities": ["minecraft:warden"],
+      "max_stamina": 420.0,
+      "size_variants": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "entities": ["tkvm_dark_knight:dark_knight"],
+      "defence": 20.0,
+      "natural_body_damage": 20.5,
+      "natural_defense_damage": 15.5,
+      "can_bleed": true,
+      "size_variants": false
+    }
+  ]
+}

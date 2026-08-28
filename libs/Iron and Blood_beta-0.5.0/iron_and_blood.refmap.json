@@ -1,0 +1,96 @@
+{
+  "mappings": {
+    "com/ironblood/fleshbone/mixin/client/ClientPlayerLegJumpLockMixin": {
+      "jumpFromGround": "Lnet/minecraft/world/entity/player/Player;m_6135_()V"
+    },
+    "com/ironblood/mixin/LivingEntityWeaknessDamageFloorMixin": {
+      "getAttributeValue(Lnet/minecraft/world/entity/ai/attributes/Attribute;)D": "Lnet/minecraft/world/entity/LivingEntity;m_21133_(Lnet/minecraft/world/entity/ai/attributes/Attribute;)D"
+    },
+    "com/ironblood/mixin/client/GameRendererBleedingHurtMixin": {
+      "bobHurt": "Lnet/minecraft/client/renderer/GameRenderer;m_109117_(Lcom/mojang/blaze3d/vertex/PoseStack;F)V"
+    },
+    "com/ironblood/mixin/client/PlayerModelBloodWipeMixin": {
+      "setupAnim(Lnet/minecraft/world/entity/LivingEntity;FFFFF)V": "Lnet/minecraft/client/model/PlayerModel;m_6973_(Lnet/minecraft/world/entity/LivingEntity;FFFFF)V"
+    },
+    "com/ironblood/mixin/FoodDataNaturalRegenerationMixin": {
+      "tick": "Lnet/minecraft/world/food/FoodData;m_38710_(Lnet/minecraft/world/entity/player/Player;)V"
+    },
+    "com/ironblood/mixin/ServerLevelPeriodicDamageEffectMixin": {
+      "broadcastDamageEvent": "Lnet/minecraft/server/level/ServerLevel;m_269196_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;)V"
+    },
+    "com/ironblood/mixin/client/LivingEntityPeriodicDamageEffectMixin": {
+      "handleDamageEvent(Lnet/minecraft/world/damagesource/DamageSource;)V": "Lnet/minecraft/world/entity/LivingEntity;m_269138_(Lnet/minecraft/world/damagesource/DamageSource;)V"
+    },
+    "com/ironblood/fleshbone/mixin/client/EntityDownedPoseMixin": {
+      "getPose": "Lnet/minecraft/world/entity/Entity;m_20089_()Lnet/minecraft/world/entity/Pose;",
+      "isSwimming": "Lnet/minecraft/world/entity/Entity;m_6069_()Z"
+    },
+    "com/ironblood/fleshbone/mixin/client/LivingEntityDownedSwimAmountMixin": {
+      "getSwimAmount": "Lnet/minecraft/world/entity/LivingEntity;m_20998_(F)F"
+    },
+    "com/ironblood/mixin/LivingEntityPeriodicDamageSoundMixin": {
+      "playHurtSound": "Lnet/minecraft/world/entity/LivingEntity;m_6677_(Lnet/minecraft/world/damagesource/DamageSource;)V"
+    },
+    "com/ironblood/mixin/client/PotionTooltipDurationMixin": {
+      "addPotionTooltip(Lnet/minecraft/world/item/ItemStack;Ljava/util/List;F)V": "Lnet/minecraft/world/item/alchemy/PotionUtils;m_43555_(Lnet/minecraft/world/item/ItemStack;Ljava/util/List;F)V"
+    },
+    "com/ironblood/mixin/PoisonMobEffectMixin": {
+      "applyEffectTick": "Lnet/minecraft/world/effect/MobEffect;m_6742_(Lnet/minecraft/world/entity/LivingEntity;I)V"
+    },
+    "com/ironblood/fleshbone/mixin/PlayerLegJumpLockMixin": {
+      "jumpFromGround": "Lnet/minecraft/world/entity/player/Player;m_6135_()V"
+    },
+    "com/ironblood/mixin/client/ItemRendererWeaponBloodMixin": {
+      "Lnet/minecraft/client/renderer/entity/ItemRenderer;renderModelLists(Lnet/minecraft/client/resources/model/BakedModel;Lnet/minecraft/world/item/ItemStack;IILcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;)V": "Lnet/minecraft/client/renderer/entity/ItemRenderer;m_115189_(Lnet/minecraft/client/resources/model/BakedModel;Lnet/minecraft/world/item/ItemStack;IILcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;)V",
+      "render": "Lnet/minecraft/client/renderer/entity/ItemRenderer;m_115143_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;ZLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;IILnet/minecraft/client/resources/model/BakedModel;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/ironblood/fleshbone/mixin/client/ClientPlayerLegJumpLockMixin": {
+        "jumpFromGround": "Lnet/minecraft/world/entity/player/Player;m_6135_()V"
+      },
+      "com/ironblood/mixin/LivingEntityWeaknessDamageFloorMixin": {
+        "getAttributeValue(Lnet/minecraft/world/entity/ai/attributes/Attribute;)D": "Lnet/minecraft/world/entity/LivingEntity;m_21133_(Lnet/minecraft/world/entity/ai/attributes/Attribute;)D"
+      },
+      "com/ironblood/mixin/client/GameRendererBleedingHurtMixin": {
+        "bobHurt": "Lnet/minecraft/client/renderer/GameRenderer;m_109117_(Lcom/mojang/blaze3d/vertex/PoseStack;F)V"
+      },
+      "com/ironblood/mixin/client/PlayerModelBloodWipeMixin": {
+        "setupAnim(Lnet/minecraft/world/entity/LivingEntity;FFFFF)V": "Lnet/minecraft/client/model/PlayerModel;m_6973_(Lnet/minecraft/world/entity/LivingEntity;FFFFF)V"
+      },
+      "com/ironblood/mixin/FoodDataNaturalRegenerationMixin": {
+        "tick": "Lnet/minecraft/world/food/FoodData;m_38710_(Lnet/minecraft/world/entity/player/Player;)V"
+      },
+      "com/ironblood/mixin/ServerLevelPeriodicDamageEffectMixin": {
+        "broadcastDamageEvent": "Lnet/minecraft/server/level/ServerLevel;m_269196_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;)V"
+      },
+      "com/ironblood/mixin/client/LivingEntityPeriodicDamageEffectMixin": {
+        "handleDamageEvent(Lnet/minecraft/world/damagesource/DamageSource;)V": "Lnet/minecraft/world/entity/LivingEntity;m_269138_(Lnet/minecraft/world/damagesource/DamageSource;)V"
+      },
+      "com/ironblood/fleshbone/mixin/client/EntityDownedPoseMixin": {
+        "getPose": "Lnet/minecraft/world/entity/Entity;m_20089_()Lnet/minecraft/world/entity/Pose;",
+        "isSwimming": "Lnet/minecraft/world/entity/Entity;m_6069_()Z"
+      },
+      "com/ironblood/fleshbone/mixin/client/LivingEntityDownedSwimAmountMixin": {
+        "getSwimAmount": "Lnet/minecraft/world/entity/LivingEntity;m_20998_(F)F"
+      },
+      "com/ironblood/mixin/LivingEntityPeriodicDamageSoundMixin": {
+        "playHurtSound": "Lnet/minecraft/world/entity/LivingEntity;m_6677_(Lnet/minecraft/world/damagesource/DamageSource;)V"
+      },
+      "com/ironblood/mixin/client/PotionTooltipDurationMixin": {
+        "addPotionTooltip(Lnet/minecraft/world/item/ItemStack;Ljava/util/List;F)V": "Lnet/minecraft/world/item/alchemy/PotionUtils;m_43555_(Lnet/minecraft/world/item/ItemStack;Ljava/util/List;F)V"
+      },
+      "com/ironblood/mixin/PoisonMobEffectMixin": {
+        "applyEffectTick": "Lnet/minecraft/world/effect/MobEffect;m_6742_(Lnet/minecraft/world/entity/LivingEntity;I)V"
+      },
+      "com/ironblood/fleshbone/mixin/PlayerLegJumpLockMixin": {
+        "jumpFromGround": "Lnet/minecraft/world/entity/player/Player;m_6135_()V"
+      },
+      "com/ironblood/mixin/client/ItemRendererWeaponBloodMixin": {
+        "Lnet/minecraft/client/renderer/entity/ItemRenderer;renderModelLists(Lnet/minecraft/client/resources/model/BakedModel;Lnet/minecraft/world/item/ItemStack;IILcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;)V": "Lnet/minecraft/client/renderer/entity/ItemRenderer;m_115189_(Lnet/minecraft/client/resources/model/BakedModel;Lnet/minecraft/world/item/ItemStack;IILcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;)V",
+        "render": "Lnet/minecraft/client/renderer/entity/ItemRenderer;m_115143_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;ZLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;IILnet/minecraft/client/resources/model/BakedModel;)V"
+      }
+    }
+  }
+}

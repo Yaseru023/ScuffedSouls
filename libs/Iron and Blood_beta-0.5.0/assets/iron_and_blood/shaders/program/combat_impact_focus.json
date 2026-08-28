@@ -1,0 +1,19 @@
+{
+  "blend": {
+    "func": "add",
+    "srcrgb": "srcalpha",
+    "dstrgb": "1-srcalpha"
+  },
+  "vertex": "blit",
+  "fragment": "iron_and_blood:combat_impact_focus",
+  "attributes": ["Position"],
+  "samplers": [
+    { "name": "DiffuseSampler" }
+  ],
+  "uniforms": [
+    { "name": "intensity", "type": "float", "count": 1, "values": [0.0] },
+    { "name": "spread", "type": "float", "count": 1, "values": [0.0] },
+    { "name": "ProjMat", "type": "matrix4x4", "count": 16, "values": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0] },
+    { "name": "OutSize", "type": "float", "count": 2, "values": [1.0, 1.0] }
+  ]
+}

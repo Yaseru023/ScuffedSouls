@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ironblood.fleshbone.mixin",
+  "plugin": "com.ironblood.mixin.IronBloodMixinConfigPlugin",
+  "refmap": "iron_and_blood.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractArrowImpactPointMixin",
+    "ProjectileImpactPointMixin",
+    "CompositeKineticBulletImpactMixin",
+    "EpicFightCollisionPassMixin",
+    "EpicFightColliderContactMixin",
+    "EpicFightCombatBehaviorMixin",
+    "PlayerLegJumpLockMixin"
+  ],
+  "client": [
+    "client.EntityDownedPoseMixin",
+    "client.LivingEntityDownedSwimAmountMixin",
+    "client.ClientPlayerLegJumpLockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

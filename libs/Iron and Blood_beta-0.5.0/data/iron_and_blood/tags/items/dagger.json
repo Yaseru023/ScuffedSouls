@@ -1,0 +1,266 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"tconstruct:dagger","required":false},
+    {
+      "id": "magistuarmoryaddon:steel_swordbreaker",
+      "required": false
+    },
+    {
+      "id": "#farmersdelight:tools/knives",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/dagger",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/daggers",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/knife",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/knives",
+      "required": false
+    },
+    {
+      "id": "alexscaves:desolate_dagger",
+      "required": false
+    },
+    {
+      "id": "aquamirae:dagger_of_greed",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:dagger",
+      "required": false
+    },
+    {
+      "id": "cataclysm:athame",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:dagger",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_diamond_dagger",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_diamonddagger",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_iron_dagger",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_irondagger",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_netherite_dagger",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_netheritedagger",
+      "required": false
+    },
+    {
+      "id": "companions:netherite_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:bronze_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:ceremonial_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:cobalt_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:copper_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:cursed_steel_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:diamond_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_dagger_bone",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_dagger_fire",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_dagger_ice",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_dagger_lightning",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:ebony_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:elden_sensu_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:iron_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_dark_steel_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:neptunium_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:netherite_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:silver_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:slimy_knife",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:steel_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:stone_knife",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:tin_dagger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:wooden_knife",
+      "required": false
+    },
+    {
+      "id": "epicfight:dagger",
+      "required": false
+    },
+    {
+      "id": "epicfight:diamond_dagger",
+      "required": false
+    },
+    {
+      "id": "epicfight:golden_dagger",
+      "required": false
+    },
+    {
+      "id": "epicfight:iron_dagger",
+      "required": false
+    },
+    {
+      "id": "epicfight:netherite_dagger",
+      "required": false
+    },
+    {
+      "id": "epicfight:stone_dagger",
+      "required": false
+    },
+    {
+      "id": "epicfight:wooden_dagger",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:mystical_dagger",
+      "required": false
+    },
+    {
+      "id": "iceandfire:stymphalian_bird_dagger",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:fiery_dagger",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_bollock_dagger",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_dagger",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_parrying_dagger",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:naga_fang_dagger",
+      "required": false
+    },
+    {
+      "id": "scguns:anthralite_knife",
+      "required": false
+    },
+    {
+      "id": "scguns:stiletto",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:fiery_knife",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:ironwood_knife",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:knightmetal_knife",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:steeleaf_knife",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:crimson_sickle",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:titanium_sickle",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_long_seax",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_short_seax",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DSD",
+    "SNS",
+    "DSD"
+  ],
+  "key": {
+    "D": {
+      "item": "bonfires:large_titanite_shard"
+    },
+    "S": {
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    "N": {
+      "item": "wom:demon_seal"
+    }
+  },
+  "result": {
+    "item": "the_faint_radiance:shapeofsin",
+    "count": 1
+  }
+}

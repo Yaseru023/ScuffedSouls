@@ -1,0 +1,130 @@
+{
+  "entries": [
+    {
+      "entities": [
+        "legendary_monsters:ancient_guardian"
+      ],
+      "natural_body_damage": 4.8,
+      "natural_defense_damage": 3.5,
+      "can_bleed": false,
+      "size_variants": false
+    },
+    {
+      "entities": [
+        "legendary_monsters:chorusent"
+      ],
+      "natural_body_damage": 4.8,
+      "natural_defense_damage": 3.5,
+      "can_bleed": false,
+      "size_variants": false
+    },
+    {
+      "entities": [
+        "legendary_monsters:cloud_golem"
+      ],
+      "natural_body_damage": 5.8,
+      "natural_defense_damage": 4.5,
+      "can_bleed": false,
+      "size_variants": false
+    },
+    {
+      "entities": [
+        "legendary_monsters:frostbitten_golem"
+      ],
+      "natural_body_damage": 4.8,
+      "natural_defense_damage": 3.5,
+      "can_bleed": false,
+      "size_variants": false
+    },
+    {
+      "entities": [
+        "legendary_monsters:lava_eater"
+      ],
+      "natural_body_damage": 4.8,
+      "natural_defense_damage": 3.5,
+      "can_bleed": false,
+      "size_variants": false
+    },
+    {
+      "entities": [
+        "legendary_monsters:overgrown_colosuss"
+      ],
+      "natural_body_damage": 4.8,
+      "natural_defense_damage": 3.5,
+      "can_bleed": false,
+      "size_variants": false
+    },
+    {
+      "entities": [
+        "legendary_monsters:posessed_paladin"
+      ],
+      "natural_body_damage": 5.8,
+      "natural_defense_damage": 4.5,
+      "can_bleed": false,
+      "size_variants": false
+    },
+    {
+      "entities": [
+        "legendary_monsters:shulker_mimic"
+      ],
+      "natural_body_damage": 5.8,
+      "natural_defense_damage": 4.5,
+      "can_bleed": false,
+      "size_variants": false
+    },
+    {
+      "entities": [
+        "legendary_monsters:skeletosaurus"
+      ],
+      "natural_body_damage": 4.8,
+      "natural_defense_damage": 3.5,
+      "can_bleed": false,
+      "size_variants": false
+    },
+    {
+      "entities": [
+        "legendary_monsters:the_obliterator"
+      ],
+      "natural_body_damage": 6.8,
+      "natural_defense_damage": 5.5,
+      "can_bleed": false,
+      "size_variants": false
+    },
+    {
+      "entities": [
+        "legendary_monsters:withered_abomination"
+      ],
+      "natural_body_damage": 5.8,
+      "natural_defense_damage": 4.5,
+      "can_bleed": false,
+      "size_variants": false
+    },
+    {
+      "entities": [
+        "legendary_monsters:resurrected_knight"
+      ],
+      "natural_body_damage": 5.8,
+      "natural_defense_damage": 4.5,
+      "can_bleed": false,
+      "size_variants": false
+    },
+    {
+      "entities": [
+        "legendary_monsters:beheaded_knight"
+      ],
+      "natural_body_damage": 5.8,
+      "natural_defense_damage": 4.5,
+      "can_bleed": false,
+      "size_variants": false
+    },
+    {
+      "entities": [
+        "legendary_monsters:annihilation_pursuer"
+      ],
+      "natural_body_damage": 5.8,
+      "natural_defense_damage": 4.5,
+      "can_bleed": false,
+      "size_variants": false
+    }
+  ]
+}

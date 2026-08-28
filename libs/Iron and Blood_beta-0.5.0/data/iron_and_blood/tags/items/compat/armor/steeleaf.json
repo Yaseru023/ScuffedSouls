@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "twilightforest:steeleaf_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_leggings",
+      "required": false
+    }
+  ]
+}

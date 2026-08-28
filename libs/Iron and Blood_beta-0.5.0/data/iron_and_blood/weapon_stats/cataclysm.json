@@ -1,0 +1,265 @@
+{
+  "entries": [
+    {
+      "items": ["cataclysm:athame"],
+      "category": "piercing_dagger",
+      "body_damage": 2.2,
+      "defense_damage": 1.5,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cataclysm:khopesh", "cataclysm:black_steel_sword"],
+      "category": "sword",
+      "body_damage": 4.8,
+      "defense_damage": 1.1,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cataclysm:coral_spear"],
+      "category": "spear",
+      "body_damage": 3.8,
+      "defense_damage": 1.5,
+      "bleeding_capable": true,
+      "captures_projectiles": true,
+      "projectile": {
+        "category": "trident",
+        "body_damage": 4.2,
+        "defense_damage": 1.8,
+        "bleeding_capable": true
+      }
+    },
+    {
+      "items": ["cataclysm:coral_bardiche"],
+      "category": "heavy_axe",
+      "body_damage": 6.2,
+      "defense_damage": 2.0,
+      "bleeding_capable": true,
+      "captures_projectiles": true,
+      "projectile": {
+        "category": "trident",
+        "body_damage": 5.4,
+        "defense_damage": 2.2,
+        "bleeding_capable": true
+      }
+    },
+    {
+      "items": ["cataclysm:ancient_spear"],
+      "category": "spear",
+      "body_damage": 4.2,
+      "defense_damage": 1.6,
+      "bleeding_capable": true,
+      "captures_projectiles": true,
+      "projectile": {
+        "category": "bow",
+        "body_damage": 3.8,
+        "defense_damage": 1.0,
+        "bleeding_capable": false
+      }
+    },
+    {
+      "items": ["cataclysm:astrape"],
+      "category": "spear",
+      "body_damage": 4.5,
+      "defense_damage": 1.8,
+      "bleeding_capable": true,
+      "captures_projectiles": true,
+      "projectile": {
+        "category": "trident",
+        "body_damage": 4.8,
+        "defense_damage": 2.0,
+        "bleeding_capable": true
+      }
+    },
+    {
+      "items": ["cataclysm:ceraunus"],
+      "category": "hammer",
+      "body_damage": 6.2,
+      "defense_damage": 4.0,
+      "bleeding_capable": false,
+      "captures_projectiles": true,
+      "projectile": {
+        "category": "hammer",
+        "body_damage": 6.2,
+        "defense_damage": 4.0,
+        "bleeding_capable": false
+      }
+    },
+    {
+      "items": ["cataclysm:soul_render"],
+      "category": "armor_piercing_polearm",
+      "body_damage": 6.2,
+      "defense_damage": 3.2,
+      "bleeding_capable": true,
+      "captures_projectiles": true,
+      "projectile": {
+        "category": "spear",
+        "body_damage": 4.6,
+        "defense_damage": 2.0,
+        "bleeding_capable": true
+      }
+    },
+    {
+      "items": ["cataclysm:the_annihilator", "cataclysm:the_immolator"],
+      "category": "heavy_axe",
+      "body_damage": 6.8,
+      "defense_damage": 2.2,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cataclysm:the_incinerator"],
+      "category": "heavy_sword",
+      "body_damage": 7.5,
+      "defense_damage": 2.4,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cataclysm:final_fractal"],
+      "category": "sword",
+      "body_damage": 6.0,
+      "defense_damage": 1.4,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cataclysm:zweiender"],
+      "category": "heavy_sword",
+      "body_damage": 7.2,
+      "defense_damage": 2.0,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cataclysm:infernal_forge", "cataclysm:void_forge"],
+      "category": "hammer",
+      "body_damage": 6.8,
+      "defense_damage": 4.6,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cataclysm:meat_shredder"],
+      "category": "heavy_axe",
+      "body_damage": 5.8,
+      "defense_damage": 1.6,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cataclysm:tidal_claws"],
+      "category": "dagger",
+      "body_damage": 4.2,
+      "defense_damage": 0.8,
+      "bleeding_capable": true,
+      "captures_projectiles": true,
+      "projectile": {
+        "category": "spear",
+        "body_damage": 3.8,
+        "defense_damage": 1.2,
+        "bleeding_capable": true
+      }
+    },
+    {
+      "items": [
+        "cataclysm:gauntlet_of_guard",
+        "cataclysm:gauntlet_of_bulwark",
+        "cataclysm:gauntlet_of_maelstrom"
+      ],
+      "category": "hammer",
+      "body_damage": 4.2,
+      "defense_damage": 2.6,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cataclysm:bulwark_of_the_flame"],
+      "category": "hammer",
+      "body_damage": 4.0,
+      "defense_damage": 2.8,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cataclysm:cursed_bow"],
+      "category": "bow",
+      "body_damage": 3.2,
+      "defense_damage": 0.8,
+      "bleeding_capable": true,
+      "projectile": {
+        "category": "bow",
+        "body_damage": 4.2,
+        "defense_damage": 1.1,
+        "bleeding_capable": true
+      }
+    },
+    {
+      "items": ["cataclysm:wrath_of_the_desert"],
+      "category": "bow",
+      "body_damage": 2.0,
+      "defense_damage": 0.3,
+      "bleeding_capable": false,
+      "projectile": {
+        "category": "bow",
+        "body_damage": 4.8,
+        "defense_damage": 1.2,
+        "bleeding_capable": false
+      }
+    },
+    {
+      "items": ["cataclysm:laser_gatling"],
+      "category": "crossbow",
+      "body_damage": 2.0,
+      "defense_damage": 0.3,
+      "bleeding_capable": false,
+      "projectile": {
+        "category": "crossbow",
+        "body_damage": 3.4,
+        "defense_damage": 2.4,
+        "bleeding_capable": false
+      }
+    },
+    {
+      "items": [
+        "cataclysm:wither_assault_shoulder_weapon",
+        "cataclysm:void_assault_shoulder_weapon"
+      ],
+      "category": "crossbow",
+      "body_damage": 2.0,
+      "defense_damage": 0.4,
+      "bleeding_capable": false,
+      "projectile": {
+        "category": "crossbow",
+        "body_damage": 5.5,
+        "defense_damage": 3.8,
+        "bleeding_capable": false
+      }
+    },
+    {
+      "items": ["cataclysm:void_core"],
+      "category": "crossbow",
+      "body_damage": 1.0,
+      "defense_damage": 0.1,
+      "bleeding_capable": false,
+      "projectile": {
+        "category": "crossbow",
+        "body_damage": 4.0,
+        "defense_damage": 2.0,
+        "bleeding_capable": false
+      }
+    },
+    {
+      "items": ["cataclysm:lionfish_spike", "cataclysm:urchin_spike"],
+      "category": "piercing_dagger",
+      "body_damage": 1.8,
+      "defense_damage": 1.1,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cataclysm:black_steel_axe"],
+      "category": "axe",
+      "body_damage": 5.8,
+      "defense_damage": 1.5,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cataclysm:black_steel_pickaxe"],
+      "category": "pickaxe",
+      "body_damage": 3.6,
+      "defense_damage": 4.0,
+      "bleeding_capable": true
+    }
+  ]
+}

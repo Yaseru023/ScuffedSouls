@@ -1,0 +1,70 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tide:starlight_bow",
+      "required": false
+    },
+    {"id":"tconstruct:longbow","required":false},
+    {
+      "id": "#forge:tools/bow",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/bows",
+      "required": false
+    },
+    {
+      "id": "#minecraft:bows",
+      "required": false
+    },
+    {
+      "id": "alexscaves:dreadbow",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursed_bow",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:ice_bow",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonbone_bow",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:longbow",
+      "required": false
+    },
+    {
+      "id": "minecraft:bow",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ender_bow",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ice_bow",
+      "required": false
+    },
+    {
+      "id": "twilightforest:seeker_bow",
+      "required": false
+    },
+    {
+      "id": "twilightforest:triple_bow",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:elven_longbow",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:longbow",
+      "required": false
+    }
+  ]
+}

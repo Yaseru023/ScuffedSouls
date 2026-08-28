@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: scuffedsouls
+Specification-Vendor: YaseruXD
+Specification-Version: 1
+Implementation-Title: forge-1.20.1-47.4.0-mdk
+Implementation-Version: 1.20.1
+Implementation-Vendor: YaseruXD
+Implementation-Timestamp: 2026-08-25T04:41:09+0800
+MixinConfigs: scuffedsouls.mixins.json
+

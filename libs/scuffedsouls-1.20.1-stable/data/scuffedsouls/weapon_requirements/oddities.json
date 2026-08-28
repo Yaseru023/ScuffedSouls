@@ -1,0 +1,12 @@
+{
+  "requirements": [
+    {
+      "item": "oddities:blade_of_the_orchid",
+      "stats": [
+        {"stat": "strength", "min": 40},
+        {"stat": "intelligence", "min": 30},
+        {"stat": "dexterity", "min": 50}
+      ]
+    }
+  ]
+}

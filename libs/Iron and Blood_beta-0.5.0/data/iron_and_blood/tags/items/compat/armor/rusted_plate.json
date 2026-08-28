@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "magistuarmory:rustedbarbute",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:rustedcrusader_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:rustedcrusader_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:rustedhalfarmor_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:rustedgreathelm",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:rustedkettlehat",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:rustednorman_helmet",
+      "required": false
+    }
+  ]
+}

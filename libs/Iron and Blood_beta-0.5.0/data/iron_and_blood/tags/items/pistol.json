@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "#forge:tools/pistol", "required": false },
+    { "id": "#forge:tools/pistols", "required": false },
+    { "id": "#forge:weapons/pistol", "required": false },
+    { "id": "#forge:weapons/pistols", "required": false },
+    { "id": "wom:ender_blaster", "required": false }
+  ]
+}

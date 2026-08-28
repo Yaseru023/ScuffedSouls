@@ -1,0 +1,12 @@
+{
+  "max_buildup": 100.0,
+  "decay_per_tick": 0.2,
+  "buildup_per_application": 20.0,
+  "color": "5C6BC0",
+  "activation": {
+    "type": "mob_effect",
+    "effect": "minecraft:slowness",
+    "duration": 150,
+    "amplifier": 1
+  }
+}

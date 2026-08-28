@@ -1,0 +1,243 @@
+{
+  "replace": true,
+  "entries": [
+    {
+      "items": ["cdmoveset:s_wooden_sword"],
+      "category": "sword",
+      "body_damage": 1.76,
+      "defense_damage": 0.83,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_stone_sword"],
+      "category": "sword",
+      "body_damage": 2.78,
+      "defense_damage": 0.42,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_iron_sword"],
+      "category": "sword",
+      "body_damage": 3.78,
+      "defense_damage": 0.56,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_golden_sword"],
+      "category": "sword",
+      "body_damage": 4.78,
+      "defense_damage": 0.68,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_diamond_sword"],
+      "category": "sword",
+      "body_damage": 5.78,
+      "defense_damage": 0.82,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_netherite_sword"],
+      "category": "sword",
+      "body_damage": 6.78,
+      "defense_damage": 0.96,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cdmoveset:s_wooden_longsword"],
+      "category": "sword",
+      "body_damage": 2.76,
+      "defense_damage": 0.84,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_stone_longsword"],
+      "category": "sword",
+      "body_damage": 3.56,
+      "defense_damage": 0.96,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_iron_longsword"],
+      "category": "sword",
+      "body_damage": 4.56,
+      "defense_damage": 1.08,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_golden_longsword"],
+      "category": "sword",
+      "body_damage": 5.56,
+      "defense_damage": 1.20,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_diamond_longsword"],
+      "category": "sword",
+      "body_damage": 6.56,
+      "defense_damage": 1.32,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_netherite_longsword"],
+      "category": "sword",
+      "body_damage": 7.56,
+      "defense_damage": 1.44,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cdmoveset:s_wooden_greatsword"],
+      "category": "heavy_sword",
+      "body_damage": 2.56,
+      "defense_damage": 0.46,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_stone_greatsword"],
+      "category": "heavy_sword",
+      "body_damage": 3.56,
+      "defense_damage": 0.56,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_iron_greatsword"],
+      "category": "heavy_sword",
+      "body_damage": 4.56,
+      "defense_damage": 0.66,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_golden_greatsword"],
+      "category": "heavy_sword",
+      "body_damage": 5.56,
+      "defense_damage": 0.76,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_diamond_greatsword"],
+      "category": "heavy_sword",
+      "body_damage": 6.56,
+      "defense_damage": 0.86,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_netherite_greatsword"],
+      "category": "heavy_sword",
+      "body_damage": 7.56,
+      "defense_damage": 0.96,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cdmoveset:s_wooden_spear"],
+      "category": "spear",
+      "body_damage": 1.96,
+      "defense_damage": 0.36,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_stone_spear"],
+      "category": "spear",
+      "body_damage": 2.96,
+      "defense_damage": 0.46,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_iron_spear"],
+      "category": "spear",
+      "body_damage": 3.96,
+      "defense_damage": 0.56,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_golden_spear"],
+      "category": "spear",
+      "body_damage": 4.96,
+      "defense_damage": 0.66,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_diamond_spear"],
+      "category": "spear",
+      "body_damage": 5.96,
+      "defense_damage": 0.76,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_netherite_spear"],
+      "category": "spear",
+      "body_damage": 6.96,
+      "defense_damage": 0.86,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cdmoveset:s_wooden_tachi"],
+      "category": "heavy_sword",
+      "body_damage": 2.36,
+      "defense_damage": 0.42,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_stone_tachi"],
+      "category": "heavy_sword",
+      "body_damage": 3.36,
+      "defense_damage": 0.52,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_iron_tachi"],
+      "category": "heavy_sword",
+      "body_damage": 4.36,
+      "defense_damage": 0.62,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_golden_tachi"],
+      "category": "heavy_sword",
+      "body_damage": 5.36,
+      "defense_damage": 0.72,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_diamond_tachi"],
+      "category": "heavy_sword",
+      "body_damage": 6.36,
+      "defense_damage": 0.82,
+      "bleeding_capable": false
+    },
+    {
+      "items": ["cdmoveset:s_netherite_tachi"],
+      "category": "heavy_sword",
+      "body_damage": 7.36,
+      "defense_damage": 0.92,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cdmoveset:katana"],
+      "category": "heavy_sword",
+      "body_damage": 5.56,
+      "defense_damage": 0.78,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cdmoveset:phantom_katana"],
+      "category": "heavy_sword",
+      "body_damage": 6.56,
+      "defense_damage": 2.88,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cdmoveset:yamato"],
+      "category": "heavy_sword",
+      "body_damage": 7.56,
+      "defense_damage": 2.98,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["cdmoveset:great_tachi"],
+      "category": "heavy_sword",
+      "body_damage": 8.13,
+      "defense_damage": 2.08,
+      "bleeding_capable": true
+    }
+  ]
+}

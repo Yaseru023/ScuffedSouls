@@ -1,0 +1,12 @@
+{
+  "entity": "twilightforest:hydra",
+  "profile": "armored_multihead_boss",
+  "hp": 200.0,
+  "defense": 12.0,
+  "damage_taken_multiplier": 0.90,
+  "stamina_damage_taken_multiplier": 0.70,
+  "stamina_multiplier": 3.5,
+  "final_stamina": 420.0,
+  "wounded_threshold_multiplier": 3.2,
+  "bleeding_multiplier": 0.10
+}

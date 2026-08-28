@@ -1,0 +1,254 @@
+{
+    "entries":  [
+                    {
+                        "items":  [
+                                      "minecraft:wooden_sword"
+                                  ],
+                        "category":  "sword",
+                        "body_damage":  1.5,
+                        "defense_damage":  0.2,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:stone_sword"
+                                  ],
+                        "category":  "sword",
+                        "body_damage":  3.0,
+                        "defense_damage":  0.5,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:golden_sword"
+                                  ],
+                        "category":  "sword",
+                        "body_damage":  2.5,
+                        "defense_damage":  0.35,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:iron_sword"
+                                  ],
+                        "category":  "sword",
+                        "body_damage":  4.0,
+                        "defense_damage":  0.8,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:diamond_sword"
+                                  ],
+                        "category":  "sword",
+                        "body_damage":  4.8,
+                        "defense_damage":  1.05,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:netherite_sword"
+                                  ],
+                        "category":  "sword",
+                        "body_damage":  5.0,
+                        "defense_damage":  1.2,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:wooden_axe"
+                                  ],
+                        "category":  "axe",
+                        "body_damage":  2.0,
+                        "defense_damage":  0.4,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:stone_axe"
+                                  ],
+                        "category":  "axe",
+                        "body_damage":  4.0,
+                        "defense_damage":  0.9,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:golden_axe"
+                                  ],
+                        "category":  "axe",
+                        "body_damage":  3.5,
+                        "defense_damage":  0.65,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:iron_axe"
+                                  ],
+                        "category":  "axe",
+                        "body_damage":  5.0,
+                        "defense_damage":  1.2,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:diamond_axe"
+                                  ],
+                        "category":  "axe",
+                        "body_damage":  6.0,
+                        "defense_damage":  1.55,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:netherite_axe"
+                                  ],
+                        "category":  "axe",
+                        "body_damage":  6.25,
+                        "defense_damage":  1.75,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:wooden_pickaxe"
+                                  ],
+                        "category":  "pickaxe",
+                        "body_damage":  1.0,
+                        "defense_damage":  0.7,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:stone_pickaxe"
+                                  ],
+                        "category":  "pickaxe",
+                        "body_damage":  2.25,
+                        "defense_damage":  1.7,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:golden_pickaxe"
+                                  ],
+                        "category":  "pickaxe",
+                        "body_damage":  1.75,
+                        "defense_damage":  1.0,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:iron_pickaxe"
+                                  ],
+                        "category":  "pickaxe",
+                        "body_damage":  3.0,
+                        "defense_damage":  2.8,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:diamond_pickaxe"
+                                  ],
+                        "category":  "pickaxe",
+                        "body_damage":  3.6,
+                        "defense_damage":  4.0,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:netherite_pickaxe"
+                                  ],
+                        "category":  "pickaxe",
+                        "body_damage":  3.75,
+                        "defense_damage":  4.8,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:wooden_shovel",
+                                      "minecraft:wooden_hoe"
+                                  ],
+                        "category":  "staff",
+                        "body_damage":  1.0,
+                        "defense_damage":  0.12,
+                        "bleeding_capable":  false
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:stone_shovel",
+                                      "minecraft:stone_hoe"
+                                  ],
+                        "category":  "staff",
+                        "body_damage":  1.5,
+                        "defense_damage":  0.28,
+                        "bleeding_capable":  false
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:golden_shovel",
+                                      "minecraft:golden_hoe"
+                                  ],
+                        "category":  "staff",
+                        "body_damage":  1.25,
+                        "defense_damage":  0.2,
+                        "bleeding_capable":  false
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:iron_shovel",
+                                      "minecraft:iron_hoe"
+                                  ],
+                        "category":  "staff",
+                        "body_damage":  2.0,
+                        "defense_damage":  0.45,
+                        "bleeding_capable":  false
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:diamond_shovel",
+                                      "minecraft:diamond_hoe"
+                                  ],
+                        "category":  "staff",
+                        "body_damage":  2.4,
+                        "defense_damage":  0.65,
+                        "bleeding_capable":  false
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:netherite_shovel",
+                                      "minecraft:netherite_hoe"
+                                  ],
+                        "category":  "staff",
+                        "body_damage":  2.5,
+                        "defense_damage":  0.75,
+                        "bleeding_capable":  false
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:bow"
+                                  ],
+                        "category":  "bow",
+                        "body_damage":  3.0,
+                        "defense_damage":  0.8,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:crossbow"
+                                  ],
+                        "category":  "crossbow",
+                        "body_damage":  4.0,
+                        "defense_damage":  1.6,
+                        "bleeding_capable":  true
+                    },
+                    {
+                        "items":  [
+                                      "minecraft:trident"
+                                  ],
+                        "category":  "trident",
+                        "body_damage":  4.0,
+                        "defense_damage":  1.4,
+                        "bleeding_capable":  true
+                    }
+                ]
+}
+

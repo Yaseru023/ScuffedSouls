@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "valarian_conquest:quiver_chestplate",
+      "required": false
+    }
+  ]
+}

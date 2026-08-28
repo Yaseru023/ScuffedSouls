@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "#forge:tools/armor_piercing_polearm", "required": false },
+    { "id": "#forge:tools/armor_piercing_polearms", "required": false },
+    { "id": "magistuarmory:bronze_ahlspiess", "required": false },
+    { "id": "magistuarmory:copper_ahlspiess", "required": false },
+    { "id": "magistuarmory:diamond_ahlspiess", "required": false },
+    { "id": "magistuarmory:gold_ahlspiess", "required": false },
+    { "id": "magistuarmory:iron_ahlspiess", "required": false },
+    { "id": "magistuarmory:netherite_ahlspiess", "required": false },
+    { "id": "magistuarmory:silver_ahlspiess", "required": false },
+    { "id": "magistuarmory:steel_ahlspiess", "required": false },
+    { "id": "magistuarmory:stone_ahlspiess", "required": false },
+    { "id": "magistuarmory:tin_ahlspiess", "required": false },
+    { "id": "magistuarmory:wood_ahlspiess", "required": false },
+    { "id": "magistuarmoryaddon:steel_crow_beak", "required": false },
+    { "id": "magistuarmoryaddon:steel_english_poleaxe", "required": false },
+    { "id": "magistuarmoryaddon:steel_french_halberd", "required": false },
+    { "id": "magistuarmoryaddon:steel_hammer_spear", "required": false },
+    { "id": "magistuarmoryaddon:steel_italian_poleaxe", "required": false },
+    { "id": "magistuarmoryaddon:steel_swiss_halberd", "required": false }
+  ]
+}

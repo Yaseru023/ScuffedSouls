@@ -1,0 +1,69 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:tools/rapier",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/rapiers",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:iron_rapier",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:silver_rapier",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:wulfrum_rapier",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:amethyst_rapier",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_rapier",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_sidesword",
+      "required": false
+    },
+    {
+      "id": "refm:amethyst_rapier_compat",
+      "required": false
+    },
+    {
+      "id": "refm:diamond_rapier",
+      "required": false
+    },
+    {
+      "id": "refm:enderite_rapier",
+      "required": false
+    },
+    {
+      "id": "refm:gold_rapier",
+      "required": false
+    },
+    {
+      "id": "refm:iron_rapier",
+      "required": false
+    },
+    {
+      "id": "refm:netherite_rapier",
+      "required": false
+    },
+    {
+      "id": "refm:oceanite_rapier",
+      "required": false
+    },
+    {
+      "id": "refm:witherite_rapier",
+      "required": false
+    }
+  ]
+}

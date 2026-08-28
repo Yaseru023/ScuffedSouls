@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "epicfight_awaken:darknight_pursuiters", "required": false },
+    { "id": "epicfight_dd:blood_ritus_dagger", "required": false },
+    { "id": "epicfight_dd:night_ritus_dagger", "required": false },
+    { "id": "epicfight_dd:backhand_blade", "required": false },
+    { "id": "epicfight_dd:iron_sickle", "required": false },
+    { "id": "epicfight_dd:golden_sickle", "required": false },
+    { "id": "epicfight_dd:diamond_sickle", "required": false },
+    { "id": "epicfight_dd:netherite_sickle", "required": false },
+    { "id": "epicfight_dd:iron_knife", "required": false },
+    { "id": "epicfight_dd:golden_knife", "required": false },
+    { "id": "epicfight_dd:diamond_knife", "required": false },
+    { "id": "epicfight_dd:netherite_knife", "required": false }
+  ] 
+}

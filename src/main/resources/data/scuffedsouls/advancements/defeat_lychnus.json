@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "nether_remastered:seal_of_the_underworld_item"
+    },
+    "title": {
+      "text": "The Faint Radiance"
+    },
+    "description": {
+      "text": "Defeat the Faint Radiance."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "defeat_lychnus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "the_faint_radiance:lychnus"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scuffedsouls:rewards/defeat_lychnus"
+  }
+}

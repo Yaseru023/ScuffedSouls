@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "entities": ["iceandfire:cyclops"],
+      "defense": 0.0,
+      "max_health": 80.0,
+      "size_variants": true
+    }
+  ]
+}

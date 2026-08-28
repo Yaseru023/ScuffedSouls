@@ -1,0 +1,12 @@
+{
+  "max_buildup": 100.0,
+  "decay_per_tick": 0.2,
+  "buildup_per_application": 50.0,
+  "color": "212121",
+  "activation": {
+    "type": "mob_effect",
+    "effect": "minecraft:blindness",
+    "duration": 100,
+    "amplifier": 0
+  }
+}

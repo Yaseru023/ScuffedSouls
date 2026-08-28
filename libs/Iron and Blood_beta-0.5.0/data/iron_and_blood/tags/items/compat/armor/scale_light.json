@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "twilightforest:naga_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:naga_leggings",
+      "required": false
+    },
+    {
+      "id": "aquamirae:abyssal_boots",
+      "required": false
+    },
+    {
+      "id": "aquamirae:abyssal_leggings",
+      "required": false
+    },
+    {
+      "id": "aquamirae:three_bolt_boots",
+      "required": false
+    },
+    {
+      "id": "aquamirae:three_bolt_helmet",
+      "required": false
+    },
+    {
+      "id": "aquamirae:three_bolt_leggings",
+      "required": false
+    }
+  ]
+}

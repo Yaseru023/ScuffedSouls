@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "tconstruct:plate_shield", "required": false },
+    { "id": "tconstruct:travelers_shield", "required": false }
+  ]
+}

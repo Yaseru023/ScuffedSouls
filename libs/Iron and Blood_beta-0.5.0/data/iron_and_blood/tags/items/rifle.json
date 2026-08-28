@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "#forge:tools/rifle", "required": false },
+    { "id": "#forge:tools/rifles", "required": false },
+    { "id": "#forge:weapons/rifle", "required": false },
+    { "id": "#forge:weapons/rifles", "required": false }
+  ]
+}

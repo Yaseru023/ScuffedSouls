@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "legendary_monsters:posessed_paladin", "required": false },
+    { "id": "legendary_monsters:beheaded_knight", "required": false },
+    { "id": "legendary_monsters:flameborn_warrior", "required": false },
+    { "id": "legendary_monsters:annihilation_pursuer", "required": false },
+  ]
+}

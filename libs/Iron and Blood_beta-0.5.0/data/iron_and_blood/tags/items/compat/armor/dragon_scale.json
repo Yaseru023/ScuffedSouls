@@ -1,0 +1,129 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "iceandfire:armor_black_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_black_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_black_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_black_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_blue_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_blue_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_blue_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_blue_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_electric_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_electric_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_electric_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_electric_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_gray_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_gray_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_gray_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_gray_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_green_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_green_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_green_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_green_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_red_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_red_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_red_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_red_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_white_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_white_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_white_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_white_leggings",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:dragon_bones_boots",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:dragon_bones_chestplate",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:dragon_bones_leggings",
+      "required": false
+    }
+  ]
+}

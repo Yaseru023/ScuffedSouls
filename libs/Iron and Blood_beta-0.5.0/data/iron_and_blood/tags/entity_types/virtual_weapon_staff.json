@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "goety:crone", "required": false },
+    { "id": "goety:heresiarch", "required": false },
+    { "id": "goety:warlock", "required": false },
+    { "id": "goety:warlock_servant", "required": false },
+    { "id": "cataclysm:deepling_priest", "required": false },
+    { "id": "cataclysm:deepling_warlock", "required": false },
+    { "id": "cataclysm:nameless_sorcerer", "required": false }
+  ]
+}

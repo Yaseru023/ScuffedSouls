@@ -1,0 +1,701 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tconstruct:javelin",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/lance",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/lances",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/spear",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/spears",
+      "required": false
+    },
+    {
+      "id": "#minecraft:spear",
+      "required": false
+    },
+    {
+      "id": "#minecraft:spears",
+      "required": false
+    },
+    {
+      "id": "alexscaves:extinction_spear",
+      "required": false
+    },
+    {
+      "id": "alexscaves:frostmint_spear",
+      "required": false
+    },
+    {
+      "id": "alexscaves:limestone_spear",
+      "required": false
+    },
+    {
+      "id": "alexscaves:ortholance",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:spiked_scute",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:spiked_turtle_shell",
+      "required": false
+    },
+    {
+      "id": "aquamirae:coral_lance",
+      "required": false
+    },
+    {
+      "id": "aquamirae:sweet_lance",
+      "required": false
+    },
+    {
+      "id": "call_of_yucutan:flint_spear",
+      "required": false
+    },
+    {
+      "id": "call_of_yucutan:obsidian_spear",
+      "required": false
+    },
+    {
+      "id": "call_of_yucutan:wooden_spear",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ancient_spear",
+      "required": false
+    },
+    {
+      "id": "cataclysm:coral_spear",
+      "required": false
+    },
+    {
+      "id": "cataclysm:lionfish_spike",
+      "required": false
+    },
+    {
+      "id": "cataclysm:urchin_spike",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_diamond_spear",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_diamondspear",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_golden_spear",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_iron_spear",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_ironspear",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_netherite_spear",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_stone_spear",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_wooden_spear",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:spear",
+      "required": false
+    },
+    {
+      "id": "cnb:cactem_spear",
+      "required": false
+    },
+    {
+      "id": "companions:book_stone_spikes",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:blazing_lance",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:cryolite_lance",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:crystal_lance",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:cursed_blazing_lance",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:diamond_lance",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_lance_bone",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_lance_fire",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_lance_ice",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragon_lance_lightning",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:gold_lance",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:golden_glaive",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:golden_lance",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:golden_lance_light",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:iron_glaive",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_blazing_lance",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_blazing_lance_ii",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_cryolite_lance",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:pitchfork_lance",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:pitchfork_spear",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:saw_glaive",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:silver_lance",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:silver_spear",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:stone_lance",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:stone_spear",
+      "required": false
+    },
+    {
+      "id": "efn:meen_spear",
+      "required": false
+    },
+    {
+      "id": "epicfight:diamond_spear",
+      "required": false
+    },
+    {
+      "id": "epicfight:golden_spear",
+      "required": false
+    },
+    {
+      "id": "epicfight:iron_spear",
+      "required": false
+    },
+    {
+      "id": "epicfight:netherite_spear",
+      "required": false
+    },
+    {
+      "id": "epicfight:spear",
+      "required": false
+    },
+    {
+      "id": "epicfight:stone_spear",
+      "required": false
+    },
+    {
+      "id": "epicfight:wooden_spear",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:amber_celestium_spike",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:celestine_spike",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:celestium_spike",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:ice_spikes",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:inky_celestium_spike",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:pale_celestium_spike",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:small_celestine_spike",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:sulfur_spike",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragon_ice_spikes",
+      "required": false
+    },
+    {
+      "id": "iceandfire:fishing_spear",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_ahlspiess",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_chivalrylance",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_pike",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_ranseur",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_ahlspiess",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_chivalrylance",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_pike",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_ranseur",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_ahlspiess",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_chivalrylance",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_pike",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_ranseur",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_ahlspiess",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_chivalrylance",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_pike",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_ranseur",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_ahlspiess",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_chivalrylance",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_pike",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_ranseur",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_ahlspiess",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_chivalrylance",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_pike",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_ranseur",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:pitchfork",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_ahlspiess",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_chivalrylance",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_pike",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_ranseur",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_ahlspiess",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_chivalrylance",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_pike",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_ranseur",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_ahlspiess",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_chivalrylance",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_pike",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_ranseur",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_ahlspiess",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_chivalrylance",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_pike",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_ranseur",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_ahlspiess",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_chivalrylance",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_pike",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_ranseur",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_boar_spear",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_glaive",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_lance",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_short_spear",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_spear",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:spear",
+      "required": false
+    },
+    {
+      "id": "scguns:bomb_lance",
+      "required": false
+    },
+    {
+      "id": "scguns:iron_spear",
+      "required": false
+    },
+    {
+      "id": "scguns:turnpike",
+      "required": false
+    },
+    {
+      "id": "species:bone_spike",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:barathian_spearman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bohemian_spearman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:burgundian_spearman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:caladrian_spearman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:common_spear",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:elven_spear",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:galician_spearman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:hospitaller_spearman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:lancastian_spearman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:numerian_spearman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:orleanian_spearman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:soldiers_spear",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:spikes",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:templar_spearman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:undead_spear",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:valarian_spearman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:visgothian_spearman_item",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:grim_vine_spike",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:naginata",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:naginata_netherite",
+      "required": false
+    },
+    {
+      "id": "ethans_custom_mod:valarian_spear",
+      "required": false
+    },
+    {
+      "id": "tide:pike",
+      "required": false
+    },
+    {
+      "id": "tide:obsidian_pike",
+      "required": false
+    },
+    {
+      "id": "companions:book_naginata",
+      "required": false
+    },
+    {
+      "id": "relics:shadow_glaive",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:blessed_gold_sickle",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:sandstone_sickle",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_billhook",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_fauchard",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_military_fork",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_partisan",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_voulge",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_welsh_guisarme",
+      "required": false
+    }
+  ]
+}

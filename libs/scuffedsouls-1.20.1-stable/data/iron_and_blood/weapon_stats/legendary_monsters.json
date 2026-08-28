@@ -1,0 +1,74 @@
+{
+  "entries": [
+    {
+      "items": ["legendary_monsters:monstrous_anchor"],
+      "category": "hammer",
+      "body_damage": 4.59,
+      "defense_damage": 0.83,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["legendary_monsters:dinosaur_bone_club"],
+      "category": "hammer",
+      "body_damage": 2.60,
+      "defense_damage": 0.47,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["legendary_monsters:chorus_blade"],
+      "category": "heavy_sword",
+      "body_damage": 2.83,
+      "defense_damage": 0.51,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["legendary_monsters:the_great_frost"],
+      "category": "heavy_sword",
+      "body_damage": 2.83,
+      "defense_damage": 0.51,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["legendary_monsters:soul_greatsword"],
+      "category": "heavy_sword",
+      "body_damage": 4.38,
+      "defense_damage": 0.79,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["legendary_monsters:shattered_greatsword"],
+      "category": "heavy_sword",
+      "body_damage": 4.17,
+      "defense_damage": 0.75,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["legendary_monsters:knights_sword"],
+      "category": "heavy_sword",
+      "body_damage": 2.50,
+      "defense_damage": 0.45,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["legendary_monsters:axe_of_lightning"],
+      "category": "heavy_axe",
+      "body_damage": 4.38,
+      "defense_damage": 0.79,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["legendary_monsters:golden_halbert"],
+      "category": "heavy_axe",
+      "body_damage": 2.06,
+      "defense_damage": 0.37,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["legendary_monsters:mossy_hammer"],
+      "category": "hammer",
+      "body_damage": 2.06,
+      "defense_damage": 0.37,
+      "bleeding_capable": true
+    }
+  ]
+}

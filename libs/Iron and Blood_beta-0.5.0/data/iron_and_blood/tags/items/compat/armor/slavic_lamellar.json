@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"slavicarmory:byzantine_lamellar_chestplate","required":false},
+    {"id":"slavicarmory:gilded_byzantine_lamellar_chestplate","required":false},
+    {"id":"slavicarmory:byzantine_scale_chestplate","required":false},
+    {"id":"slavicarmory:gilded_byzantine_scale_chestplate","required":false},
+    {"id":"slavicarmory:yushman_chestplate","required":false},
+    {"id":"slavicarmory:gilded_yushman_chestplate","required":false},
+    {"id":"slavicarmory:bahteretz_chestplate","required":false},
+    {"id":"slavicarmory:bahteretz_boots","required":false},
+    {"id":"slavicarmory:gilded_bahteretz_chestplate","required":false},
+    {"id":"slavicarmory:kuyak_chestplate","required":false},
+    {"id":"slavicarmory:lamellar_mail_chestplate","required":false},
+    {"id":"slavicarmory:lamellar_mail_boots","required":false},
+    {"id":"slavicarmory:gilded_lamellar_mail_chestplate","required":false},
+    {"id":"slavicarmory:rus_scale_chestplate","required":false},
+    {"id":"slavicarmory:rus_scale_boots","required":false},
+    {"id":"slavicarmory:gilded_rus_scale_chestplate","required":false},
+    {"id":"slavicarmory:gilded_rus_scale_boots","required":false}
+  ]
+}

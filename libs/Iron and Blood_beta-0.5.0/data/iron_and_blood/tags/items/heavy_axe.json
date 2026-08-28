@@ -1,0 +1,295 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"tconstruct:broad_axe","required":false},
+    {"id":"tconstruct:minotaur_axe","required":false},
+    {
+      "id": "#forge:tools/greataxe",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/greataxes",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/halberd",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/halberds",
+      "required": false
+    },
+    {
+      "id": "cataclysm:coral_bardiche",
+      "required": false
+    },
+    {
+      "id": "cataclysm:meat_shredder",
+      "required": false
+    },
+    {
+      "id": "cataclysm:soul_render",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:cobalt_greataxe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:crimson_battle_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:cursed_blazing_halberd",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:executioner_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:iron_greataxe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_blazing_halberd",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_dark_steel_greataxe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:steel_greataxe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:the_gravedigger_greataxe",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:igneus_war_axe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_concavehalberd",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_concavehalberd",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_concavehalberd",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_concavehalberd",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_concavehalberd",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_concavehalberd",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_concavehalberd",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_concavehalberd",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_concavehalberd",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_concavehalberd",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_concavehalberd",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_lochaberaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_battleaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_broadaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_daneaxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_galloglass_axe",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_gallowglass_axe",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_war_axe",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:wrought_axe",
+      "required": false
+    },
+    {
+      "id": "scguns:war_axe",
+      "required": false
+    },
+    {
+      "id": "slavicarmory:steel_bardiche",
+      "required": false
+    },
+    {
+      "id": "twilightforest:diamond_minotaur_axe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:gold_minotaur_axe",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:common_halberd",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:heavy_axe",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:soldiers_halberd",
+      "required": false
+    },
+    {
+      "id": "wom:diamond_greataxe",
+      "required": false
+    },
+    {
+      "id": "wom:golden_greataxe",
+      "required": false
+    },
+    {
+      "id": "wom:iron_greataxe",
+      "required": false
+    },
+    {
+      "id": "wom:netherite_greataxe",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_guisarme",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_guisarme",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:iron_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_dark_steel_axe_ii",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:steel_axe_ii",
+      "required": false
+    },
+    {
+      "id": "wom:stone_greataxe",
+      "required": false
+    }
+  ]
+}

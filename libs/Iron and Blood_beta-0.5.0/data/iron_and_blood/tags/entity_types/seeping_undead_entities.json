@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:zombie",
+    "minecraft:zombie_villager",
+    "minecraft:husk",
+    "minecraft:drowned",
+    "minecraft:zombified_piglin",
+    "minecraft:giant",
+    { "id": "slimpatch:human_zombie_villager", "required": false },
+    { "id": "goety:frozen_zombie_servant", "required": false },
+    { "id": "goety:jungle_zombie_servant", "required": false },
+    { "id": "goety:zombie_servant", "required": false },
+    { "id": "goety:zombie_villager_servant", "required": false }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "iceandfire:deathworm_red_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:deathworm_red_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:deathworm_red_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:deathworm_red_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:deathworm_white_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:deathworm_white_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:deathworm_white_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:deathworm_white_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:deathworm_yellow_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:deathworm_yellow_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:deathworm_yellow_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:deathworm_yellow_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_leggings",
+      "required": false
+    },
+    {
+      "id": "cataclysm:bone_reptile_chestplate",
+      "required": false
+    },
+    {
+      "id": "cataclysm:bone_reptile_helmet",
+      "required": false
+    }
+  ]
+}

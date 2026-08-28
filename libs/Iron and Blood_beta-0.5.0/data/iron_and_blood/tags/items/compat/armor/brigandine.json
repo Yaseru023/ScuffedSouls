@@ -1,0 +1,117 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "iceandfire:armor_bronze_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_bronze_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_bronze_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_bronze_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_copper_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_copper_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_copper_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_copper_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_copper_metal_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_copper_metal_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_copper_metal_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_copper_metal_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:brigandine_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:brigandine_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:halfarmor_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:lamellar_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:lamellar_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:coat_of_plates_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:coat_of_plates_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gallowglass_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gallowglass_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gallowglass_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:pikeman_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:pikeman_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:scale_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:splint_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:splint_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:splint_leggings",
+      "required": false
+    }
+  ]
+}

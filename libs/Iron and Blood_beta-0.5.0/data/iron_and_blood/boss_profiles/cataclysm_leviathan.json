@@ -1,0 +1,11 @@
+{
+  "entity": "cataclysm:the_leviathan",
+  "profile": "abyssal_leviathan",
+  "hp": 140.0,
+  "damage_taken_multiplier": 1.0,
+  "stamina_damage_taken_multiplier": 0.70,
+  "stamina_multiplier": 3.6,
+  "final_stamina": 440.0,
+  "wounded_threshold_multiplier": 2.5,
+  "bleeding_multiplier": 0.50
+}

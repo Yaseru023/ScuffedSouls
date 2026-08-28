@@ -1,0 +1,329 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "iceandfire:sheep_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:sheep_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:sheep_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:sheep_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:bret_clothes_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:bret_clothes_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:bret_clothes_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:bret_clothes_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:executorarmor_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:executorarmor_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:executorarmor_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:executorarmor_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:gamekeeper_attires_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:gamekeeper_attires_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:gamekeeper_attires_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:gamekeeper_attires_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:highlandslongkilt_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:highlandslongkilt_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:highlandslongkilt_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:mountainmenclothes_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:mountainmenclothes_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:mountainmenclothes_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:mountainmenclothes_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:netherborn_pirate_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:netherborn_pirate_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:netherborn_pirate_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:netherborn_pirate_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:penitent_rags_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:penitent_rags_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:penitent_rags_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:penitent_rags_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:plague_doctor_suit_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:plague_doctor_suit_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:plague_doctor_suit_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:plague_doctor_suit_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:ratcatcherrobes_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:ratcatcherrobes_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:ratcatcherrobes_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:ratcatcherrobes_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:swampland_folks_attires_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:swampland_folks_attires_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:swampland_folks_attires_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:black_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:black_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:blue_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:blue_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:brown_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:brown_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:cyan_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:cyan_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_steel_puff_and_slash_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_steel_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gray_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gray_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:green_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:green_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:light_blue_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:light_blue_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:light_gray_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:light_gray_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:lime_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:lime_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:magenta_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:magenta_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:orange_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:orange_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:patrician_tuher_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:pink_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:pink_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:puff_and_slash_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:purple_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:purple_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:red_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:red_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_puff_and_slash_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:tunic_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:white_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:white_puff_and_slash_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:yellow_puff_and_slash_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:yellow_puff_and_slash_leggings",
+      "required": false
+    }
+  ]
+}

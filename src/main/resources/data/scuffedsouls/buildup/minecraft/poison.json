@@ -1,0 +1,12 @@
+{
+  "max_buildup": 100.0,
+  "decay_per_tick": 0.1,
+  "buildup_per_application": 25.0,
+  "color": "4CAF50",
+  "activation": {
+    "type": "mob_effect",
+    "effect": "minecraft:poison",
+    "duration": 200,
+    "amplifier": 0
+  }
+}

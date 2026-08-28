@@ -1,0 +1,410 @@
+{
+    "entries":  [
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/tconstruct_plate"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  -1,
+                                                "chest":  -1,
+                                                "legs":  -1,
+                                                "feet":  -1
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/tconstruct_travelers"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  -1,
+                                                "chest":  -1,
+                                                "legs":  -1,
+                                                "feet":  -1
+                                            },
+                        "response":  "soft"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/tconstruct_slime"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  -1,
+                                                "chest":  -1,
+                                                "legs":  -1,
+                                                "feet":  -1
+                                            },
+                        "response":  "soft"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/brigandine"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  9,
+                                                "chest":  10,
+                                                "legs":  9,
+                                                "feet":  7
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/chitin"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  9,
+                                                "chest":  11,
+                                                "legs":  9,
+                                                "feet":  8
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/cloth"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  1.5,
+                                                "chest":  2,
+                                                "legs":  1.5,
+                                                "feet":  1
+                                            },
+                        "response":  "soft"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/dragon_scale"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  16,
+                                                "chest":  18,
+                                                "legs":  16,
+                                                "feet":  13
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/dragonsteel"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  24,
+                                                "chest":  27,
+                                                "legs":  24,
+                                                "feet":  19
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/fiery"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  16,
+                                                "chest":  18,
+                                                "legs":  16,
+                                                "feet":  13
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/gilded_mail"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  7,
+                                                "chest":  8,
+                                                "legs":  7.5,
+                                                "feet":  6
+                                            },
+                        "response":  "mail"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/gilded_plate"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  12,
+                                                "chest":  14,
+                                                "legs":  12,
+                                                "feet":  10
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/gold_heavy"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  10,
+                                                "chest":  12,
+                                                "legs":  10,
+                                                "feet":  8
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/heavy_brigandine"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  10,
+                                                "chest":  12,
+                                                "legs":  10,
+                                                "feet":  8
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/heavy_gilded_plate"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  13,
+                                                "chest":  15,
+                                                "legs":  13,
+                                                "feet":  10
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/heavy_padded"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  4,
+                                                "chest":  5,
+                                                "legs":  4,
+                                                "feet":  3
+                                            },
+                        "response":  "soft"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/heavy_plate"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  13,
+                                                "chest":  15,
+                                                "legs":  13,
+                                                "feet":  10
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/ironwood"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  10,
+                                                "chest":  12,
+                                                "legs":  10,
+                                                "feet":  8
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/knightmetal"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  14,
+                                                "chest":  16,
+                                                "legs":  14,
+                                                "feet":  11
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/valarian_bandit_mask"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  0.6
+                                            },
+                        "response":  "soft"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/leather"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  2,
+                                                "chest":  3,
+                                                "legs":  2.5,
+                                                "feet":  2
+                                            },
+                        "response":  "soft"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/light_cloth"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  1.5,
+                                                "chest":  2,
+                                                "legs":  1.5,
+                                                "feet":  1
+                                            },
+                        "response":  "soft"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/light_plate"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  9,
+                                                "chest":  11,
+                                                "legs":  9,
+                                                "feet":  8
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/mail"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  6,
+                                                "chest":  7,
+                                                "legs":  6.5,
+                                                "feet":  5
+                                            },
+                        "response":  "mail"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/medium_plate"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  12,
+                                                "chest":  14,
+                                                "legs":  12,
+                                                "feet":  10
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/padded"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  2,
+                                                "chest":  3,
+                                                "legs":  2.5,
+                                                "feet":  2
+                                            },
+                        "response":  "soft"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/phantom"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  14,
+                                                "chest":  16,
+                                                "legs":  14,
+                                                "feet":  11
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/quiver"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  0,
+                                                "chest":  0,
+                                                "legs":  0,
+                                                "feet":  0
+                                            },
+                        "response":  "none"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/rusted_mail"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  4,
+                                                "chest":  5,
+                                                "legs":  4.5,
+                                                "feet":  3
+                                            },
+                        "response":  "mail"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/rusted_plate"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  7,
+                                                "chest":  8,
+                                                "legs":  7,
+                                                "feet":  5
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/scale_light"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  8,
+                                                "chest":  9,
+                                                "legs":  8,
+                                                "feet":  6
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/steeleaf"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  9,
+                                                "chest":  11,
+                                                "legs":  9,
+                                                "feet":  8
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/tide_scale"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  13,
+                                                "chest":  15,
+                                                "legs":  13,
+                                                "feet":  10
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/troll_leather"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  6,
+                                                "chest":  8,
+                                                "legs":  7,
+                                                "feet":  5
+                                            },
+                        "response":  "soft"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/ultra_plate"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  16,
+                                                "chest":  18,
+                                                "legs":  16,
+                                                "feet":  13
+                                            },
+                        "response":  "hard"
+                    }
+                ]
+}
+

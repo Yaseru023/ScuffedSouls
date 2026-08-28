@@ -1,0 +1,12 @@
+{
+  "entity": "twilightforest:snow_queen",
+  "profile": "frost_arcane_boss",
+  "hp": 100.0,
+  "defense": 0.0,
+  "damage_taken_multiplier": 0.94,
+  "stamina_damage_taken_multiplier": 0.72,
+  "stamina_multiplier": 2.8,
+  "final_stamina": 280.0,
+  "wounded_threshold_multiplier": 2.6,
+  "bleeding_multiplier": 0.0
+}

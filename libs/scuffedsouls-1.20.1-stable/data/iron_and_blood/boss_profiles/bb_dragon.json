@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "entity": "cataclysm:ignis",
+  "profile": "ancient_end_dragon",
+  "hp": 1000.0,
+  "damage_taken_multiplier": 1.0,
+  "stamina_damage_taken_multiplier": 0.75,
+  "stamina_multiplier": 3.2,
+  "final_stamina": 500.0,
+  "wounded_threshold_multiplier": 2.2,
+  "bleeding_multiplier": 0.60
+}

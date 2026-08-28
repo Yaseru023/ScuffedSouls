@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "entity": "slimpatch:wandering_trader",
+      "humanoid": true
+    },
+    {
+      "entity": "slimpatch:human_trader",
+      "humanoid": true
+    },
+    {
+      "entity": "slimpatch:male_villager",
+      "humanoid": true
+    },
+    {
+      "entity": "slimpatch:female_villager",
+      "humanoid": true
+    },
+    {
+      "entity": "slimpatch:pillager",
+      "humanoid": true
+    },
+    {
+      "entity": "slimpatch:vindicator",
+      "humanoid": true
+    },
+    {
+      "entity": "slimpatch:evoker",
+      "humanoid": true
+    },
+    {
+      "entity": "slimpatch:human_zombie_villager",
+      "humanoid": true
+    }
+  ]
+}

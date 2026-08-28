@@ -1,0 +1,150 @@
+{
+  "requirements": [
+    {
+      "item": "cataclysm:gauntlet_of_guard",
+      "stats": [
+        {"stat": "strength", "min": 55}
+      ]
+    },
+    {
+      "item": "cataclysm:gauntlet_of_bulwark",
+      "stats": [
+        {"stat": "strength", "min": 55},
+        {"stat": "endurance", "min": 30}
+      ]
+    },
+    {
+      "item": "cataclysm:gauntlet_of_maelstrom",
+      "stats": [
+        {"stat": "strength", "min": 55},
+        {"stat": "intelligence", "min": 30}
+      ]
+    },
+    {
+      "item": "cataclysm:the_incinerator",
+      "stats": [
+        {"stat": "strength", "min": 50},
+        {"stat": "intelligence", "min": 40}
+      ]
+    },
+    {
+      "item": "cataclysm:cursed_bow",
+      "stats": [
+        {"stat": "dexterity", "min": 55},
+        {"stat": "intelligence", "min": 30}
+      ]
+    },
+    {
+      "item": "cataclysm:wrath_of_the_dessert",
+      "stats": [
+        {"stat": "dexterity", "min": 55},
+        {"stat": "intelligence", "min": 35}
+      ]
+    },
+    {
+      "item": "cataclysm:soul_render",
+      "stats": [
+        {"stat": "intelligence", "min": 55},
+        {"stat": "dexterity", "min": 30}
+      ]
+    },
+    {
+      "item": "cataclysm:the_annihilator",
+      "stats": [
+        {"stat": "strength", "min": 55},
+        {"stat": "intelligence", "min": 35}
+      ]
+    },
+    {
+      "item": "cataclysm:the_immolator",
+      "stats": [
+        {"stat": "strength", "min": 60},
+        {"stat": "intelligence", "min": 45}
+      ]
+    },
+    {
+      "item": "cataclysm:meat_shredder",
+      "stats": [
+        {"stat": "strength", "min": 55}
+      ]
+    },
+    {
+      "item": "cataclysm:laser_gatling",
+      "stats": [
+        {"stat": "dexterity", "min": 50},
+        {"stat": "strength", "min": 30}
+      ]
+    },
+    {
+      "item": "cataclysm:wither_assault_shoulder_weapon",
+      "stats": [
+        {"stat": "strength", "min": 40},
+        {"stat": "dexterity", "min": 40}
+      ]
+    },
+    {
+      "item": "cataclysm:void_assault_shoulder_weapon",
+      "stats": [
+        {"stat": "strength", "min": 45},
+        {"stat": "dexterity", "min": 45},
+        {"stat": "intelligence", "min": 35}
+      ]
+    },
+    {
+      "item": "cataclysm:void_forge",
+      "stats": [
+        {"stat": "strength", "min": 55},
+        {"stat": "intelligence", "min": 45}
+      ]
+    },
+    {
+      "item": "cataclysm:tidal_claws",
+      "stats": [
+        {"stat": "dexterity", "min": 50},
+        {"stat": "intelligence", "min": 40}
+      ]
+    },
+    {
+      "item": "cataclysm:infernal_forge",
+      "stats": [
+        {"stat": "strength", "min": 55},
+        {"stat": "intelligence", "min": 25}
+      ]
+    },
+    {
+      "item": "cataclysm:sandstorm_in_a_bottle",
+      "stats": [
+        {"stat": "intelligence", "min": 45},
+        {"stat": "dexterity", "min": 35}
+      ]
+    },
+    {
+      "item": "cataclysm:ancient_spear",
+      "stats": [
+        {"stat": "dexterity", "min": 45},
+        {"stat": "intelligence", "min": 35}
+      ]
+    },
+    {
+      "item": "cataclysm:astrape",
+      "stats": [
+        {"stat": "dexterity", "min": 45},
+        {"stat": "intelligence", "min": 40}
+      ]
+    },
+    {
+      "item": "cataclysm:ceraunus",
+      "stats": [
+        {"stat": "strength", "min": 55},
+        {"stat": "intelligence", "min": 40}
+      ]
+    },
+    {
+      "item": "cataclysm:brontes",
+      "stats": [
+        {"stat": "strength", "min": 60},
+        {"stat": "intelligence", "min": 45}
+      ]
+    }
+  ]
+}

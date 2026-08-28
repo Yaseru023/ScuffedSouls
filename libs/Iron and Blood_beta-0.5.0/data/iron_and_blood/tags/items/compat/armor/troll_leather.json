@@ -1,0 +1,85 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "iceandfire:forest_troll_leather_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:forest_troll_leather_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:forest_troll_leather_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:forest_troll_leather_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:frost_troll_leather_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:frost_troll_leather_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:frost_troll_leather_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:frost_troll_leather_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:mountain_troll_leather_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:mountain_troll_leather_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:mountain_troll_leather_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:mountain_troll_leather_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:axolotl_armor_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:axolotl_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:axolotl_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:axolotl_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:snowtigerarmor_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:snowtigerarmor_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:snowtigerarmor_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:snowtigerarmor_leggings",
+      "required": false
+    }
+  ]
+}

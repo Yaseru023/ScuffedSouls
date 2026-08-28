@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "magistuarmory:barding",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_barding",
+      "required": false
+    }
+  ]
+}

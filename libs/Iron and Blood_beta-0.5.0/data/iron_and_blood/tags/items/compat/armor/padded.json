@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "lowlands_clothing:guard_captain_armor_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:guard_captain_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gambeson_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gambeson_chestplate",
+      "required": false
+    }
+  ]
+}

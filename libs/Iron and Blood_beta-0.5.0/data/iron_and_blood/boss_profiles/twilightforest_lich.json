@@ -1,0 +1,12 @@
+{
+  "entity": "twilightforest:lich",
+  "profile": "shielded_arcane_boss",
+  "hp": 30.0,
+  "defense": 0.0,
+  "damage_taken_multiplier": 0.98,
+  "stamina_damage_taken_multiplier": 0.72,
+  "stamina_multiplier": 2.5,
+  "final_stamina": 180.0,
+  "wounded_threshold_multiplier": 2.3,
+  "bleeding_multiplier": 0.0
+}

@@ -1,0 +1,633 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "fantasy_armor:crucible_knight_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:crucible_knight_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:crucible_knight_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:crucible_knight_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:dark_lord_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:dark_lord_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:dark_lord_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:dark_lord_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:dragonslayer_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:dragonslayer_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:dragonslayer_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:dragonslayer_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:grave_sentinel_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:grave_sentinel_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:grave_sentinel_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:grave_sentinel_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:old_knight_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:old_knight_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:old_knight_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:old_knight_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:ornstein_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:ornstein_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:ornstein_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:ornstein_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:redeemer_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:redeemer_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:redeemer_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:redeemer_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:silver_knight_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:silver_knight_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:silver_knight_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:silver_knight_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:twinned_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:twinned_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:twinned_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:twinned_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:depth_scaphander_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:depth_scaphander_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:depth_scaphander_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:depth_scaphander_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:furnacemasteramor_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:furnacemasteramor_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:furnacemasteramor_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:furnacemasteramor_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:cuirassier_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:cuirassier_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:cuirassier_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:cuirassier_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gothic_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gothic_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gothic_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:jousting_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:jousting_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:jousting_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:kastenbrust_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:kastenbrust_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:kastenbrust_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:maximilian_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:maximilian_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:maximilian_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wingedhussar_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:alla_tedesca_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:alla_tedesca_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:articulated_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:avant_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:avant_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:avant_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:bellows_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:ceremonial_kastenbrust_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:ceremonial_kastenbrust_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:close_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_bellows_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_crusader_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_crusader_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_crusader_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_crusader_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_gothic_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_gothic_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_gothic_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_gothic_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_greenwich_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_greenwich_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_jousting_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_jousting_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_jousting_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_jousting_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_kastenbrust_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_kastenbrust_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_kastenbrust_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_knight_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_knight_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_knight_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_knight_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_maximilian_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_maximilian_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_maximilian_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_peascod_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_proto_maximilian_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_proto_maximilian_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_gothic_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_gothic_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_gothic_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_greenwich_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_greenwich_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_kastenbrust_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_kastenbrust_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_kastenbrust_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_maximilian_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_maximilian_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_maximilian_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:devilish_grotesque_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:engraved_close_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:exquisite_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:facial_grotesque_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:fox_grotesque_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:greenwich_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:greenwich_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:grilled_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:lobster_tailed_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:mustache_grotesque_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:peascod_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:proto_maximilian_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:proto_maximilian_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:savoyard_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:silvered_dark_bellows_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:silvered_dark_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:silvered_dark_maximilian_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:silvered_dark_maximilian_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:silvered_dark_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:sugarloaf_helmet",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:barathians_armor_3_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:barathians_armor_3_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bohemian_armor_3_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bohemian_armor_3_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:burgundian_armor_3_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:burgundian_armor_3_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:hospitaller_armor_3_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:hospitaller_armor_3_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:orleanian_armor_3_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:orleanian_armor_3_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:templar_armor_3_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:templar_armor_3_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:valarian_armor_3_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:valarian_armor_3_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:visgothian_armor_3_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:visgothian_armor_3_leggings",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:iron_plate_armor_chest",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:iron_plate_armor_feet",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:iron_plate_armor_head",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:iron_plate_armor_legs",
+      "required": false
+    },
+    {
+      "id": "companions:crystallized_blood_boots",
+      "required": false
+    },
+    {
+      "id": "companions:crystallized_blood_chestplate",
+      "required": false
+    },
+    {
+      "id": "companions:crystallized_blood_helmet",
+      "required": false
+    },
+    {
+      "id": "companions:crystallized_blood_leggings",
+      "required": false
+    }
+  ]
+}

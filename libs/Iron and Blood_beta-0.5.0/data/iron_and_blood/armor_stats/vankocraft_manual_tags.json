@@ -1,0 +1,137 @@
+{
+    "entries":  [
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/samurai_cloth"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  0.5,
+                                                "chest":  1.0,
+                                                "legs":  0.8,
+                                                "feet":  0.5
+                                            },
+                        "response":  "soft"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/samurai_ninja"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  1.5,
+                                                "chest":  2.5,
+                                                "legs":  2.0,
+                                                "feet":  1.5
+                                            },
+                        "response":  "soft"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/samurai_light"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  -1,
+                                                "chest":  -1,
+                                                "legs":  -1,
+                                                "feet":  -1
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/samurai_standard"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  -1,
+                                                "chest":  -1,
+                                                "legs":  -1,
+                                                "feet":  -1
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/samurai_master"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  -1,
+                                                "chest":  -1,
+                                                "legs":  -1,
+                                                "feet":  -1
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/dungeons_cloth"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  0.8,
+                                                "chest":  1.5,
+                                                "legs":  1.0,
+                                                "feet":  0.8
+                                            },
+                        "response":  "soft"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/dungeons_padded"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  2.0,
+                                                "chest":  3.5,
+                                                "legs":  2.8,
+                                                "feet":  1.8
+                                            },
+                        "response":  "soft"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/dungeons_plate"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  10.0,
+                                                "chest":  12.0,
+                                                "legs":  10.0,
+                                                "feet":  8.0
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/dungeons_heavy"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  13.0,
+                                                "chest":  15.0,
+                                                "legs":  13.0,
+                                                "feet":  10.0
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/dungeons_scale"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  11.0,
+                                                "chest":  13.0,
+                                                "legs":  11.0,
+                                                "feet":  9.0
+                                            },
+                        "response":  "hard"
+                    },
+                    {
+                        "tags":  [
+                                     "iron_and_blood:compat/armor/dungeons_dragonsteel"
+                                 ],
+                        "defense_by_slot":  {
+                                                "head":  18.0,
+                                                "chest":  20.0,
+                                                "legs":  18.0,
+                                                "feet":  14.0
+                                            },
+                        "response":  "hard"
+                    }
+                ]
+}
+

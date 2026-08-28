@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "lowlands_clothing:bret_corsair_armor_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:bret_corsair_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:bret_corsair_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:bret_corsair_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:maskerade_armor_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:maskerade_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:maskerade_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:maskerade_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:leather_armor_boots",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:leather_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:leather_armor_leggings",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ender_dragon",
+    "minecraft:wither",
+    { "id": "saintsdragons:atroxiia", "required": false },
+    { "id": "saintsdragons:cindervane", "required": false },
+    { "id": "saintsdragons:ignivorus", "required": false },
+    { "id": "saintsdragons:mossback", "required": false },
+    { "id": "saintsdragons:nulljaw", "required": false },
+    { "id": "saintsdragons:raevyx", "required": false },
+    { "id": "saintsdragons:stegonaut", "required": false },
+    { "id": "saintsdragons:varasuchus", "required": false },
+    { "id": "saintsdragons:volitans", "required": false },
+    { "id": "twilightforest:alpha_yeti", "required": false },
+    { "id": "twilightforest:hydra", "required": false },
+    { "id": "twilightforest:knight_phantom", "required": false },
+    { "id": "twilightforest:lich", "required": false },
+    { "id": "twilightforest:minoshroom", "required": false },
+    { "id": "twilightforest:naga", "required": false },
+    { "id": "twilightforest:snow_queen", "required": false },
+    { "id": "twilightforest:ur_ghast", "required": false }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    { "id":  "legendary_monsters:skeletosaurus", "required":  false},
+    { "id":  "legendary_monsters:lava_eater", "required":  false},
+    { "id":  "legendary_monsters:shulker_mimic", "required":  false},
+    { "id": "legendary_monsters:spiky_worm", "required": false },
+    { "id": "legendary_monsters:ambusher", "required": false }
+  ]
+}

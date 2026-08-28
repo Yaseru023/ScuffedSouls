@@ -1,0 +1,1034 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"tconstruct:sword","required":false},
+    {
+      "id": "#forge:tools/sword",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/swords",
+      "required": false
+    },
+    {
+      "id": "#minecraft:swords",
+      "required": false
+    },
+    {
+      "id": "epicfight:diamond_longsword",
+      "required": false
+    },
+    {
+      "id": "epicfight:diamond_tachi",
+      "required": false
+    },
+    {
+      "id": "epicfight:golden_longsword",
+      "required": false
+    },
+    {
+      "id": "epicfight:golden_tachi",
+      "required": false
+    },
+    {
+      "id": "epicfight:iron_longsword",
+      "required": false
+    },
+    {
+      "id": "epicfight:iron_tachi",
+      "required": false
+    },
+    {
+      "id": "epicfight:netherite_longsword",
+      "required": false
+    },
+    {
+      "id": "epicfight:netherite_tachi",
+      "required": false
+    },
+    {
+      "id": "epicfight:stone_longsword",
+      "required": false
+    },
+    {
+      "id": "epicfight:stone_tachi",
+      "required": false
+    },
+    {
+      "id": "epicfight:uchigatana",
+      "required": false
+    },
+    {
+      "id": "epicfight:wooden_longsword",
+      "required": false
+    },
+    {
+      "id": "epicfight:wooden_tachi",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:skelewag_sword",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:skelewag_sword_hand",
+      "required": false
+    },
+    {
+      "id": "aquamirae:poisoned_blade",
+      "required": false
+    },
+    {
+      "id": "aquamirae:remnants_saber",
+      "required": false
+    },
+    {
+      "id": "aquamirae:terrible_sword",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:knight_sword",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:pirate_saber",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:pirate_saber_item",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:warrior_sword",
+      "required": false
+    },
+    {
+      "id": "call_of_yucutan:jade_sword",
+      "required": false
+    },
+    {
+      "id": "call_of_yucutan:macuahuitl",
+      "required": false
+    },
+    {
+      "id": "cataclysm:black_steel_sword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:katana",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:phantom_katana",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_diamond_sword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_diamondsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_golden_sword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_iron_sword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_ironsword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_netherite_sword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_netheritesword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_stone_sword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:s_wooden_sword",
+      "required": false
+    },
+    {
+      "id": "cdmoveset:yamato_blade",
+      "required": false
+    },
+    {
+      "id": "cnb:cinder_sword",
+      "required": false
+    },
+    {
+      "id": "cnb:cinder_sword_1",
+      "required": false
+    },
+    {
+      "id": "cnb:cinder_sword_2",
+      "required": false
+    },
+    {
+      "id": "cnb:cinder_sword_3",
+      "required": false
+    },
+    {
+      "id": "cnb:cinder_sword_4",
+      "required": false
+    },
+    {
+      "id": "companions:blade_arm",
+      "required": false
+    },
+    {
+      "id": "companions:crystallized_blood_sword",
+      "required": false
+    },
+    {
+      "id": "companions:shade_sword_altar",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:acid_molten_blazing_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:blessed_gold_twin_blade",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:blessed_gold_twinblade",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:broken_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:bronze_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:crimson_blood_fire_katana",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:crimson_bloodweave_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:crimson_katana",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:crimson_sovereign_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:crimson_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:cursed_blazing_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:cursed_molten_blazing_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dawn_breaker_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dead_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:delta_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:deserter_steel_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_fire_katana",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_ice_katana",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_lightning_katana",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:golden_saber",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:horde_torch_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:iron_twin_blade",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:iron_twinblade",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:kamath_oath_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:katana",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:long_katana",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_blazing_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:molten_dark_steel_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:netheerite_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:oath_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:royal_steel_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:rusty_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:sandstone_twin_blade",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:silver_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:solid_gold_saw_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:solid_gold_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:solid_gold_twinblade",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:steel_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:sunrise_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:sword_rusty",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:the_gravedigger_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:titanium_sword",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:wulfrum_katana",
+      "required": false
+    },
+    {
+      "id": "efn:hf_blade",
+      "required": false
+    },
+    {
+      "id": "efn:hf_murasama_blade",
+      "required": false
+    },
+    {
+      "id": "efn:nf_dual_sword",
+      "required": false
+    },
+    {
+      "id": "efn:nf_shortsword",
+      "required": false
+    },
+    {
+      "id": "efn:nf_shortsword_2",
+      "required": false
+    },
+    {
+      "id": "efn:sword_of_pioneer",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:automaton_sword",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:brocken_sky_automaton_sword",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:igneus_laser_blade",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:inky_sword_of_the_sky",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:pale_sword_of_the_sky",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:pearlecent_sword_of_the_sky",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:sword_of_the_sky",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:verdant_sword_of_the_sky",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:draco_arcanus_sword",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:reinforced_deorum_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:amphithere_macuahuitl",
+      "required": false
+    },
+    {
+      "id": "iceandfire:copper_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonbone_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonbone_sword_fire",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonbone_sword_ice",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonbone_sword_lightning",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_fire_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_ice_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_lightning_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dread_knight_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dread_queen_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dread_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:ghost_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:hippogryph_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_sword_venom",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_sword_venom",
+      "required": false
+    },
+    {
+      "id": "iceandfire:silver_sword",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:boreal_blade",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:dreadsword",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:obsidian_katana",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_shortsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_shortsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_shortsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_shortsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_shortsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:messer_sword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_shortsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:noble_sword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:rusted_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_shortsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_shortsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_shortsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_shortsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_bastardsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_flamebladedsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_shortsword",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:rich_saxon_sword",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_arming_sword_type_xiii",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_arming_sword_type_xiv",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_arming_sword_type_xv",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_cavalry_sabre",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_king_sword",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_messer_sword",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_sabre",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_saxon_sword",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:training_sword",
+      "required": false
+    },
+    {
+      "id": "oceanvillagertrader:turtle_sword",
+      "required": false
+    },
+    {
+      "id": "realmrpg_seadwellers:depth_sword",
+      "required": false
+    },
+    {
+      "id": "scguns:anthralite_sword",
+      "required": false
+    },
+    {
+      "id": "seadwellers:depth_sword",
+      "required": false
+    },
+    {
+      "id": "slavicarmory:steel_rus_sword",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:teardrop_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:giant_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:glass_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ice_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bandit_swordsman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:barathian_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:barathian_swordsman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bohemian_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bohemian_swordsman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:burgundian_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:burgundian_swordsman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:caladrian_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:caladrian_swordsman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:common_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:elven_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:galician_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:galician_swordsman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:hospitaller_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:hospitaller_swordsman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:lancastian_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:lancastian_swordsman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:mercenary_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:neutral_swordsman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:noble_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:numerian_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:numerian_swordsman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:orleanian_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:orleanian_swordsman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:practice_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:soldiers_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:templar_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:templar_swordsman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:undead_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:valarian_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:valarian_swordsman_item",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:visgothian_sword",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:visgothian_swordsman_item",
+      "required": false
+    },
+    {
+      "id": "vital_herbs:razor_leaf_sword",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:katana",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:katana_netherite",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:katana_oni",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:katana_kitsune",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:katana_kitsune_blue",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:katana_akaname",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:katana_jorogumo",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:wakizashi",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:wakizashi_netherite",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:bleesed_gold_axe",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:saw_cleaver_glaive",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:wood_katzbalger",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:stone_katzbalger",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:copper_katzbalger",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:tin_katzbalger",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:bronze_katzbalger",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:iron_katzbalger",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:steel_katzbalger",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:silver_katzbalger",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:gold_katzbalger",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:diamond_katzbalger",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:netherite_katzbalger",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_fire_sickle",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_ice_sickle",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:dragonsteel_lightning_sickle",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:golden_sickle",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:long_sickle",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:saw_cleaver_sickle",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_cutlass",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_falchion",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_feder",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_maciejowski_messer",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:steel_scimitar",
+      "required": false
+    },
+    {
+      "id": "wom:moonless",
+      "required": false
+    },
+    {
+      "id": "wom:moonless_handle",
+      "required": false
+    }
+  ]
+}

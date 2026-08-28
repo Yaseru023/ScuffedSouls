@@ -1,0 +1,255 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"tconstruct:battlesign","required":false},
+    {"id":"tconstruct:sky_staff","required":false},
+    {"id":"tconstruct:earth_staff","required":false},
+    {"id":"tconstruct:ichor_staff","required":false},
+    {"id":"tconstruct:ender_staff","required":false},
+    {"id":"tconstruct:swash","required":false},
+    {
+      "id": "epicfight:bokken",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/staff",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/staffs",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/staves",
+      "required": false
+    },
+    {
+      "id": "alexscaves:sea_staff",
+      "required": false
+    },
+    {
+      "id": "alexscaves:sugar_staff",
+      "required": false
+    },
+    {
+      "id": "companions:mage_staff",
+      "required": false
+    },
+    {
+      "id": "dacxirons:corroding_flame_staff",
+      "required": false
+    },
+    {
+      "id": "dacxirons:fairy_wand_staff",
+      "required": false
+    },
+    {
+      "id": "dacxirons:pyromancer_staff",
+      "required": false
+    },
+    {
+      "id": "dacxirons:sanguine_scepter_staff",
+      "required": false
+    },
+    {
+      "id": "dacxirons:scepter_of_compensation_staff",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:fairy_scepter",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:pyromancer_scepter",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:sanguine_scepter",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:scepter_of_compensation",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:wooden_battle_staff",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:wooden_staff",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:ice_staff",
+      "required": false
+    },
+    {
+      "id": "flying_stuff:pharaoh_staff",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:draco_arcanus_scepter",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:draco_arcanus_staff",
+      "required": false
+    },
+    {
+      "id": "ice_and_fire_spellbooks:crimson_dragon_priest_staff",
+      "required": false
+    },
+    {
+      "id": "ice_and_fire_spellbooks:dragon_priest_staff",
+      "required": false
+    },
+    {
+      "id": "ice_and_fire_spellbooks:silver_dragon_priest_staff",
+      "required": false
+    },
+    {
+      "id": "ice_and_fire_spellbooks:thunderous_dragon_priest_staff",
+      "required": false
+    },
+    {
+      "id": "iceandfire:cockatrice_scepter",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dread_queen_staff",
+      "required": false
+    },
+    {
+      "id": "iceandfire:lich_staff",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_staff",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:blood_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:dev_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:graybeard_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ice_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyrium_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:staff_of_the_nines",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:stone_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:stone_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:wooden_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:wooden_shovel",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:sculptor_staff",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:sunblock_staff",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fortification_scepter",
+      "required": false
+    },
+    {
+      "id": "twilightforest:lifedrain_scepter",
+      "required": false
+    },
+    {
+      "id": "twilightforest:twilight_scepter",
+      "required": false
+    },
+    {
+      "id": "twilightforest:zombie_scepter",
+      "required": false
+    },
+    {
+      "id": "wom:diamond_staff",
+      "required": false
+    },
+    {
+      "id": "wom:golden_staff",
+      "required": false
+    },
+    {
+      "id": "wom:iron_staff",
+      "required": false
+    },
+    {
+      "id": "wom:netherite_staff",
+      "required": false
+    },
+    {
+      "id": "wom:stone_staff",
+      "required": false
+    },
+    {
+      "id": "wom:wooden_staff",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "legendary_monsters:ancient_guardian", "required": false },
+    { "id": "legendary_monsters:posessed_paladin", "required": false },
+    { "id": "legendary_monsters:the_obliterator", "required": false },
+    { "id": "legendary_monsters:haunted_knight", "required": false },
+    { "id": "legendary_monsters:tamable_knight", "required": false },
+    { "id": "legendary_monsters:tamable_guard", "required": false },
+    { "id": "legendary_monsters:haunted_guard", "required": false },
+    { "id": "legendary_monsters:resurrected_knight", "required": false },
+    { "id": "legendary_monsters:beheaded_knight", "required": false },
+    { "id": "legendary_monsters:flameborn_guard", "required": false },
+    { "id": "legendary_monsters:flameborn_warrior", "required": false },
+    { "id": "legendary_monsters:annihilation_pursuer", "required": false },
+    { "id": "irons_spellbooks:fire_boss", "required": false },
+    { "id": "tkvm_dark_knight:dark_knight", "required": false }
+  ]
+}

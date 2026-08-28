@@ -1,0 +1,44 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_golem",
+    "minecraft:warden",
+    "minecraft:ender_dragon",
+    "minecraft:guardian",
+    "minecraft:elder_guardian",
+    {
+      "id": "iceandfire:fire_dragon",
+      "required": false
+    },
+    {
+      "id": "iceandfire:ice_dragon",
+      "required": false
+    },
+    {
+      "id": "iceandfire:lightning_dragon",
+      "required": false
+    },
+    { "id": "alexsmobs:cachalot_whale", "required": false },
+    { "id": "alexsmobs:elephant", "required": false },
+    { "id": "alexsmobs:void_worm", "required": false },
+    { "id": "goety:ender_keeper", "required": false },
+    { "id": "goety:endersent", "required": false },
+    { "id": "goety:grave_golem", "required": false },
+    { "id": "goety:hostile_redstone_golem", "required": false },
+    { "id": "goety:hostile_redstone_monstrosity", "required": false },
+    { "id": "goety:ice_golem", "required": false },
+    { "id": "goety:obsidian_monolith", "required": false },
+    { "id": "goety:redstone_golem", "required": false },
+    { "id": "goety:redstone_ministrosity", "required": false },
+    { "id": "goety:redstone_monstrosity", "required": false },
+    { "id": "goety:squall_golem", "required": false },
+    { "id": "goety:stone_ministrosity", "required": false },
+    { "id": "cataclysm:ancient_ancient_remnant", "required": false },
+    { "id": "cataclysm:ancient_remnant", "required": false },
+    { "id": "cataclysm:ender_guardian", "required": false },
+    { "id": "cataclysm:netherite_ministrosity", "required": false },
+    { "id": "cataclysm:netherite_monstrosity", "required": false },
+    { "id": "cataclysm:old_netherite_monstrosity", "required": false },
+    { "id": "cataclysm:the_harbinger", "required": false }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["LIL", "BHB", "LIL"],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "B": {
+      "item": "iron_and_blood:linen_bandage"
+    },
+    "H": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "iron_and_blood:chirurgeons_kit",
+    "count": 1
+  }
+}

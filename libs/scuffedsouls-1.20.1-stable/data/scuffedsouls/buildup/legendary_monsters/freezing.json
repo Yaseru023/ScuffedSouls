@@ -1,0 +1,12 @@
+{
+  "max_buildup": 100.0,
+  "decay_per_tick": 0.2,
+  "buildup_per_application": 30.0,
+  "color": "2ECEF2",
+  "activation": {
+    "type": "mob_effect",
+    "effect": "legendary_monsters:freezing",
+    "duration": 100,
+    "amplifier": 0
+  }
+}

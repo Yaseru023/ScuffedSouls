@@ -1,0 +1,11 @@
+{
+  "entity": "cataclysm:maledictus",
+  "profile": "undead_halberd_boss",
+  "hp": 420.0,
+  "damage_taken_multiplier": 1.0,
+  "stamina_damage_taken_multiplier": 0.75,
+  "stamina_multiplier": 3.2,
+  "final_stamina": 200.0,
+  "wounded_threshold_multiplier": 3.0,
+  "bleeding_multiplier": 0.0
+}

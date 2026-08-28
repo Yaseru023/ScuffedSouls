@@ -1,0 +1,24 @@
+{
+    "replace": false,
+    "values": [
+        { "id": "epicfight_dd:poleblade", "required": false },
+        { "id": "epicfight_dd:saber", "required": false },
+        { "id": "epicfight_dd:iron_messer", "required": false },
+        { "id": "epicfight_dd:golden_messer", "required": false },
+        { "id": "epicfight_dd:diamond_messer", "required": false },
+        { "id": "epicfight_dd:netherite_messer", "required": false },
+        { "id": "epicfight_dd:hookclaws", "required": false },
+        { "id": "cdmoveset:s_wooden_sword", "required": false },
+        { "id": "cdmoveset:s_stone_sword", "required": false },
+        { "id": "cdmoveset:s_iron_sword", "required": false },
+        { "id": "cdmoveset:s_golden_sword", "required": false },
+        { "id": "cdmoveset:s_diamond_sword", "required": false },
+        { "id": "cdmoveset:s_netherite_sword", "required": false },
+        { "id": "cdmoveset:s_wooden_longsword", "required": false },
+        { "id": "cdmoveset:s_stone_longsword", "required": false },
+        { "id": "cdmoveset:s_iron_longsword", "required": false },
+        { "id": "cdmoveset:s_golden_longsword", "required": false },
+        { "id": "cdmoveset:s_diamond_longsword", "required": false },
+        { "id": "cdmoveset:s_netherite_longsword", "required": false }
+    ]
+}

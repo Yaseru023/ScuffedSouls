@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "goety:ripper", "required": false },
+    { "id": "goety:ripper_servant", "required": false },
+    { "id": "goety:zombie_vindicator", "required": false }
+  ]
+}

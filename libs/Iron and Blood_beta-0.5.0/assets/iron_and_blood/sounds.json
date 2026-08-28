@@ -1,0 +1,32 @@
+{
+  "armor_strike": {
+    "sounds": [
+      "iron_and_blood:armor/armor_strike_1"
+    ]
+  },
+  "armor_sword_glance": {
+    "sounds": [
+      "iron_and_blood:armor/sword_glance_off_1"
+    ]
+  },
+  "armor_sword_damage": {
+    "sounds": [
+      "iron_and_blood:armor/sword_glance_off_2"
+    ]
+  },
+  "beheading": {
+    "sounds": [
+      "iron_and_blood:combat/beheading"
+    ]
+  },
+  "skeleton_beheading": {
+    "sounds": [
+      "iron_and_blood:combat/skeleton_beheading"
+    ]
+  },
+  "heartbeat": {
+    "sounds": [
+      "iron_and_blood:status/heartbeat"
+    ]
+  }
+}

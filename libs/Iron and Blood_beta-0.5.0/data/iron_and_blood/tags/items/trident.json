@@ -1,0 +1,50 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"tconstruct:javelin","required":false},
+    {
+      "id": "#forge:tools/trident",
+      "required": false
+    },
+    {
+      "id": "#forge:tools/tridents",
+      "required": false
+    },
+    {
+      "id": "#minecraft:tridents",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:kraken_trident",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:kraken_trident_item",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:neptunium_trident",
+      "required": false
+    },
+    {
+      "id": "dungeons_and_combat:netherite_trident",
+      "required": false
+    },
+    {
+      "id": "iceandfire:tide_trident",
+      "required": false
+    },
+    {
+      "id": "minecraft:trident",
+      "required": false
+    },
+    {
+      "id": "realmrpg_seadwellers:broken_trident",
+      "required": false
+    },
+    {
+      "id": "seadwellers:broken_trident",
+      "required": false
+    }
+  ]
+}

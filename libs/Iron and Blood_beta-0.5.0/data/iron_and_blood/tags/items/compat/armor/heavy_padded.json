@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "magistuarmoryaddon:chained_gambeson_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:arctic_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:arctic_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:arctic_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:arctic_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:yeti_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:yeti_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:yeti_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:yeti_leggings",
+      "required": false
+    }
+  ]
+}

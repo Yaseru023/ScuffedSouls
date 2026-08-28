@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entities": ["nightfall_invade:fallen_knight"],
+      "defense": 30.0,
+      "max_health": 20.0,
+      "max_stamina": 150.0,
+      "size_variants": false,
+      "armor_profile": "iron",
+      "humanoid": true
+    }
+  ]
+}

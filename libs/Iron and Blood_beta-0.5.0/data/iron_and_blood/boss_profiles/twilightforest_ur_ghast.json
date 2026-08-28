@@ -1,0 +1,12 @@
+{
+  "entity": "twilightforest:ur_ghast",
+  "profile": "flying_siege_boss",
+  "hp": 120.0,
+  "defense": 0.0,
+  "damage_taken_multiplier": 0.94,
+  "stamina_damage_taken_multiplier": 0.70,
+  "stamina_multiplier": 3.0,
+  "final_stamina": 320.0,
+  "wounded_threshold_multiplier": 2.8,
+  "bleeding_multiplier": 0.0
+}

@@ -1,0 +1,58 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "iceandfire:fire_dragon",
+      "required": false
+    },
+    {
+      "id": "iceandfire:ice_dragon",
+      "required": false
+    },
+    {
+      "id": "iceandfire:lightning_dragon",
+      "required": false
+    },
+    { "id": "cataclysm:amethyst_crab", "required": false },
+    { "id": "cataclysm:ancient_ancient_remnant", "required": false },
+    { "id": "cataclysm:ancient_remnant", "required": false },
+    { "id": "cataclysm:aptrgangr", "required": false },
+    { "id": "cataclysm:clawdian", "required": false },
+    { "id": "cataclysm:coral_golem", "required": false },
+    { "id": "cataclysm:coralssus", "required": false },
+    { "id": "cataclysm:deepling_brute", "required": false },
+    { "id": "cataclysm:draugr", "required": false },
+    { "id": "cataclysm:drowned_host", "required": false },
+    { "id": "cataclysm:elite_draugr", "required": false },
+    { "id": "cataclysm:ender_golem", "required": false },
+    { "id": "cataclysm:ender_guardian", "required": false },
+    { "id": "cataclysm:endermaptera", "required": false },
+    { "id": "cataclysm:hippocamtus", "required": false },
+    { "id": "cataclysm:ignis", "required": false },
+    { "id": "cataclysm:ignited_berserker", "required": false },
+    { "id": "cataclysm:ignited_revenant", "required": false },
+    { "id": "cataclysm:kobolediator", "required": false },
+    { "id": "cataclysm:maledictus", "required": false },
+    { "id": "cataclysm:modern_remnant", "required": false },
+    { "id": "cataclysm:netherite_ministrosity", "required": false },
+    { "id": "cataclysm:netherite_monstrosity", "required": false },
+    { "id": "cataclysm:old_netherite_monstrosity", "required": false },
+    { "id": "cataclysm:royal_draugr", "required": false },
+    { "id": "cataclysm:scylla", "required": false },
+    { "id": "cataclysm:the_baby_leviathan", "required": false },
+    { "id": "cataclysm:the_harbinger", "required": false },
+    { "id": "cataclysm:the_leviathan", "required": false },
+    { "id": "cataclysm:the_prowler", "required": false },
+    { "id": "cataclysm:the_watcher", "required": false },
+    { "id": "cataclysm:wadjet", "required": false },
+    { "id": "saintsdragons:atroxiia", "required": false },
+    { "id": "saintsdragons:cindervane", "required": false },
+    { "id": "saintsdragons:ignivorus", "required": false },
+    { "id": "saintsdragons:mossback", "required": false },
+    { "id": "saintsdragons:nulljaw", "required": false },
+    { "id": "saintsdragons:raevyx", "required": false },
+    { "id": "saintsdragons:stegonaut", "required": false },
+    { "id": "saintsdragons:varasuchus", "required": false },
+    { "id": "saintsdragons:volitans", "required": false }
+  ]
+}

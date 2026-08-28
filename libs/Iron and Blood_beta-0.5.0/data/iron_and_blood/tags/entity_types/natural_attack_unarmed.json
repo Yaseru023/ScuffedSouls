@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:drowned",
+    "minecraft:zombified_piglin",
+    "minecraft:piglin",
+    "minecraft:piglin_brute",
+    { "id": "alexsmobs:capuchin_monkey", "required": false },
+    { "id": "alexsmobs:gelada_monkey", "required": false },
+    { "id": "goety:damned", "required": false },
+    { "id": "goety:drowned_servant", "required": false },
+    { "id": "goety:frozen_zombie_servant", "required": false },
+    { "id": "goety:husk_servant", "required": false },
+    { "id": "goety:jungle_zombie_servant", "required": false },
+    { "id": "goety:zombie_servant", "required": false },
+    { "id": "goety:zombie_villager_servant", "required": false },
+    { "id": "goety:zpiglin_brute_servant", "required": false },
+    { "id": "goety:zpiglin_servant", "required": false }
+  ]
+}

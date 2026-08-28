@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "legendary_monsters:skeletosaurus", "required":  false},
+    { "id": "legendary_monsters:lava_eater", "required":  false},
+    { "id": "legendary_monsters:shulker_mimic", "required":  false},
+    { "id": "legendary_monsters:haunted_knight", "required": false },
+    { "id": "legendary_monsters:tamable_knight", "required": false },
+    { "id": "legendary_monsters:tamable_guard", "required": false },
+    { "id": "legendary_monsters:haunted_guard", "required": false },
+    { "id": "legendary_monsters:resurrected_knight", "required": false },
+    { "id": "legendary_monsters:flameborn_guard", "required": false },
+    { "id": "bb:dragon", "required": false },
+    { "id": "irons_spellbooks:fire_boss", "required": false },
+    { "id": "tkvm_dark_knight:dark_knight", "required": false }
+
+  ]
+}

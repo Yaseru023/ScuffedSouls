@@ -1,0 +1,267 @@
+{
+  "requirements": [
+    {
+      "item": "epicfight_dd:milady",
+      "stats": [
+        {"stat": "dexterity", "min": 44},
+        {"stat": "strength", "min": 26}
+      ]
+    },
+    {
+      "item": "epicfight_dd:bonecutting_saw",
+      "stats": [
+        {"stat": "strength", "min": 50},
+        {"stat": "stamina", "min": 20}
+      ]
+    },
+    {
+      "item": "epicfight_dd:poleblade",
+      "stats": [
+        {"stat": "dexterity", "min": 32},
+        {"stat": "strength", "min": 16},
+        {"stat": "vitality", "min": 15}
+      ]
+    },
+    {
+      "item": "epicfight_dd:vitreus",
+      "stats": [
+        {"stat": "strength", "min": 40},
+        {"stat": "intelligence", "min": 30}
+      ]
+    },
+    {
+      "item": "epicfight_dd:iron_fist",
+      "stats": [
+        {"stat": "dexterity", "min": 40},
+        {"stat": "strength", "min": 30}
+      ]
+    },
+    {
+      "item": "epicfight_dd:blood_ritus_dagger",
+      "stats": [
+        {"stat": "dexterity", "min": 42},
+        {"stat": "vitality", "min": 25}
+      ]
+    },
+    {
+      "item": "epicfight_dd:night_ritus_dagger",
+      "stats": [
+        {"stat": "dexterity", "min": 42},
+        {"stat": "vitality", "min": 25}
+      ]
+    },
+    {
+      "item": "epicfight_dd:saber",
+      "stats": [
+        {"stat": "strength", "min": 38},
+        {"stat": "intelligence", "min": 28}
+      ]
+    },
+    {
+      "item": "epicfight_dd:backhand_blade",
+      "stats": [
+        {"stat": "dexterity", "min": 44},
+        {"stat": "strength", "min": 20}
+      ]
+    },
+    {
+      "item": "epicfight_dd:steelaxe",
+      "stats": [
+        {"stat": "strength", "min": 45}
+      ]
+    },
+    {
+      "item": "epicfight_dd:war_sickle",
+      "stats": [
+        {"stat": "dexterity", "min": 38},
+        {"stat": "strength", "min": 24}
+      ]
+    },
+    {
+      "item": "epicfight_dd:nailbat",
+      "stats": [
+        {"stat": "strength", "min": 34},
+        {"stat": "luck", "min": 15}
+      ]
+    },
+    {
+      "item": "epicfight_dd:bat",
+      "stats": [
+        {"stat": "strength", "min": 15},
+        {"stat": "dexterity", "min": 10}
+      ]
+    },
+    {
+      "item": "epicfight_dd:iron_sickle",
+      "stats": [
+        {"stat": "dexterity", "min": 8}
+      ]
+    },
+    {
+      "item": "epicfight_dd:golden_sickle",
+      "stats": [
+        {"stat": "dexterity", "min": 12}
+      ]
+    },
+    {
+      "item": "epicfight_dd:diamond_sickle",
+      "stats": [
+        {"stat": "dexterity", "min": 16}
+      ]
+    },
+    {
+      "item": "epicfight_dd:netherite_sickle",
+      "stats": [
+        {"stat": "dexterity", "min": 24}
+      ]
+    },
+    {
+      "item": "epicfight_dd:iron_florett",
+      "stats": [
+        {"stat": "dexterity", "min": 12}
+      ]
+    },
+    {
+      "item": "epicfight_dd:golden_florett",
+      "stats": [
+        {"stat": "dexterity", "min": 17}
+      ]
+    },
+    {
+      "item": "epicfight_dd:diamond_florett",
+      "stats": [
+        {"stat": "dexterity", "min": 24}
+      ]
+    },
+    {
+      "item": "epicfight_dd:netherite_florett",
+      "stats": [
+        {"stat": "dexterity", "min": 34}
+      ]
+    },
+    {
+      "item": "epicfight_dd:iron_messer",
+      "stats": [
+        {"stat": "dexterity", "min": 10}
+      ]
+    },
+    {
+      "item": "epicfight_dd:golden_messer",
+      "stats": [
+        {"stat": "dexterity", "min": 14}
+      ]
+    },
+    {
+      "item": "epicfight_dd:diamond_messer",
+      "stats": [
+        {"stat": "dexterity", "min": 18}
+      ]
+    },
+    {
+      "item": "epicfight_dd:netherite_messer",
+      "stats": [
+        {"stat": "dexterity", "min": 26}
+      ]
+    },
+    {
+      "item": "epicfight_dd:iron_light_greatsword",
+      "stats": [
+        {"stat": "strength", "min": 13}
+      ]
+    },
+    {
+      "item": "epicfight_dd:golden_light_greatsword",
+      "stats": [
+        {"stat": "strength", "min": 18}
+      ]
+    },
+    {
+      "item": "epicfight_dd:diamond_light_greatsword",
+      "stats": [
+        {"stat": "strength", "min": 25}
+      ]
+    },
+    {
+      "item": "epicfight_dd:netherite_light_greatsword",
+      "stats": [
+        {"stat": "strength", "min": 36}
+      ]
+    },
+    {
+      "item": "epicfight_dd:iron_halberd",
+      "stats": [
+        {"stat": "strength", "min": 14}
+      ]
+    },
+    {
+      "item": "epicfight_dd:golden_halberd",
+      "stats": [
+        {"stat": "strength", "min": 20}
+      ]
+    },
+    {
+      "item": "epicfight_dd:diamond_halberd",
+      "stats": [
+        {"stat": "strength", "min": 26}
+      ]
+    },
+    {
+      "item": "epicfight_dd:netherite_halberd",
+      "stats": [
+        {"stat": "strength", "min": 36}
+      ]
+    },
+    {
+      "item": "epicfight_dd:iron_knife",
+      "stats": [
+        {"stat": "dexterity", "min": 8}
+      ]
+    },
+    {
+      "item": "epicfight_dd:golden_knife",
+      "stats": [
+        {"stat": "dexterity", "min": 12}
+      ]
+    },
+    {
+      "item": "epicfight_dd:diamond_knife",
+      "stats": [
+        {"stat": "dexterity", "min": 16}
+      ]
+    },
+    {
+      "item": "epicfight_dd:netherite_knife",
+      "stats": [
+        {"stat": "dexterity", "min": 24}
+      ]
+    },
+    {
+      "item": "epicfight_dd:iron_battlestaff",
+      "stats": [
+        {"stat": "dexterity", "min": 12},
+        {"stat": "strength", "min": 6}
+      ]
+    },
+    {
+      "item": "epicfight_dd:golden_battlestaff",
+      "stats": [
+        {"stat": "dexterity", "min": 16},
+        {"stat": "strength", "min": 8}
+      ]
+    },
+    {
+      "item": "epicfight_dd:diamond_battlestaff",
+      "stats": [
+        {"stat": "dexterity", "min": 22},
+        {"stat": "strength", "min": 12}
+      ]
+    },
+    {
+      "item": "epicfight_dd:netherite_battlestaff",
+      "stats": [
+        {"stat": "dexterity", "min": 32},
+        {"stat": "strength", "min": 16}
+      ]
+    }
+  ]
+}

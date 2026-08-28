@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "legendary_monsters:chorusent", "required": false},
+    { "id": "legendary_monsters:overgrown_colosuss", "required": false },
+    { "id": "legendary_monsters:cloud_golem", "required": false },
+    { "id": "legendary_monsters:frostbitten_golem", "required": false },
+    { "id": "legendary_monsters:withered_abomination", "required": false },
+    { "id": "legendary_monsters:endersent", "required": false },
+    { "id": "tkvm_dark_knight:dark_knight", "required": false }
+  ]
+}

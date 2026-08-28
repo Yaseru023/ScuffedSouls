@@ -1,0 +1,77 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "magistuarmoryaddon:dark_gilded_parade_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_gilded_parade_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:embosed_parade_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:embosed_parade_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_bellows_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_close_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_exquisite_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_fox_grotesque_maximilian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_grilled_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_heavy_brigandine_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_heavy_brigandine_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_heavy_brigandine_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_maximillian_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_peascod_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_sugarloaf_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_xivcenturyknight_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_xivcenturyknight_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_xivcenturyknight_leggings",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "items": ["epicfight_awaken:will_of_king"],
+      "category": "heavy_sword",
+      "body_damage": 3.13,
+      "defense_damage": 0.56,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_awaken:rage_of_flame"],
+      "category": "heavy_sword",
+      "body_damage": 3.13,
+      "defense_damage": 0.56,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["epicfight_awaken:darknight_pursuiters"],
+      "category": "piercing_dagger",
+      "body_damage": 2.15,
+      "defense_damage": 0.39,
+      "bleeding_capable": true
+    }
+  ]
+}

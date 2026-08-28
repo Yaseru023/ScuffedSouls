@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "magistuarmoryaddon:dark_heavy_brigandine_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_heavy_brigandine_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_heavy_brigandine_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_heavy_cuirassier_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:dark_heavy_cuirassier_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:heavy_brigandine_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:heavy_brigandine_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:heavy_brigandine_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:heavy_cuirassier_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:heavy_cuirassier_chestplate",
+      "required": false
+    }
+  ]
+}

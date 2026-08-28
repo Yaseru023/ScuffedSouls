@@ -1,0 +1,30 @@
+{
+  "textures": [
+    "iron_and_blood:blood_pool_1",
+    "iron_and_blood:blood_pool_2",
+    "iron_and_blood:blood_pool_3",
+    "iron_and_blood:blood_pool_4",
+    "iron_and_blood:blood_pool_5",
+    "iron_and_blood:blood_pool_6",
+    "iron_and_blood:blood_pool_7",
+    "iron_and_blood:blood_pool_8",
+    "iron_and_blood:blood_pool_9",
+    "iron_and_blood:blood_pool_new",
+    "iron_and_blood:blood_particle_1",
+    "iron_and_blood:blood_particle_2",
+    "iron_and_blood:blood_particle_3",
+    "iron_and_blood:blood_particle_new_1",
+    "iron_and_blood:blood_particle_new_2",
+    "iron_and_blood:blood_particle_new_3",
+    "iron_and_blood:blood_particle_new_4",
+    "iron_and_blood:blood_particle_new_5",
+    "iron_and_blood:blood_particle_new_6",
+    "iron_and_blood:blood_particle_new_7",
+    "iron_and_blood:blood_particle_new_8",
+    "iron_and_blood:blood_particle_new_9",
+    "iron_and_blood:blood_particle_new_10",
+    "iron_and_blood:blood_particle_new_11",
+    "iron_and_blood:blood_particle_directional_1",
+    "iron_and_blood:blood_pool_wall_large"
+  ]
+}

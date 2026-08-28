@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values": [
+        { "id": "epicfight_awaken:will_of_king", "required": false },
+        { "id": "epicfight_awaken:rage_of_flame", "required": false },
+        { "id": "epicfight_dd:vitreus", "required": false },
+        { "id": "epicfight_dd:bonecutting_saw", "required": false },
+        { "id": "legendary_monsters:chorus_blade", "required": false },
+        { "id": "legendary_monsters:the_great_frost", "required": false },
+        { "id": "legendary_monsters:soul_greatsword", "required": false },
+        { "id": "legendary_monsters:the_great_frost", "required": false },
+        { "id": "legendary_monsters:shattered_greatsword", "required": false },
+        { "id": "legendary_monsters:knights_sword", "required": false },
+        { "id": "cdmoveset:s_wooden_greatsword", "required": false },
+        { "id": "cdmoveset:s_stone_greatsword", "required": false },
+        { "id": "cdmoveset:s_iron_greatsword", "required": false },
+        { "id": "cdmoveset:s_golden_greatsword", "required": false },
+        { "id": "cdmoveset:s_diamond_greatsword", "required": false },
+        { "id": "cdmoveset:s_netherite_greatsword", "required": false },
+        { "id": "cdmoveset:s_wooden_tachi", "required": false },
+        { "id": "cdmoveset:s_stone_tachi", "required": false },
+        { "id": "cdmoveset:s_iron_tachi", "required": false },
+        { "id": "cdmoveset:s_golden_tachi", "required": false },
+        { "id": "cdmoveset:s_diamond_tachi", "required": false },
+        { "id": "cdmoveset:s_netherite_tachi", "required": false },
+        { "id": "cdmoveset:katana", "required": false },
+        { "id": "cdmoveset:phantom_katana", "required": false },
+        { "id": "cdmoveset:yamato", "required": false },
+        { "id": "cdmoveset:great_tachi", "required": false }
+
+
+    ]
+}

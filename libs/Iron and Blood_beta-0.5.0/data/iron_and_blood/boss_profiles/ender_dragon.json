@@ -1,0 +1,31 @@
+{
+  "entity": "minecraft:ender_dragon",
+  "profile": "armored_flying_boss",
+  "hp": 100,
+  "defense": 30,
+  "perched_defense_multiplier": 1.00,
+  "damage_taken_multiplier": 1.00,
+  "stamina_damage_taken_multiplier": 0.85,
+  "stamina_multiplier": 2.40,
+  "final_stamina": 358,
+  "wounded_threshold_multiplier": 2.00,
+  "bleeding_multiplier": 0.00,
+  "wounded_effect_multiplier": 0.40,
+  "finisher_body_damage_requirement_multiplier": 3.00,
+  "contact_attack": {
+    "body_damage": 18,
+    "defense_damage": 30,
+    "stamina_damage_multiplier": 1.20
+  },
+  "charge_attack": {
+    "body_damage": 22,
+    "defense_damage": 42,
+    "stamina_damage_multiplier": 1.60
+  },
+  "dragon_breath": {
+    "body_damage_per_second": 4,
+    "defense_damage": 18,
+    "armor_interaction": "partial",
+    "applies_bleeding": false
+  }
+}

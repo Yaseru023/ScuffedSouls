@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "magistuarmoryaddon:gilded_chainmail_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:gilded_chainmail_leggings",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "targets": [
+    "#forge:bosses",
+    "#c:bosses",
+    "cataclysm:the_harbinger",
+    "cataclysm:netherite_monstrosity",
+    "cataclysm:ender_guardian",
+    "cataclysm:ancient_remnant",
+    "cataclysm:the_leviathan",
+    "cataclysm:scylla",
+    "cataclysm:maledictus",
+    "cataclysm:ignis",
+    "legendary_monsters:endersent",
+    "legendary_monsters:skeletosaurus",
+    "legendary_monsters:withered_abomination",
+    "legendary_monsters:lava_eater",
+    "legendary_monsters:frostbitten_golem",
+    "legendary_monsters:cloud_golem",
+    "legendary_monsters:overgrown_colossus",
+    "legendary_monsters:the_obliterator",
+    "legendary_monsters:posessed_paladin",
+    "legendary_monsters:ancient_guardian",
+    "the_faint_radiance:lychnus",
+    "tkvm_dark_knight:dark_knight"
+  ],
+  "message": {
+    "translate": "souls_message_banners.message.entity_felled"
+  },
+  "style": "souls_message_banners:entity_felled",
+  "priority": -1
+}

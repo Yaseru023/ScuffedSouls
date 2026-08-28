@@ -1,0 +1,199 @@
+{
+  "requirements": [
+    {
+      "item": "wom:agony",
+      "stats": [
+        {"stat": "dexterity", "min": 48},
+        {"stat": "strength", "min": 25},
+        {"stat": "stamina", "min": 20}
+      ]
+    },
+    {
+      "item": "wom:tormented_mind",
+      "stats": [
+        {"stat": "strength", "min": 52},
+        {"stat": "vitality", "min": 35}
+      ]
+    },
+    {
+      "item": "wom:ruine",
+      "stats": [
+        {"stat": "strength", "min": 38},
+        {"stat": "intelligence", "min": 34},
+        {"stat": "dexterity", "min": 20}
+      ]
+    },
+    {
+      "item": "wom:ender_blaster",
+      "stats": [
+        {"stat": "dexterity", "min": 46},
+        {"stat": "strength", "min": 20}
+      ]
+    },
+    {
+      "item": "wom:antitheus",
+      "stats": [
+        {"stat": "intelligence", "min": 42},
+        {"stat": "strength", "min": 30},
+        {"stat": "vitality", "min": 25}
+      ]
+    },
+    {
+      "item": "wom:satsujin",
+      "stats": [
+        {"stat": "dexterity", "min": 50},
+        {"stat": "strength", "min": 20}
+      ]
+    },
+    {
+      "item": "wom:herrscher",
+      "stats": [
+        {"stat": "strength", "min": 30},
+        {"stat": "endurance", "min": 20},
+        {"stat": "dexterity", "min": 15}
+      ]
+    },
+    {
+      "item": "wom:gesetz",
+      "stats": [
+        {"stat": "endurance", "min": 42},
+        {"stat": "strength", "min": 28},
+        {"stat": "vitality", "min": 20}
+      ]
+    },
+    {
+      "item": "wom:solar",
+      "stats": [
+        {"stat": "strength", "min": 48},
+        {"stat": "intelligence", "min": 30},
+        {"stat": "vitality", "min": 20}
+      ]
+    },
+    {
+      "item": "wom:napoleon",
+      "stats": [
+        {"stat": "strength", "min": 40},
+        {"stat": "dexterity", "min": 30},
+        {"stat": "stamina", "min": 20}
+      ]
+    },
+    {
+      "item": "wom:moonless",
+      "stats": [
+        {"stat": "dexterity", "min": 46},
+        {"stat": "intelligence", "min": 25},
+        {"stat": "luck", "min": 15}
+      ]
+    },
+    {
+      "item": "wom:evil_tachi",
+      "stats": [
+        {"stat": "dexterity", "min": 52},
+        {"stat": "luck", "min": 20}
+      ]
+    },
+    {
+      "item": "wom:iron_greataxe",
+      "stats": [
+        {"stat": "strength", "min": 16}
+      ]
+    },
+    {
+      "item": "wom:golden_greataxe",
+      "stats": [
+        {"stat": "strength", "min": 22}
+      ]
+    },
+    {
+      "item": "wom:diamond_greataxe",
+      "stats": [
+        {"stat": "strength", "min": 30}
+      ]
+    },
+    {
+      "item": "wom:netherite_greataxe",
+      "stats": [
+        {"stat": "strength", "min": 42}
+      ]
+    },
+    {
+      "item": "wom:hollow_longsword",
+      "stats": [
+        {"stat": "strength", "min": 20},
+        {"stat": "endurance", "min": 20}
+      ]
+    },
+    {
+      "item": "wom:jabberwocky",
+      "stats": [
+        {"stat": "dexterity", "min": 20},
+        {"stat": "endurance", "min": 20}
+      ]
+    },
+    {
+      "item": "wom:nova",
+      "stats": [
+        {"stat": "dexterity", "min": 50},
+        {"stat": "strength", "min": 20},
+        {"stat": "endurance", "min": 30}
+      ]
+    },
+    {
+      "item": "wom:orbit",
+      "stats": [
+        {"stat": "dexterity", "min": 50},
+        {"stat": "magic", "min": 20},
+        {"stat": "intelligence", "min": 30}
+      ]
+    },
+    {
+      "item": "wom:blackstar",
+      "stats": [
+        {"stat": "dexterity", "min": 50},
+        {"stat": "strength", "min": 20},
+        {"stat": "stamina", "min": 30}
+      ]
+    },
+    {
+      "item": "wom:wood_staff",
+      "stats": [
+        {"stat": "dexterity", "min": 4}
+      ]
+    },
+    {
+      "item": "wom:stone_staff",
+      "stats": [
+        {"stat": "dexterity", "min": 8},
+        {"stat": "strength", "min": 4}
+      ]
+    },
+    {
+      "item": "wom:iron_staff",
+      "stats": [
+        {"stat": "dexterity", "min": 12},
+        {"stat": "strength", "min": 6}
+      ]
+    },
+    {
+      "item": "wom:golden_staff",
+      "stats": [
+        {"stat": "dexterity", "min": 16},
+        {"stat": "strength", "min": 8}
+      ]
+    },
+    {
+      "item": "wom:diamond_staff",
+      "stats": [
+        {"stat": "dexterity", "min": 22},
+        {"stat": "strength", "min": 12}
+      ]
+    },
+    {
+      "item": "wom:netherite_staff",
+      "stats": [
+        {"stat": "dexterity", "min": 32},
+        {"stat": "strength", "min": 16}
+      ]
+    }
+  ]
+}

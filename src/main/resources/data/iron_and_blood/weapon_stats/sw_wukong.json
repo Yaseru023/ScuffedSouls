@@ -1,0 +1,32 @@
+{
+  "entries": [
+    {
+      "items": ["sw_wukong:iron_wukong_staff"],
+      "category": "blunt",
+      "body_damage": 2.07,
+      "defense_damage": 0.37,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["sw_wukong:wukong_staff"],
+      "category": "blunt",
+      "body_damage": 5.50,
+      "defense_damage": 3.45,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["sw_wukong:ghost_wukong_staff"],
+      "category": "blunt",
+      "body_damage": 7.83,
+      "defense_damage": 4.51,
+      "bleeding_capable": true
+    },
+    {
+      "items": ["sw_wukong:dark_wukong_staff"],
+      "category": "blunt",
+      "body_damage": 9.13,
+      "defense_damage": 7.56,
+      "bleeding_capable": true
+    }
+  ]
+}

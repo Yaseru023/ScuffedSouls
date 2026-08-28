@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"createclothes:snow_helmet","required":false},
+    {"id":"createclothes:snow_coat","required":false},
+    {"id":"createclothes:snow_pants","required":false},
+    {"id":"createclothes:snow_boots","required":false}
+  ]
+}

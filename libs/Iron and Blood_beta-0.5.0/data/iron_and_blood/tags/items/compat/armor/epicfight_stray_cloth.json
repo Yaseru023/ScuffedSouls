@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "epicfight:stray_hat",
+      "required": false
+    },
+    {
+      "id": "epicfight:stray_robe",
+      "required": false
+    },
+    {
+      "id": "epicfight:stray_pants",
+      "required": false
+    }
+  ]
+}

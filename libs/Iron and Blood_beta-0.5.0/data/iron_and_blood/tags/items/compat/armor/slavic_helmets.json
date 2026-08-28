@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"slavicarmory:late_phrygian_helmet","required":false},
+    {"id":"slavicarmory:gilded_late_phrygian_helmet","required":false},
+    {"id":"slavicarmory:varangian_guard_helmet","required":false},
+    {"id":"slavicarmory:gilded_shater_helmet","required":false},
+    {"id":"slavicarmory:shater_helmet","required":false},
+    {"id":"slavicarmory:gilded_raikovec_helmet","required":false},
+    {"id":"slavicarmory:raikovec_helmet","required":false},
+    {"id":"slavicarmory:gilded_nikolskoe_helmet","required":false},
+    {"id":"slavicarmory:nikolskoe_helmet","required":false},
+    {"id":"slavicarmory:gilded_andreevski_helmet","required":false},
+    {"id":"slavicarmory:andreevski_helmet","required":false},
+    {"id":"slavicarmory:varangian_helmet","required":false},
+    {"id":"slavicarmory:gilded_eastern_kettlehat","required":false},
+    {"id":"slavicarmory:eastern_kettlehat","required":false},
+    {"id":"slavicarmory:gilded_gnezdovo_helmet","required":false},
+    {"id":"slavicarmory:gnezdovo_helmet","required":false},
+    {"id":"slavicarmory:ozernoe_helmet","required":false},
+    {"id":"slavicarmory:gilded_tagancha_helmet","required":false},
+    {"id":"slavicarmory:tagancha_helmet","required":false},
+    {"id":"slavicarmory:bulgar_helmet","required":false}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "#forge:tools/scythe", "required": false },
+    { "id": "#forge:tools/scythes", "required": false },
+    { "id": "#forge:weapons/scythe", "required": false },
+    { "id": "#forge:weapons/scythes", "required": false },
+    { "id": "tconstruct:scythe", "required": false },
+    { "id": "companions:crystallized_blood_scythe", "required": false },
+    { "id": "dungeons_and_combat:carnage_scythe", "required": false },
+    { "id": "dungeons_and_combat:crimson_scythe", "required": false },
+    { "id": "dungeons_and_combat:ebony_scythe", "required": false },
+    { "id": "dungeons_and_combat:netherite_scythe", "required": false },
+    { "id": "dungeons_and_combat:reaver_scythe", "required": false },
+    { "id": "irons_spellbooks:decrepit_scythe", "required": false },
+    { "id": "irons_spellbooks:stone_scythe", "required": false },
+    { "id": "magistuarmoryaddon:steel_scythe", "required": false },
+    { "id": "dungeons_and_combat:crimson_sickle_sword", "required": false },
+    { "id": "epicfightx:eternal_night_scythe", "required": false },
+    { "id": "dungeons_and_combat:ebony_sickle", "required": false },
+    { "id": "wom:antitheus", "required": false }
+  ]
+}

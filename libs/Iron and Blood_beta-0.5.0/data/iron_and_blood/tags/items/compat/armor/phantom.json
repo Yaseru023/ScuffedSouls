@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "twilightforest:phantom_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:phantom_helmet",
+      "required": false
+    }
+  ]
+}

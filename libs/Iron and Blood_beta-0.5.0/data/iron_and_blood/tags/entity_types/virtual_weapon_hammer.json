@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "goety:blackguard_servant", "required": false },
+    { "id": "goety:crusher", "required": false },
+    { "id": "goety:crusher_servant", "required": false },
+    { "id": "cataclysm:scylla", "required": false }
+  ]
+}

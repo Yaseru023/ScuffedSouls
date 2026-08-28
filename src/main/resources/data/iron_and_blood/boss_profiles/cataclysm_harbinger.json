@@ -1,0 +1,11 @@
+{
+  "entity": "cataclysm:the_harbinger",
+  "profile": "armored_artillery_construct",
+  "hp": 400.0,
+  "damage_taken_multiplier": 1.0,
+  "stamina_damage_taken_multiplier": 0.70,
+  "stamina_multiplier": 3.4,
+  "final_stamina": 200.0,
+  "wounded_threshold_multiplier": 2.6,
+  "bleeding_multiplier": 0.0
+}

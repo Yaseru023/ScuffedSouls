@@ -1,0 +1,12 @@
+{
+  "max_buildup": 100.0,
+  "decay_per_tick": 0.2,
+  "buildup_per_application": 33.0,
+  "color": "424242",
+  "activation": {
+    "type": "mob_effect",
+    "effect": "minecraft:wither",
+    "duration": 200,
+    "amplifier": 0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "cdmoveset:s_wooden_spear", "required": false },
+    { "id": "cdmoveset:s_stone_spear", "required": false },
+    { "id": "cdmoveset:s_golden_spear", "required": false },
+    { "id": "cdmoveset:s_diamond_spear", "required": false },
+    { "id": "cdmoveset:s_netherite_spear", "required": false }
+  ]
+}

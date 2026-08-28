@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        { "id": "epicfight_dd:iron_fist", "required": false },
+        { "id": "epicfight_dd:nailbat", "required": false },
+        { "id": "epicfight_dd:bat", "required": false }
+
+    ]
+}

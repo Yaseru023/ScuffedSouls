@@ -1,0 +1,35 @@
+{
+  "requirements": [
+    {
+      "item": "sw_wukong:iron_wukong_staff",
+      "stats": [
+        {"stat": "strength", "min": 15},
+        {"stat": "endurance", "min": 10}
+      ]
+    },
+    {
+      "item": "sw_wukong:wukong_staff",
+      "stats": [
+        {"stat": "strength", "min": 30},
+        {"stat": "endurance", "min": 25},
+        {"stat": "stamina", "min": 20}
+      ]
+    },
+    {
+      "item": "sw_wukong:ghost_wukong_staff",
+      "stats": [
+        {"stat": "strength", "min": 40},
+        {"stat": "dexterity", "min": 35},
+        {"stat": "stamina", "min": 30}
+      ]
+    },
+    {
+      "item": "sw_wukong:dark_wukong_staff",
+      "stats": [
+        {"stat": "strength", "min": 55},
+        {"stat": "endurance", "min": 30},
+        {"stat": "stamina", "min": 40}
+      ]
+    }
+  ]
+}

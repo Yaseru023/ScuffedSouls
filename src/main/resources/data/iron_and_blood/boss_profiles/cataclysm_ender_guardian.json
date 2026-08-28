@@ -1,0 +1,11 @@
+{
+  "entity": "cataclysm:ender_guardian",
+  "profile": "armored_void_construct",
+  "hp": 400.0,
+  "damage_taken_multiplier": 1.0,
+  "stamina_damage_taken_multiplier": 0.80,
+  "stamina_multiplier": 2.8,
+  "final_stamina": 400.0,
+  "wounded_threshold_multiplier": 2.0,
+  "bleeding_multiplier": 0.35
+}

@@ -1,0 +1,533 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "lowlands_clothing:guard_captain_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:guard_captain_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:chess_board_knight_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:chess_board_knight_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:chess_board_knight_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:chess_board_knight_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:dead_gladiator_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:dead_gladiator_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:dead_gladiator_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:dead_gladiator_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:eclipse_soldier_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:eclipse_soldier_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:eclipse_soldier_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:eclipse_soldier_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:fog_guard_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:fog_guard_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:fog_guard_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:fog_guard_leggings",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:forgotten_trace_boots",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:forgotten_trace_chestplate",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:forgotten_trace_helmet",
+      "required": false
+    },
+    {
+      "id": "fantasy_armor:forgotten_trace_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:wald_knight_armor_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:wald_knight_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:wald_knight_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:wald_knight_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:wingedcavaleryarmor_boots",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:wingedcavaleryarmor_chestplate",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:wingedcavaleryarmor_helmet",
+      "required": false
+    },
+    {
+      "id": "lowlands_clothing:wingedcavaleryarmor_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:crusader_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:crusader_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:crusader_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:face_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:knight_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:knight_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:knight_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:norman_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:platemail_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:platemail_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:platemail_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:xivcenturyknight_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:xivcenturyknight_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmory:xivcenturyknight_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:cuman_captain_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:cuman_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_knight_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_knight_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:darkblued_knight_leggings",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:english_knight_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:english_knight_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:engraved_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:enlglish_knight_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:light_cuman_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:lion_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:mamluk_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:mirror_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:mirror_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:saracen_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:saracen_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:saracen_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:tablet_helmet",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:xiii_century_knight_boots",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:xiii_century_knight_chestplate",
+      "required": false
+    },
+    {
+      "id": "magistuarmoryaddon:xiii_century_knight_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:barathians_armor_2_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:barathians_armor_2_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:barbute_helm_helmet",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bascinet_helm_helmet",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bohemian_armor_2_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:bohemian_armor_2_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:burgundian_armor_2_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:burgundian_armor_2_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:hospitaller_armor_2_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:hospitaller_armor_2_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:kalota_helm_helmet",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:kettle_helm_helmet",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:lord_coronet_helmet",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:nasal_helm_2_helmet",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:nasal_helm_helmet",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:neutral_armor_2_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:neutral_armor_2_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:orleanian_armor_2_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:orleanian_armor_2_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:templar_armor_2_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:templar_armor_2_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:valarian_armor_2_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:valarian_armor_2_leggings",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:visgothian_armor_2_chestplate",
+      "required": false
+    },
+    {
+      "id": "valarian_conquest:visgothian_armor_2_leggings",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:anubis_armor_chest",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:anubis_armor_feet",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:anubis_armor_head",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:anubis_armor_legs",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:centurion_armor_chest",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:centurion_armor_feet",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:centurion_armor_head",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:centurion_armor_legs",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:holy_armor_chest",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:holy_armor_feet",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:holy_armor_head",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:holy_armor_legs",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:o_yoroi_armor_chest",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:o_yoroi_armor_feet",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:o_yoroi_armor_head",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:o_yoroi_armor_legs",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:pharaoh_armor_chest",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:pharaoh_armor_feet",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:pharaoh_armor_head",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:pharaoh_armor_legs",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:quetzalcoatl_armor_chest",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:quetzalcoatl_armor_feet",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:quetzalcoatl_armor_head",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:quetzalcoatl_armor_legs",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:raijin_armor_chest",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:raijin_armor_feet",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:raijin_armor_head",
+      "required": false
+    },
+    {
+      "id": "armoroftheages:raijin_armor_legs",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:knight_boots",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:knight_chestplate",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:knight_helmet",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:knight_leggings",
+      "required": false
+    },
+    {
+      "id": "aquamirae:terrible_boots",
+      "required": false
+    },
+    {
+      "id": "aquamirae:terrible_chestplate",
+      "required": false
+    },
+    {
+      "id": "aquamirae:terrible_helmet",
+      "required": false
+    },
+    {
+      "id": "aquamirae:terrible_leggings",
+      "required": false
+    },
+    {
+      "id": "call_of_yucutan:jades_boots",
+      "required": false
+    },
+    {
+      "id": "call_of_yucutan:jades_chestplate",
+      "required": false
+    },
+    {
+      "id": "call_of_yucutan:jades_helmet",
+      "required": false
+    },
+    {
+      "id": "call_of_yucutan:jades_leggings",
+      "required": false
+    },
+    {
+      "id": "call_of_yucutan:huracan_helmet",
+      "required": false
+    },
+    {
+      "id": "call_of_yucutan:warrior_helmet",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "entries": [
+    {
+      "entities": ["the_faint_radiance:lychnus"],
+      "natural_body_damage": 5.8,
+      "natural_defense_damage": 4.5,
+      "can_bleed": false,
+      "size_variants": false
+    }
+  ]
+}

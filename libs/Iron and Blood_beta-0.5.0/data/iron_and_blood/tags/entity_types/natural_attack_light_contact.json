@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:silverfish",
+    "minecraft:endermite",
+    { "id": "alexsmobs:banana_slug", "required": false },
+    { "id": "alexsmobs:cockroach", "required": false },
+    { "id": "alexsmobs:fly", "required": false },
+    { "id": "alexsmobs:leafcutter_ant", "required": false },
+    { "id": "alexsmobs:rain_frog", "required": false },
+    { "id": "goety:carrion_fly", "required": false },
+    { "id": "goety:carrion_maggot", "required": false },
+    { "id": "goety:irk", "required": false },
+    { "id": "goety:irk_servant", "required": false },
+    { "id": "goety:vampire_bat", "required": false },
+    { "id": "cataclysm:symbiocto", "required": false },
+    { "id": "saintsdragons:mossback", "required": false }
+  ]
+}
