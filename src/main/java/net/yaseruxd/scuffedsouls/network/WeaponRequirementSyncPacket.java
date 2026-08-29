@@ -27,8 +27,13 @@ public class WeaponRequirementSyncPacket {
     }
 
     public static void encode(WeaponRequirementSyncPacket msg, FriendlyByteBuf buf) {
-        buf.writeVarInt(msg.requirements.size());
-        for (WeaponRequirement req : msg.requirements) {
+        // Filter nulls before writing count
+        List<WeaponRequirement> valid = msg.requirements.stream()
+                .filter(r -> r != null && r.item != null && r.stats != null)
+                .toList();
+
+        buf.writeVarInt(valid.size());
+        for (WeaponRequirement req : valid) {
             buf.writeResourceLocation(req.item);
             buf.writeVarInt(req.stats.size());
             for (WeaponRequirement.StatRequirement stat : req.stats) {
@@ -63,6 +68,7 @@ public class WeaponRequirementSyncPacket {
         ctx.get().enqueueWork(() -> {
             WeaponRequirementManager.clear();
             for (WeaponRequirement req : msg.requirements) {
+                if (req == null || req.item == null) continue;
                 WeaponRequirementManager.register(req);
             }
         });

@@ -25,13 +25,6 @@ public class ScuffedSouls {
 
         ModRegistry.init(modEventBus);
 
-
-        MinecraftForge.EVENT_BUS.addListener(
-                (net.minecraftforge.event.AddReloadListenerEvent event) -> {
-                    event.addListener(new net.yaseruxd.scuffedsouls.weapon.WeaponRequirementLoader());
-                }
-        );
-
         LOGGER.info("ScuffedSouls initializing...");
     }
 

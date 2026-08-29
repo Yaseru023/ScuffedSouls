@@ -17,14 +17,13 @@ public class ClassManager {
 
         giveStartingItems(player, playerClass);
         applyStats(player, playerClass);
-        applySkills(player, playerClass);
+        // applySkills removed — EquipmentSkillHandler handles skills dynamically
 
-        // Delay save to ensure NBT is fully written first
         MinecraftServer server = player.getServer();
         if (server != null) {
             new Thread(() -> {
                 try {
-                    Thread.sleep(1000); // 1 second delay
+                    Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -73,36 +72,6 @@ public class ClassManager {
         runCommand(server, source, player, "esr_setstat6", playerClass.dex);
         runCommand(server, source, player, "esr_setstat7", playerClass.sta);
         runCommand(server, source, player, "esr_setstat8", playerClass.lck);
-    }
-
-    // Universal combat skills — same for every class, no per-class identity/passive kit anymore
-    private static final String DODGE_SKILL = "wom:precise_roll";
-    private static final String GUARD_SKILL = "epicfight:parrying";
-
-    private static void applySkills(ServerPlayer player, PlayerClass playerClass) {
-        MinecraftServer server = player.getServer();
-        if (server == null) return;
-
-        // Delay by 2 seconds to let Epic Fight initialize the player
-        new Thread(() -> {
-            try {
-                Thread.sleep(2000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-
-            server.execute(() -> {
-                CommandSourceStack source = server.createCommandSourceStack().withSuppressedOutput();
-
-                String dodgeCmd = String.format("epicfight skill add %s dodge %s",
-                        player.getName().getString(), DODGE_SKILL);
-                String guardCmd = String.format("epicfight skill add %s guard %s",
-                        player.getName().getString(), GUARD_SKILL);
-
-                server.getCommands().performPrefixedCommand(source, dodgeCmd);
-                server.getCommands().performPrefixedCommand(source, guardCmd);
-            });
-        }).start();
     }
 
     private static void runCommand(MinecraftServer server, CommandSourceStack source,

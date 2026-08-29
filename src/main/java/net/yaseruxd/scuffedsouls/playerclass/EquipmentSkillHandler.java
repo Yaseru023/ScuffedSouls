@@ -35,6 +35,7 @@ public class EquipmentSkillHandler {
     private static final String DODGE_YAMATO = "cdmoveset:yamato_step";
 
     // Guard skills
+    private static final String GUARD_DEFAULT = "epicfight:parrying";
     private static final String GUARD_PERFECT_BULWARK = "wom:perfect_bulwark";
 
     // Weapon IDs
@@ -56,21 +57,38 @@ public class EquipmentSkillHandler {
             grantedShieldCounter.remove(player.getUUID());
         }
     }
+    @SubscribeEvent
+    public static void onLogin(PlayerEvent.PlayerLoggedInEvent event) {
+        if (event.getEntity() instanceof ServerPlayer player) {
+            UUID uuid = player.getUUID();
+            joinDelay.put(uuid, 400); // increase to 20 seconds
+            // Clear cached skills so they get reapplied fresh after delay
+            lastDodge.remove(uuid);
+            lastGuard.remove(uuid);
+            grantedShieldCounter.remove(uuid);
+        }
+    }
 
     @SubscribeEvent
     public static void onRespawn(PlayerEvent.PlayerRespawnEvent event) {
         if (event.getEntity() instanceof ServerPlayer player) {
-            joinDelay.put(player.getUUID(), 200);
+            UUID uuid = player.getUUID();
+            joinDelay.put(uuid, 400);
+            lastDodge.remove(uuid);
+            lastGuard.remove(uuid);
+            grantedShieldCounter.remove(uuid);
         }
     }
 
     @SubscribeEvent
-    public static void onLogin(PlayerEvent.PlayerLoggedInEvent event) {
+    public static void onDimensionChange(PlayerEvent.PlayerChangedDimensionEvent event) {
         if (event.getEntity() instanceof ServerPlayer player) {
-            joinDelay.put(player.getUUID(), 200);
+            UUID uuid = player.getUUID();
+            joinDelay.put(uuid, 200); // shorter for dimension change
+            lastDodge.remove(uuid);
+            lastGuard.remove(uuid);
         }
     }
-
     @SubscribeEvent
     public static void onLogout(PlayerEvent.PlayerLoggedOutEvent event) {
         if (event.getEntity() instanceof ServerPlayer player) {
@@ -79,13 +97,6 @@ public class EquipmentSkillHandler {
             joinDelay.remove(uuid);
             lastDodge.remove(uuid);
             lastGuard.remove(uuid);
-        }
-    }
-
-    @SubscribeEvent
-    public static void onDimensionChange(PlayerEvent.PlayerChangedDimensionEvent event) {
-        if (event.getEntity() instanceof ServerPlayer player) {
-            joinDelay.put(player.getUUID(), 200);
         }
     }
 
@@ -139,14 +150,16 @@ public class EquipmentSkillHandler {
             // --- Herrscher + Gesetz combo ---
             boolean isHerrscher = HERRSCHER.equals(mainhandId);
             boolean isGesetz = GESETZ.equals(offhandId);
+
+            String targetGuard = (isHerrscher && isGesetz) ? GUARD_PERFECT_BULWARK : GUARD_DEFAULT;
+
             if (isHerrscher && isGesetz) {
                 grantIdentitySkill(server, player, REVELATION_SKILL);
-                grantGuardSkill(server, player, GUARD_PERFECT_BULWARK);
-            } else {
-                String currentGuard = lastGuard.get(uuid);
-                if (GUARD_PERFECT_BULWARK.equals(currentGuard)) {
-                    revokeGuardSkill(server, player);
-                }
+            }
+
+            if (!targetGuard.equals(lastGuard.get(uuid))) {
+                revokeGuardSkill(server, player);
+                grantGuardSkill(server, player, targetGuard);
             }
 
             // --- Dodge skill based on weight or weapon ---
