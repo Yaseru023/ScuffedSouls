@@ -60,7 +60,7 @@ public class BuildupHud {
             int bgColor = 0xAA000000;
             int outlineColor = 0xAABBBBBB;
 
-            int iconSize = BAR_HEIGHT;
+            int iconSize = 12;
             int totalWidth = iconSize + ICON_PADDING + BAR_WIDTH;
 
             // Center the whole thing horizontally
@@ -79,7 +79,7 @@ public class BuildupHud {
 
             // --- Draw Bar ---
             int barX = startX + iconSize + ICON_PADDING;
-            int barY = y;
+            int barY = y + (iconSize - BAR_HEIGHT) / 2; // centers bar vertically with icon
 
             // Outline
             gui.fill(barX - 1, barY - 1, barX + BAR_WIDTH + 1, barY, outlineColor);               // top
