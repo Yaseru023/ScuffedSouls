@@ -133,4 +133,6 @@ public class WeaponScalingManager {
         if (attackDamage == null) return;
         attackDamage.removeModifier(SCALING_MODIFIER_UUID);
     }
+
+    //Bruh Epicfight stamina is hard as heck
 }
