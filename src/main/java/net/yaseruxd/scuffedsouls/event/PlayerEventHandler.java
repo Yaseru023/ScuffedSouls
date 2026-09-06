@@ -211,20 +211,17 @@ public class PlayerEventHandler {
             }
         }
     }
-
     @SubscribeEvent
     public static void onPlayerClone(PlayerEvent.Clone event) {
-        CompoundTag oldData =
-                event.getOriginal().getPersistentData();
-
-        CompoundTag newData =
-                event.getEntity().getPersistentData();
+        CompoundTag oldData = event.getOriginal().getPersistentData();
+        CompoundTag newData = event.getEntity().getPersistentData();
 
         if (oldData.contains("scuffedsouls_class")) {
-            newData.putString(
-                    "scuffedsouls_class",
-                    oldData.getString("scuffedsouls_class")
-            );
+            newData.putString("scuffedsouls_class", oldData.getString("scuffedsouls_class"));
+        }
+
+        if (oldData.contains("scuffedsouls_class_assigned")) {
+            newData.putBoolean("scuffedsouls_class_assigned", oldData.getBoolean("scuffedsouls_class_assigned"));
         }
     }
 
@@ -367,39 +364,6 @@ public class PlayerEventHandler {
             player.removeEffect(
                     MobEffects.INVISIBILITY
             );
-        }
-    }
-
-    @SubscribeEvent
-    public static void onPlayerTickEffectCleanup(
-            TickEvent.PlayerTickEvent event
-    ) {
-
-        if (event.phase != Phase.START) {
-            return;
-        }
-
-        if (!(event.player instanceof ServerPlayer player)) {
-            return;
-        }
-
-        if (player.level().isClientSide()) {
-            return;
-        }
-
-        /*
-         * Remove effects whose duration has reached zero.
-         */
-        for (
-                MobEffectInstance effect :
-                new ArrayList<>(player.getActiveEffects())
-        ) {
-
-            if (effect.getDuration() <= 0) {
-                player.removeEffect(
-                        effect.getEffect()
-                );
-            }
         }
     }
 }

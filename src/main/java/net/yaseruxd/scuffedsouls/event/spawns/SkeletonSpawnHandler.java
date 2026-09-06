@@ -18,30 +18,22 @@ import java.util.Random;
 public class SkeletonSpawnHandler {
 
     private static final Random RANDOM = new Random();
-    private static final float SPAWN_CHANCE = 0.50f;
+    private static final float SPAWN_CHANCE = 0.80f;
 
-    // --- Helmet pool ---
     private static final List<String> HELMETS = List.of(
-            "rustedgreathelm",
-            "rusted_barbut",
-            "rustednorman_helmet",
-            "rustedchainmail_helmet",
-            "rustedkettlehat"
+            "soldier_helmet"
     );
-    // --- Chest pool ---
+
     private static final List<String> CHESTS = List.of(
-            "rustedcrusader_chestplate",
-            "rustedhalfarmor_chestplate",
-            "rustedchainmail_chestplate"
+            "soldier_chestplate"
     );
-    // --- Legs pool ---
+
     private static final List<String> LEGS = List.of(
-            "rustedchainmail_leggings"
+            "soldier_leggings"
     );
-    // --- Boots pool ---
+
     private static final List<String> BOOTS = List.of(
-            "rustedcrusader_boots",
-            "rustedchainmail_boots"
+            "soldier_boots"
     );
 
     @SubscribeEvent(priority = EventPriority.LOWEST)
@@ -62,10 +54,9 @@ public class SkeletonSpawnHandler {
         setNoGearDrop(skeleton);
     }
 
-    // magistuarmory
     private static Item getItem(String itemId) {
         return ForgeRegistries.ITEMS.getValue(
-                new ResourceLocation("magistuarmory", itemId));
+                new ResourceLocation("slu", itemId));
     }
 
     private static void setNoGearDrop(Skeleton skeleton) {

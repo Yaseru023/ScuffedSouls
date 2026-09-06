@@ -10,14 +10,19 @@ import net.minecraft.world.item.ItemStack;
 public class ClassManager {
 
     private static final String CLASS_KEY = "scuffedsouls_class";
+    private static final String CLASS_ASSIGNED_KEY = "scuffedsouls_class_assigned";
 
     public static void assignClass(ServerPlayer player, PlayerClass playerClass) {
         CompoundTag persistentData = player.getPersistentData();
+
+        // Prevent re-assigning stats if class was already fully assigned
+        if (persistentData.getBoolean(CLASS_ASSIGNED_KEY)) return;
+
         persistentData.putString(CLASS_KEY, playerClass.name());
+        persistentData.putBoolean(CLASS_ASSIGNED_KEY, true);
 
         giveStartingItems(player, playerClass);
         applyStats(player, playerClass);
-        // applySkills removed — EquipmentSkillHandler handles skills dynamically
 
         MinecraftServer server = player.getServer();
         if (server != null) {
@@ -34,7 +39,6 @@ public class ClassManager {
 
     public static boolean hasClass(ServerPlayer player) {
         return player.getPersistentData().contains(CLASS_KEY);
-
     }
 
     public static PlayerClass getClass(ServerPlayer player) {

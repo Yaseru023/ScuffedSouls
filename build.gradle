@@ -4,6 +4,9 @@ buildscript {
         maven { url = 'https://maven.parchmentmc.org' }
         maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
         mavenCentral()
+
+
+
     }
 
 
@@ -94,7 +97,7 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-
+    maven { url = "https://www.cursemaven.com" }
 }
 
 dependencies {
@@ -102,8 +105,7 @@ dependencies {
 
     implementation files("libs/epic_stats_mod_remastered-2.0.1-forge-1.20.1.jar")
     implementation files("libs/jei-1.20.1-forge-15.20.0.129.jar")
-
-
+    implementation fg.deobf("curse.maven:epic-fight-mod-405076:8049910")
 
 }
 

@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    { "id": "cataclysm:ignis", "required": false },
-    { "id": "cataclysm:ignited_berserker", "required": false },
-    { "id": "cataclysm:kobolediator", "required": false }
-  ]
-}

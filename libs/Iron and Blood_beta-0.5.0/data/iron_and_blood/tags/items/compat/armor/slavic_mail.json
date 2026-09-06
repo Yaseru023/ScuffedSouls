@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    {"id":"slavicarmory:rus_chainmail_chestplate","required":false},
-    {"id":"slavicarmory:rus_chainmail_leggings","required":false},
-    {"id":"slavicarmory:rus_chainmail_boots","required":false}
-  ]
-}

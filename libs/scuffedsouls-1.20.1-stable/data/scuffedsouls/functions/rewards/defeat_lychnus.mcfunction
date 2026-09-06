@@ -1,1 +1,0 @@
-give @s nether_remastered:seal_of_the_underworld_item
