@@ -8,7 +8,6 @@ import java.util.Set;
 import java.util.UUID;
 
 import net.minecraft.core.BlockPos;
-import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
@@ -19,7 +18,6 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
 
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.TickEvent.Phase;
@@ -38,8 +36,6 @@ import net.yaseruxd.scuffedsouls.buildup.BuildupStorage;
 import net.yaseruxd.scuffedsouls.network.BuildupDefinitionsSyncPacket;
 import net.yaseruxd.scuffedsouls.network.BuildupSyncPacket;
 import net.yaseruxd.scuffedsouls.network.ModNetwork;
-import net.yaseruxd.scuffedsouls.network.OpenClassScreenPacket;
-import net.yaseruxd.scuffedsouls.playerclass.ClassManager;
 import net.yaseruxd.scuffedsouls.registry.ModBlocks;
 
 @EventBusSubscriber(
@@ -66,7 +62,6 @@ public class PlayerEventHandler {
 
         Level level = player.level();
 
-        // Server-side only
         if (!level.isClientSide()) {
 
             // Lose 10% durability from every damageable item.
@@ -75,14 +70,11 @@ public class PlayerEventHandler {
 
                 if (!stack.isEmpty() && stack.isDamageableItem()) {
                     int maxDurability = stack.getMaxDamage();
-                    int damageToApply =
-                            (int) ((float) maxDurability * DURABILITY_LOSS_ON_DEATH);
-
+                    int damageToApply = (int) ((float) maxDurability * DURABILITY_LOSS_ON_DEATH);
                     int newDamage = Math.min(
                             stack.getDamageValue() + damageToApply,
                             maxDurability - 1
                     );
-
                     stack.setDamageValue(newDamage);
                 }
             }
@@ -92,7 +84,6 @@ public class PlayerEventHandler {
 
             if (totalXp > 0) {
                 BlockPos deathPos = player.blockPosition();
-
                 BlockPos placePos;
 
                 for (
@@ -100,26 +91,13 @@ public class PlayerEventHandler {
                         placePos.getY() > level.getMinBuildHeight()
                                 && level.getBlockState(placePos).isAir();
                         placePos = placePos.below()
-                ) {
-                    // Search downward for solid ground.
-                }
+                ) {}
 
                 placePos = placePos.above();
 
-                SoulAnchorData.storeXp(
-                        level,
-                        placePos,
-                        totalXp,
-                        player.getUUID()
-                );
+                SoulAnchorData.storeXp(level, placePos, totalXp, player.getUUID());
+                level.setBlock(placePos, ModBlocks.SOUL_ANCHOR.get().defaultBlockState(), 3);
 
-                level.setBlock(
-                        placePos,
-                        ModBlocks.SOUL_ANCHOR.get().defaultBlockState(),
-                        3
-                );
-
-                // Remove XP from the player.
                 player.totalExperience = 0;
                 player.experienceLevel = 0;
                 player.experienceProgress = 0.0F;
@@ -133,7 +111,6 @@ public class PlayerEventHandler {
 
         if (entity instanceof ServerPlayer player) {
             UUID uuid = player.getUUID();
-
             pendingJoinSync.add(uuid);
             joinTickCounter.put(uuid, 0);
         }
@@ -141,87 +118,28 @@ public class PlayerEventHandler {
 
     @SubscribeEvent
     public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
-        if (event.phase != Phase.END) {
-            return;
-        }
-
-        if (!(event.player instanceof ServerPlayer player)) {
-            return;
-        }
+        if (event.phase != Phase.END) return;
+        if (!(event.player instanceof ServerPlayer player)) return;
 
         UUID uuid = player.getUUID();
+        if (!pendingJoinSync.contains(uuid)) return;
 
-        if (!pendingJoinSync.contains(uuid)) {
-            return;
-        }
+        int ticks = joinTickCounter.merge(uuid, 1, Integer::sum);
 
-        int ticks = joinTickCounter.merge(
-                uuid,
-                1,
-                Integer::sum
-        );
-
-        if (player.connection != null
-                && player.isAddedToWorld()
-                && ticks >= 20) {
+        if (player.connection != null && player.isAddedToWorld() && ticks >= 20) {
 
             pendingJoinSync.remove(uuid);
             joinTickCounter.remove(uuid);
 
-            /*
-             * IMPORTANT:
-             * getAll() returns Collection<BuildupDefinition>.
-             * BuildupDefinitionsSyncPacket expects
-             * Map<ResourceLocation, BuildupDefinition>.
-             *
-             * Therefore we use getAllByEffect().
-             */
             ModNetwork.CHANNEL.send(
                     PacketDistributor.PLAYER.with(() -> player),
-                    new BuildupDefinitionsSyncPacket(
-                            BuildupDefinitions.getAllByEffect()
-                    )
+                    new BuildupDefinitionsSyncPacket(BuildupDefinitions.getAllByEffect())
             );
 
-            // Give the player 1 XP using the existing command.
             player.getServer().getCommands().performPrefixedCommand(
                     player.createCommandSourceStack(),
-                    "esr_addexp "
-                            + player.getName().getString()
-                            + " 1"
+                    "esr_addexp " + player.getName().getString() + " 1"
             );
-
-            // Open class selection screen if player doesn't have a class.
-            if (!ClassManager.hasClass(player)) {
-
-                player.addEffect(
-                        new MobEffectInstance(
-                                MobEffects.BLINDNESS,
-                                6000,
-                                4,
-                                false,
-                                false
-                        )
-                );
-
-                ModNetwork.CHANNEL.send(
-                        PacketDistributor.PLAYER.with(() -> player),
-                        new OpenClassScreenPacket()
-                );
-            }
-        }
-    }
-    @SubscribeEvent
-    public static void onPlayerClone(PlayerEvent.Clone event) {
-        CompoundTag oldData = event.getOriginal().getPersistentData();
-        CompoundTag newData = event.getEntity().getPersistentData();
-
-        if (oldData.contains("scuffedsouls_class")) {
-            newData.putString("scuffedsouls_class", oldData.getString("scuffedsouls_class"));
-        }
-
-        if (oldData.contains("scuffedsouls_class_assigned")) {
-            newData.putBoolean("scuffedsouls_class_assigned", oldData.getBoolean("scuffedsouls_class_assigned"));
         }
     }
 
@@ -230,35 +148,15 @@ public class PlayerEventHandler {
         Player player = event.getEntity();
 
         if (!player.level().isClientSide()) {
-
             BuildupData data = BuildupStorage.get(player);
-
             data.resetAll();
-
             BuildupStorage.save(player, data);
 
             if (player instanceof ServerPlayer serverPlayer) {
-
-                /*
-                 * IMPORTANT:
-                 * getAll() returns a Collection and therefore
-                 * cannot use keySet().
-                 *
-                 * getAllByEffect() returns the Map we need.
-                 */
-                for (
-                        ResourceLocation buildupId :
-                        BuildupDefinitions.getAllByEffect().keySet()
-                ) {
-
+                for (ResourceLocation buildupId : BuildupDefinitions.getAllByEffect().keySet()) {
                     ModNetwork.CHANNEL.send(
-                            PacketDistributor.PLAYER.with(
-                                    () -> serverPlayer
-                            ),
-                            new BuildupSyncPacket(
-                                    buildupId,
-                                    0.0F
-                            )
+                            PacketDistributor.PLAYER.with(() -> serverPlayer),
+                            new BuildupSyncPacket(buildupId, 0.0F)
                     );
                 }
             }
@@ -267,50 +165,19 @@ public class PlayerEventHandler {
 
     @SubscribeEvent
     public static void onServerTick(TickEvent.ServerTickEvent event) {
-        if (event.phase != Phase.END) {
-            return;
-        }
+        if (event.phase != Phase.END) return;
 
-        MinecraftServer server =
-                ServerLifecycleHooks.getCurrentServer();
+        MinecraftServer server = ServerLifecycleHooks.getCurrentServer();
+        if (server == null) return;
 
-        if (server == null) {
-            return;
-        }
-
-        /*
-         * 6000 ticks = 5 minutes.
-         */
         if (server.getTickCount() % 6000 == 0) {
-
             for (ServerLevel level : server.getAllLevels()) {
-
-                SoulAnchorData data =
-                        SoulAnchorData.get(level);
-
-                /*
-                 * Copy the key set because expired entries
-                 * may be removed while processing them.
-                 */
-                for (
-                        Long posKey :
-                        new ArrayList<>(data.xpMap.keySet())
-                ) {
-
-                    BlockPos pos =
-                            BlockPos.of(posKey);
-
+                SoulAnchorData data = SoulAnchorData.get(level);
+                for (Long posKey : new ArrayList<>(data.xpMap.keySet())) {
+                    BlockPos pos = BlockPos.of(posKey);
                     if (SoulAnchorData.isExpired(level, pos)) {
-
-                        level.destroyBlock(
-                                pos,
-                                false
-                        );
-
-                        SoulAnchorData.clearXp(
-                                level,
-                                pos
-                        );
+                        level.destroyBlock(pos, false);
+                        SoulAnchorData.clearXp(level, pos);
                     }
                 }
             }
@@ -318,52 +185,20 @@ public class PlayerEventHandler {
     }
 
     @SubscribeEvent
-    public static void onDimensionChange(
-            PlayerEvent.PlayerChangedDimensionEvent event
-    ) {
+    public static void onDimensionChange(PlayerEvent.PlayerChangedDimensionEvent event) {
+        if (!(event.getEntity() instanceof ServerPlayer player)) return;
 
-        if (!(event.getEntity() instanceof ServerPlayer player)) {
-            return;
-        }
+        ResourceLocation destination = event.getTo().location();
+        ResourceLocation paradise = new ResourceLocation("the_faint_radiance", "paradise");
 
-        ResourceLocation destination =
-                event.getTo().location();
-
-        ResourceLocation paradise =
-                new ResourceLocation(
-                        "the_faint_radiance",
-                        "paradise"
-                );
-
-        /*
-         * Entering Paradise:
-         * Give infinite-duration invisibility.
-         */
         if (destination.equals(paradise)) {
-
-            player.addEffect(
-                    new MobEffectInstance(
-                            MobEffects.INVISIBILITY,
-                            Integer.MAX_VALUE,
-                            0,
-                            false,
-                            false
-                    )
-            );
+            player.addEffect(new MobEffectInstance(
+                    MobEffects.INVISIBILITY, Integer.MAX_VALUE, 0, false, false));
         }
 
-        ResourceLocation source =
-                event.getFrom().location();
-
-        /*
-         * Leaving Paradise:
-         * Remove invisibility.
-         */
+        ResourceLocation source = event.getFrom().location();
         if (source.equals(paradise)) {
-
-            player.removeEffect(
-                    MobEffects.INVISIBILITY
-            );
+            player.removeEffect(MobEffects.INVISIBILITY);
         }
     }
 }

@@ -1,6 +1,5 @@
 package net.yaseruxd.scuffedsouls.registry;
 
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.yaseruxd.scuffedsouls.network.ModNetwork;
 import net.yaseruxd.scuffedsouls.recipe.ModRecipeTypes;

@@ -26,10 +26,14 @@ import java.util.Map;
 public class BuildupHud {
 
     private static final int BAR_WIDTH = 80;
-    private static final int BAR_HEIGHT = 4;  // thinner bar
-    private static final int ICON_PADDING = 3; // gap between icon and bar
-    private static final int SPACING = 14; // vertical spacing between bars
-    private static final int Y_OFFSET = 20; // below crosshair
+    private static final int BAR_HEIGHT = 4;
+    private static final int ICON_PADDING = 3;
+    private static final int SPACING = 14;
+    private static final int Y_OFFSET = 20;
+
+    // Brown-gray square background behind the icon
+    private static final int ICON_BG_COLOR     = 0xCC3D2E24; // dark brown-gray fill
+    private static final int ICON_BG_BORDER     = 0xFF5C4A3A; // slightly lighter border
 
     @SubscribeEvent
     public static void onRenderGui(RenderGuiOverlayEvent.Post event) {
@@ -63,9 +67,14 @@ public class BuildupHud {
             int iconSize = 12;
             int totalWidth = iconSize + ICON_PADDING + BAR_WIDTH;
 
-            // Center the whole thing horizontally
             int startX = centerX - totalWidth / 2;
             int y = baseY + index * SPACING;
+
+            // --- Draw Icon Background Square ---
+            // Border (1px larger on each side)
+            gui.fill(startX - 1, y - 1, startX + iconSize + 1, y + iconSize + 1, ICON_BG_BORDER);
+            // Fill
+            gui.fill(startX, y, startX + iconSize, y + iconSize, ICON_BG_COLOR);
 
             // --- Draw Icon ---
             MobEffect effect = ForgeRegistries.MOB_EFFECTS.getValue(effectId);
@@ -79,18 +88,18 @@ public class BuildupHud {
 
             // --- Draw Bar ---
             int barX = startX + iconSize + ICON_PADDING;
-            int barY = y + (iconSize - BAR_HEIGHT) / 2; // centers bar vertically with icon
+            int barY = y + (iconSize - BAR_HEIGHT) / 2;
 
             // Outline
-            gui.fill(barX - 1, barY - 1, barX + BAR_WIDTH + 1, barY, outlineColor);               // top
-            gui.fill(barX - 1, barY + BAR_HEIGHT, barX + BAR_WIDTH + 1, barY + BAR_HEIGHT + 1, outlineColor); // bottom
-            gui.fill(barX - 1, barY - 1, barX, barY + BAR_HEIGHT + 1, outlineColor);              // left
-            gui.fill(barX + BAR_WIDTH, barY - 1, barX + BAR_WIDTH + 1, barY + BAR_HEIGHT + 1, outlineColor); // right
+            gui.fill(barX - 1, barY - 1, barX + BAR_WIDTH + 1, barY, outlineColor);
+            gui.fill(barX - 1, barY + BAR_HEIGHT, barX + BAR_WIDTH + 1, barY + BAR_HEIGHT + 1, outlineColor);
+            gui.fill(barX - 1, barY - 1, barX, barY + BAR_HEIGHT + 1, outlineColor);
+            gui.fill(barX + BAR_WIDTH, barY - 1, barX + BAR_WIDTH + 1, barY + BAR_HEIGHT + 1, outlineColor);
 
             // Background
             gui.fill(barX, barY, barX + BAR_WIDTH, barY + BAR_HEIGHT, bgColor);
 
-            // Filled portion with rounded right cap effect
+            // Filled portion
             int fillWidth = (int)(BAR_WIDTH * percentage);
             if (fillWidth > 0) {
                 gui.fill(barX, barY, barX + fillWidth, barY + BAR_HEIGHT, color);

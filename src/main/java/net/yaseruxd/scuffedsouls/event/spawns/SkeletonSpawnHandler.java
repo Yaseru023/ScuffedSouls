@@ -18,53 +18,47 @@ import java.util.Random;
 public class SkeletonSpawnHandler {
 
     private static final Random RANDOM = new Random();
-    private static final float SPAWN_CHANCE = 0.80f;
 
-    private static final List<String> HELMETS = List.of(
-            "soldier_helmet"
-    );
-
-    private static final List<String> CHESTS = List.of(
-            "soldier_chestplate"
-    );
-
-    private static final List<String> LEGS = List.of(
-            "soldier_leggings"
-    );
-
-    private static final List<String> BOOTS = List.of(
-            "soldier_boots"
-    );
+    private static final List<String> HELMETS = List.of("soldier_helmet");
+    private static final List<String> CHESTS  = List.of("soldier_chestplate");
+    private static final List<String> LEGS    = List.of("soldier_leggings");
+    private static final List<String> BOOTS   = List.of("soldier_boots");
 
     @SubscribeEvent(priority = EventPriority.LOWEST)
     public static void onSkeletonSpawn(MobSpawnEvent.FinalizeSpawn event) {
         if (!(event.getEntity() instanceof Skeleton skeleton)) return;
-        if (RANDOM.nextFloat() > SPAWN_CHANCE) return;
 
-        Item helmet = getItem(HELMETS.get(RANDOM.nextInt(HELMETS.size())));
-        Item chest  = getItem(CHESTS.get(RANDOM.nextInt(CHESTS.size())));
-        Item legs   = getItem(LEGS.get(RANDOM.nextInt(LEGS.size())));
-        Item boots  = getItem(BOOTS.get(RANDOM.nextInt(BOOTS.size())));
+        // Armor
+        Item helmet = getItem("slu", HELMETS.get(RANDOM.nextInt(HELMETS.size())));
+        Item chest  = getItem("slu", CHESTS.get(RANDOM.nextInt(CHESTS.size())));
+        Item legs   = getItem("slu", LEGS.get(RANDOM.nextInt(LEGS.size())));
+        Item boots  = getItem("slu", BOOTS.get(RANDOM.nextInt(BOOTS.size())));
 
         if (helmet != null) skeleton.setItemSlot(EquipmentSlot.HEAD,  new ItemStack(helmet));
         if (chest  != null) skeleton.setItemSlot(EquipmentSlot.CHEST, new ItemStack(chest));
         if (legs   != null) skeleton.setItemSlot(EquipmentSlot.LEGS,  new ItemStack(legs));
         if (boots  != null) skeleton.setItemSlot(EquipmentSlot.FEET,  new ItemStack(boots));
 
+        // Weapons — dual milady
+        Item milady = getItem("epicfight_dd", "milady");
+        if (milady != null) {
+            skeleton.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(milady));
+            skeleton.setItemSlot(EquipmentSlot.OFFHAND,  new ItemStack(milady));
+        }
+
         setNoGearDrop(skeleton);
     }
 
-    private static Item getItem(String itemId) {
-        return ForgeRegistries.ITEMS.getValue(
-                new ResourceLocation("slu", itemId));
+    private static Item getItem(String namespace, String path) {
+        return ForgeRegistries.ITEMS.getValue(new ResourceLocation(namespace, path));
     }
 
     private static void setNoGearDrop(Skeleton skeleton) {
         skeleton.setDropChance(EquipmentSlot.MAINHAND, 0f);
-        skeleton.setDropChance(EquipmentSlot.OFFHAND, 0f);
-        skeleton.setDropChance(EquipmentSlot.HEAD, 0f);
-        skeleton.setDropChance(EquipmentSlot.CHEST, 0f);
-        skeleton.setDropChance(EquipmentSlot.LEGS, 0f);
-        skeleton.setDropChance(EquipmentSlot.FEET, 0f);
+        skeleton.setDropChance(EquipmentSlot.OFFHAND,  0f);
+        skeleton.setDropChance(EquipmentSlot.HEAD,     0f);
+        skeleton.setDropChance(EquipmentSlot.CHEST,    0f);
+        skeleton.setDropChance(EquipmentSlot.LEGS,     0f);
+        skeleton.setDropChance(EquipmentSlot.FEET,     0f);
     }
 }

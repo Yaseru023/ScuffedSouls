@@ -32,23 +32,6 @@ public class ModNetwork {
 
         CHANNEL.registerMessage(
                 packetId++,
-                ClassSelectionPacket.class,
-                ClassSelectionPacket::encode,
-                ClassSelectionPacket::decode,
-                ClassSelectionPacket::handle
-        );
-
-        CHANNEL.registerMessage(
-                packetId++,
-                OpenClassScreenPacket.class,
-                OpenClassScreenPacket::encode,
-                OpenClassScreenPacket::decode,
-                OpenClassScreenPacket::handle,
-                java.util.Optional.of(NetworkDirection.PLAY_TO_CLIENT)
-        );
-
-        CHANNEL.registerMessage(
-                packetId++,
                 WeaponRequirementSyncPacket.class,
                 WeaponRequirementSyncPacket::encode,
                 WeaponRequirementSyncPacket::decode,

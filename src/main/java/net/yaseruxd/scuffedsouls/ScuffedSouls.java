@@ -10,7 +10,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.yaseruxd.scuffedsouls.registry.ModRegistry;
 import org.slf4j.Logger;
-import net.minecraftforge.common.MinecraftForge;
 
 
 @Mod(ScuffedSouls.MODID)
