@@ -57,5 +57,14 @@ public class ModNetwork {
                 java.util.Optional.of(NetworkDirection.PLAY_TO_CLIENT)
         );
 
+        CHANNEL.registerMessage(
+                packetId++,
+                HollowSyncPacket.class,
+                HollowSyncPacket::encode,
+                HollowSyncPacket::decode,
+                HollowSyncPacket::handle,
+                java.util.Optional.of(NetworkDirection.PLAY_TO_CLIENT)
+        );
+
     }
 }

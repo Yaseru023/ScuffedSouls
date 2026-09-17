@@ -16,7 +16,6 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 import net.minecraftforge.event.TickEvent;
@@ -35,8 +34,14 @@ import net.yaseruxd.scuffedsouls.buildup.BuildupDefinitions;
 import net.yaseruxd.scuffedsouls.buildup.BuildupStorage;
 import net.yaseruxd.scuffedsouls.network.BuildupDefinitionsSyncPacket;
 import net.yaseruxd.scuffedsouls.network.BuildupSyncPacket;
+import net.yaseruxd.scuffedsouls.network.HollowSyncPacket;
 import net.yaseruxd.scuffedsouls.network.ModNetwork;
 import net.yaseruxd.scuffedsouls.registry.ModBlocks;
+
+import net.minecraft.world.item.Items;
+import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent;
+import net.yaseruxd.scuffedsouls.hollow.HollowData;
+import net.yaseruxd.scuffedsouls.hollow.HollowManager;
 
 @EventBusSubscriber(
         modid = "scuffedsouls",
@@ -44,7 +49,6 @@ import net.yaseruxd.scuffedsouls.registry.ModBlocks;
 )
 public class PlayerEventHandler {
 
-    private static final float DURABILITY_LOSS_ON_DEATH = 0.1F;
 
     private static final Set<UUID> pendingJoinSync = new HashSet<>();
     private static final Map<UUID, Integer> joinTickCounter = new HashMap<>();
@@ -64,19 +68,10 @@ public class PlayerEventHandler {
 
         if (!level.isClientSide()) {
 
-            // Lose 10% durability from every damageable item.
-            for (int i = 0; i < player.getInventory().getContainerSize(); ++i) {
-                ItemStack stack = player.getInventory().getItem(i);
-
-                if (!stack.isEmpty() && stack.isDamageableItem()) {
-                    int maxDurability = stack.getMaxDamage();
-                    int damageToApply = (int) ((float) maxDurability * DURABILITY_LOSS_ON_DEATH);
-                    int newDamage = Math.min(
-                            stack.getDamageValue() + damageToApply,
-                            maxDurability - 1
-                    );
-                    stack.setDamageValue(newDamage);
-                }
+            // Hollow increment — always happens on death, regardless of XP
+            HollowData.increment(player);
+            if (player instanceof ServerPlayer serverPlayer) {
+                syncHollowToClient(serverPlayer);
             }
 
             // Store player's XP in a Soul Anchor.
@@ -113,7 +108,28 @@ public class PlayerEventHandler {
             UUID uuid = player.getUUID();
             pendingJoinSync.add(uuid);
             joinTickCounter.put(uuid, 0);
+
+            // Reapply hollow modifiers from stored NBT level
+            HollowManager.removeModifiers(player);
+            HollowManager.applyModifiers(player);
+            syncHollowToClient(player);
         }
+    }
+
+    @SubscribeEvent
+    public static void onPlayerClone(PlayerEvent.Clone event) {
+        if (!event.isWasDeath()) return; // only on death respawn, not end portal
+
+        Player original = event.getOriginal();
+        Player clone = event.getEntity();
+
+        // Required to access the original player's persistent data
+        original.reviveCaps();
+
+        int hollowLevel = HollowData.getLevel(original);
+        HollowData.setLevel(clone, hollowLevel);
+
+        original.invalidateCaps();
     }
 
     @SubscribeEvent
@@ -135,11 +151,6 @@ public class PlayerEventHandler {
                     PacketDistributor.PLAYER.with(() -> player),
                     new BuildupDefinitionsSyncPacket(BuildupDefinitions.getAllByEffect())
             );
-
-            player.getServer().getCommands().performPrefixedCommand(
-                    player.createCommandSourceStack(),
-                    "esr_addexp " + player.getName().getString() + " 1"
-            );
         }
     }
 
@@ -148,6 +159,7 @@ public class PlayerEventHandler {
         Player player = event.getEntity();
 
         if (!player.level().isClientSide()) {
+            // Existing buildup reset
             BuildupData data = BuildupStorage.get(player);
             data.resetAll();
             BuildupStorage.save(player, data);
@@ -159,6 +171,13 @@ public class PlayerEventHandler {
                             new BuildupSyncPacket(buildupId, 0.0F)
                     );
                 }
+            }
+
+            // Apply hollow modifiers based on stored level
+            HollowManager.removeModifiers(player);
+            HollowManager.applyModifiers(player);
+            if (player instanceof ServerPlayer serverPlayer) {
+                syncHollowToClient(serverPlayer);
             }
         }
     }
@@ -193,12 +212,34 @@ public class PlayerEventHandler {
 
         if (destination.equals(paradise)) {
             player.addEffect(new MobEffectInstance(
-                    MobEffects.INVISIBILITY, Integer.MAX_VALUE, 0, false, false));
+                    MobEffects.NIGHT_VISION, Integer.MAX_VALUE, 0, false, false));
         }
 
         ResourceLocation source = event.getFrom().location();
         if (source.equals(paradise)) {
-            player.removeEffect(MobEffects.INVISIBILITY);
+            player.removeEffect(MobEffects.NIGHT_VISION);
         }
+    }
+
+    @SubscribeEvent
+    public static void onItemFinishedUsing(LivingEntityUseItemEvent.Finish event) {
+        if (!(event.getEntity() instanceof ServerPlayer player)) return;
+        if (event.getItem().getItem() != Items.ENCHANTED_GOLDEN_APPLE) return;
+        if (player.level().isClientSide()) return;
+
+        int currentLevel = HollowData.getLevel(player);
+        if (currentLevel <= 0) return;
+
+        HollowData.decrement(player);
+        HollowManager.removeModifiers(player);
+        HollowManager.applyModifiers(player);
+        syncHollowToClient(player);
+    }
+
+    private static void syncHollowToClient(ServerPlayer player) {
+        ModNetwork.CHANNEL.send(
+                PacketDistributor.PLAYER.with(() -> player),
+                new HollowSyncPacket(HollowData.getLevel(player))
+        );
     }
 }

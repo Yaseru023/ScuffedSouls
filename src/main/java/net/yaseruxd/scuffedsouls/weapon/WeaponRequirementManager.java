@@ -20,14 +20,14 @@ public class WeaponRequirementManager {
         }
 
         return switch (stat.toLowerCase()) {
-            case "strength"     -> vars.stat_1_level / 0.1;
-            case "vitality"     -> vars.stat_2_level / 0.1;
-            case "endurance"    -> vars.stat_3_level / 0.1;
-            case "intelligence" -> vars.stat_4_level / 0.1;
-            case "magic"        -> vars.stat_5_level / 0.1;
-            case "dexterity"    -> vars.stat_6_level / 0.1;
-            case "stamina"      -> vars.stat_7_level / 0.1;
-            case "luck"         -> vars.stat_8_level / 0.1;
+            case "strength"     -> vars.stat_1_level;
+            case "vitality"     -> vars.stat_2_level;
+            case "endurance"    -> vars.stat_3_level;
+            case "intelligence" -> vars.stat_4_level;
+            case "magic"        -> vars.stat_5_level;
+            case "dexterity"    -> vars.stat_6_level;
+            case "stamina"      -> vars.stat_7_level;
+            case "luck"         -> vars.stat_8_level;
             default -> 0;
         };
     }
