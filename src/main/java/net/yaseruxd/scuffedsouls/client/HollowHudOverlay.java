@@ -13,8 +13,8 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = "scuffedsouls", bus = Mod.EventBusSubscriber.Bus.FORGE, value = Dist.CLIENT)
 public class HollowHudOverlay {
 
-    private static final ResourceLocation WITHER_SKULL = new ResourceLocation(
-            "minecraft", "textures/entity/wither/wither_skull.png");
+    private static final ResourceLocation HOLLOW_ICON = new ResourceLocation(
+            "scuffedsouls", "textures/hud/hollow.png");
 
     private static final int ICON_SIZE = 16;
 
@@ -38,7 +38,7 @@ public class HollowHudOverlay {
 
         RenderSystem.enableBlend();
         RenderSystem.setShaderColor(1.0f, 1.0f, 1.0f, 1.0f);
-        graphics.blit(WITHER_SKULL, x, y, 0, 0, ICON_SIZE, ICON_SIZE, ICON_SIZE, ICON_SIZE);
+        graphics.blit(HOLLOW_ICON, x, y, 0, 0, ICON_SIZE, ICON_SIZE, ICON_SIZE, ICON_SIZE);
         RenderSystem.disableBlend();
 
         String text = String.valueOf(level);
