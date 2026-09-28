@@ -22,6 +22,8 @@ public class ScuffedSouls {
         IEventBus modEventBus =
                 FMLJavaModLoadingContext.get().getModEventBus();
 
+
+
         ModRegistry.init(modEventBus);
 
         LOGGER.info("ScuffedSouls initializing...");
