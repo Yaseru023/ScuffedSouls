@@ -1,0 +1,763 @@
+{
+  "faction": "neutral",
+  "renderer": "zombie",
+  "model": "player",
+  "armature": "epicfight:entity/biped",
+  "humanoid": true,
+  "chasingSpeed": 0.75,
+  "scale": 1.5,
+  "breakTime": 40,
+  "recoverTime": 60,
+  "staminaRegenDelay": 60,
+  "beParriedDamage": 12,
+  "guardHitImpact": 1,
+  "hurtImpact": 0.35,
+  "ceBossMusic": {
+    "playBGM": true,
+    "bgm": "combat_evolution:music.ferrum_theme",
+    "loop": true,
+    "duration": 4280,
+    "volume": 1,
+    "fadeIn": 40,
+    "fadeOut": 40
+  },
+  "attributes": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15.0
+    },
+    {
+      "attribute": "epicfight:staminar",
+      "value": 200
+    },
+    {
+      "attribute": "epicfight:stamina_regen",
+      "value": 5
+    }
+  ],
+  "weaponLivingMotions": [
+    {
+      "weaponCategories": [
+        "axe",
+        "longsword",
+        "spear",
+        "greatsword",
+        "dagger",
+        "sword"
+      ],
+      "style": "common",
+      "livingMotions": {
+        "idle": "epicfightx:biped/living/hold_spear",
+        "walk": "epicfightx:biped/living/walk_spear",
+        "run": "epicfightx:biped/living/run_spear",
+        "chase": "epicfightx:biped/living/run_spear",
+        "death": "wom:hollow/living/hollow_death",
+        "block": "epicfightx:biped/living/guard_spear"
+      }
+    }
+  ],
+  "stunAnimations": {
+    "short": "epicfight:biped/combat/hit_short",
+    "long": "epicfight:biped/combat/hit_long",
+    "hold": "epicfight:biped/combat/hit_short",
+    "fall": "epicfight:biped/living/landing",
+    "knockdown": "epicfight:biped/combat/knockdown",
+    "neutralize": "epicfight:biped/skill/guard_break1"
+  },
+  "combatBehaviors": [
+    {
+      "weaponCategories": [
+        "axe",
+        "longsword",
+        "spear",
+        "greatsword",
+        "dagger",
+        "sword"
+      ],
+      "style": "common",
+      "behaviorRoots": [
+        {
+          "rootName": "AOE Phase 1",
+          "priority": 3,
+          "weight": 1,
+          "maxCooldown": 300,
+          "cooldown": 200,
+          "isGlobal": false,
+          "backAfterFinished": true,
+          "firstBehaviors": [
+            {
+              "behaviorName": "AOE Phase 1",
+              "stopByStun": 7,
+              "conditions": [
+                {
+                  "type": "combat_evolution:target_in_distance",
+                  "min": 0,
+                  "max": 12
+                },
+                {
+                  "type": "combat_evolution:health_check",
+                  "health": 0.5,
+                  "comparator": "greater_ratio"
+                }
+              ],
+              "animation": "efn:biped/nf_meen/nf_meen_charge1",
+              "animationParams": {
+                "transitionTime": 0.15,
+                "playSpeed": 0.65
+              },
+              "onBehaviorStart": [
+                {
+                  "onTarget": false,
+                  "command": "/tag @a remove ferrum_target"
+                },
+                {
+                  "onTarget": true,
+                  "command": "/tag @s add ferrum_target"
+                },
+                {
+                  "onTarget": false,
+                  "command": "/tag @s add ferrum_boss"
+                },
+                {
+                  "onTarget": false,
+                  "command": "/function ferrum:start"
+                }
+              ],
+              "hitEvents": [
+                {
+                  "type": "success",
+                  "phase": -1,
+                  "onTarget": true,
+                  "command": "/summon the_faint_radiance:holy"
+                },
+                {
+                  "type": "blocked",
+                  "phase": -1,
+                  "onTarget": true,
+                  "command": "/particle the_faint_radiance:fracture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rootName": "AOE Phase 2",
+          "priority": 3,
+          "weight": 1,
+          "maxCooldown": 200,
+          "cooldown": 0,
+          "isGlobal": false,
+          "backAfterFinished": true,
+          "firstBehaviors": [
+            {
+              "behaviorName": "AOE Phase 2",
+              "stopByStun": 7,
+              "conditions": [
+                {
+                  "type": "combat_evolution:target_in_distance",
+                  "min": 0,
+                  "max": 12
+                },
+                {
+                  "type": "combat_evolution:health_check",
+                  "health": 0.5,
+                  "comparator": "less_ratio_contain"
+                }
+              ],
+              "animation": "efn:biped/ng_greatsword/ng_great_chargeskill",
+              "animationParams": {
+                "transitionTime": 0.15,
+                "playSpeed": 0.65
+              },
+              "onBehaviorStart": [
+                {
+                  "onTarget": false,
+                  "command": "/tag @a remove ferrum_target"
+                },
+                {
+                  "onTarget": true,
+                  "command": "/tag @s add ferrum_target"
+                },
+                {
+                  "onTarget": false,
+                  "command": "/tag @s add ferrum_boss"
+                },
+                {
+                  "onTarget": false,
+                  "command": "/function ferrum:start"
+                }
+              ],
+              "hitEvents": [
+                {
+                  "type": "success",
+                  "phase": -1,
+                  "onTarget": true,
+                  "command": "/summon the_faint_radiance:holy"
+                },
+                {
+                  "type": "blocked",
+                  "phase": -1,
+                  "onTarget": true,
+                  "command": "/particle the_faint_radiance:fracture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rootName": "Phase 1 Combo",
+          "priority": 2,
+          "weight": 4,
+          "maxCooldown": 10,
+          "cooldown": 10,
+          "isGlobal": false,
+          "backAfterFinished": true,
+          "firstBehaviors": [
+            {
+              "behaviorName": "Attack1",
+              "priority": 1,
+              "weight": 1,
+              "setCoolDown": 10,
+              "waitTime": 10,
+              "stopByStun": 7,
+              "conditions": [
+                {
+                  "type": "combat_evolution:target_in_distance",
+                  "min": 0,
+                  "max": 7
+                },
+                {
+                  "type": "combat_evolution:health_check",
+                  "health": 0.5,
+                  "comparator": "greater_ratio"
+                }
+              ],
+              "animation": "efn:biped/nf_meen/nf_meen_auto3",
+              "animationParams": {
+                "transitionTime": 0.15,
+                "playSpeed": 0.65
+              },
+              "hitEvents": [
+                {
+                  "type": "success",
+                  "phase": -1,
+                  "onTarget": true,
+                  "command": "/summon the_faint_radiance:holy"
+                },
+                {
+                  "type": "blocked",
+                  "phase": -1,
+                  "onTarget": true,
+                  "command": "/particle the_faint_radiance:fracture"
+                }
+              ],
+              "nextBehaviors": [
+                {
+                  "behaviorName": "Attack2",
+                  "priority": 1,
+                  "weight": 1,
+                  "stopByStun": 7,
+                  "conditions": [
+                    {
+                      "type": "epicfight:within_distance",
+                      "min": 0,
+                      "max": 7
+                    }
+                  ],
+                  "animation": "efn:biped/nf_meen/nf_meen_auto4",
+                  "animationParams": {
+                    "transitionTime": 0.15,
+                    "playSpeed": 0.65
+                  },
+                  "hitEvents": [
+                    {
+                      "type": "success",
+                      "phase": -1,
+                      "onTarget": true,
+                      "command": "/summon the_faint_radiance:holy"
+                    },
+                    {
+                      "type": "blocked",
+                      "phase": -1,
+                      "onTarget": true,
+                      "command": "/particle the_faint_radiance:fracture"
+                    }
+                  ],
+                  "nextBehaviors": [
+                    {
+                      "behaviorName": "Charge Finisher",
+                      "conditions": [
+                        {
+                          "type": "epicfight:within_distance",
+                          "min": 0,
+                          "max": 7
+                        }
+                      ],
+                      "animation": "efn:biped/nf_meen/nf_meen_charge2",
+                      "animationParams": {
+                        "transitionTime": 0.15,
+                        "playSpeed": 0.65
+                      },
+                      "onBehaviorStart": [
+                        {
+                          "onTarget": false,
+                          "command": "/particle the_faint_radiance:absolute_lux"
+                        }
+                      ],
+                      "hitEvents": [
+                        {
+                          "type": "success",
+                          "phase": -1,
+                          "onTarget": true,
+                          "command": "/summon the_faint_radiance:holy"
+                        },
+                        {
+                          "type": "blocked",
+                          "phase": -1,
+                          "onTarget": true,
+                          "command": "/particle the_faint_radiance:fracture"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "behaviorName": "Attack3",
+                  "priority": 1,
+                  "weight": 1,
+                  "stopByStun": 7,
+                  "conditions": [
+                    {
+                      "type": "epicfight:within_distance",
+                      "min": 0,
+                      "max": 7
+                    }
+                  ],
+                  "animation": "epicfightx:biped/skill/greatsword_dodge_attack_left",
+                  "animationParams": {
+                    "transitionTime": 0.15,
+                    "playSpeed": 0.65
+                  },
+                  "hitEvents": [
+                    {
+                      "type": "success",
+                      "phase": -1,
+                      "onTarget": true,
+                      "command": "/summon the_faint_radiance:holy"
+                    },
+                    {
+                      "type": "blocked",
+                      "phase": -1,
+                      "onTarget": true,
+                      "command": "/particle the_faint_radiance:flx"
+                    },
+                    {
+                      "type": "blocked",
+                      "phase": -1,
+                      "onTarget": true,
+                      "command": "/particle the_faint_radiance:absolute_lux"
+                    }
+                  ],
+                  "nextBehaviors": [
+                    {
+                      "behaviorName": "Attack4",
+                      "conditions": [
+                        {
+                          "type": "epicfight:within_distance",
+                          "min": 0,
+                          "max": 4
+                        }
+                      ],
+                      "animation": "efn:biped/nf_meen/nf_meen_dash",
+                      "animationParams": {
+                        "transitionTime": 0.15,
+                        "playSpeed": 0.65
+                      },
+                      "onBehaviorStart": [
+                        {
+                          "onTarget": false,
+                          "command": "/particle the_faint_radiance:absolute_lux"
+                        }
+                      ],
+                      "hitEvents": [
+                        {
+                          "type": "success",
+                          "phase": -1,
+                          "onTarget": true,
+                          "command": "/summon the_faint_radiance:holy"
+                        },
+                        {
+                          "type": "blocked",
+                          "phase": -1,
+                          "onTarget": true,
+                          "command": "/particle the_faint_radiance:fragment_2"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rootName": "Phase 2 Combo",
+          "priority": 2,
+          "weight": 4,
+          "maxCooldown": 6,
+          "cooldown": 0,
+          "isGlobal": false,
+          "backAfterFinished": true,
+          "firstBehaviors": [
+            {
+              "behaviorName": "P2 Placeholder Combo A1",
+              "priority": 1,
+              "weight": 1,
+              "waitTime": 10,
+              "stopByStun": 7,
+              "conditions": [
+                {
+                  "type": "combat_evolution:target_in_distance",
+                  "min": 0,
+                  "max": 7
+                },
+                {
+                  "type": "combat_evolution:health_check",
+                  "health": 0.5,
+                  "comparator": "less_ratio_contain"
+                }
+              ],
+              "animation": "efn:biped/nf_meen/nf_meen_auto3",
+              "animationParams": {
+                "transitionTime": 0.15,
+                "playSpeed": 0.8,
+                "phaseParams": [
+                  {
+                    "phase": -1,
+                    "damageMultiplier": 1.25
+                  }
+                ]
+              },
+              "hitEvents": [
+                {
+                  "type": "success",
+                  "phase": -1,
+                  "onTarget": true,
+                  "command": "/summon the_faint_radiance:holy"
+                },
+                {
+                  "type": "blocked",
+                  "phase": -1,
+                  "onTarget": true,
+                  "command": "/particle the_faint_radiance:fracture"
+                }
+              ],
+              "nextBehaviors": [
+                {
+                  "behaviorName": "P2 Placeholder Combo A2",
+                  "stopByStun": 7,
+                  "conditions": [
+                    {
+                      "type": "epicfight:within_distance",
+                      "min": 0,
+                      "max": 7
+                    }
+                  ],
+                  "animation": "efn:biped/nf_meen/nf_meen_auto4",
+                  "animationParams": {
+                    "transitionTime": 0.15,
+                    "playSpeed": 0.8,
+                    "phaseParams": [
+                      {
+                        "phase": -1,
+                        "damageMultiplier": 1.25
+                      }
+                    ]
+                  },
+                  "hitEvents": [
+                    {
+                      "type": "success",
+                      "phase": -1,
+                      "onTarget": true,
+                      "command": "/summon the_faint_radiance:holy"
+                    },
+                    {
+                      "type": "blocked",
+                      "phase": -1,
+                      "onTarget": true,
+                      "command": "/particle the_faint_radiance:fracture"
+                    }
+                  ],
+                  "nextBehaviors": [
+                    {
+                      "behaviorName": "P2 Placeholder Combo A3",
+                      "conditions": [
+                        {
+                          "type": "epicfight:within_distance",
+                          "min": 0,
+                          "max": 7
+                        }
+                      ],
+                      "animation": "efn:biped/nf_meen/nf_meen_auto2",
+                      "animationParams": {
+                        "transitionTime": 0.15,
+                        "playSpeed": 0.8,
+                        "phaseParams": [
+                          {
+                            "phase": -1,
+                            "damageMultiplier": 1.25
+                          }
+                        ]
+                      },
+                      "hitEvents": [
+                        {
+                          "type": "success",
+                          "phase": -1,
+                          "onTarget": true,
+                          "command": "/summon the_faint_radiance:holy"
+                        },
+                        {
+                          "type": "blocked",
+                          "phase": -1,
+                          "onTarget": true,
+                          "command": "/particle the_faint_radiance:fracture"
+                        }
+                      ],
+                      "nextBehaviors": [
+                        {
+                          "behaviorName": "P2 Placeholder Combo A4",
+                          "conditions": [
+                            {
+                              "type": "epicfight:within_distance",
+                              "min": 0,
+                              "max": 7
+                            }
+                          ],
+                          "animation": "efn:biped/nf_meen/nf_meen_charge2",
+                          "animationParams": {
+                            "transitionTime": 0.15,
+                            "playSpeed": 0.8,
+                            "phaseParams": [
+                              {
+                                "phase": -1,
+                                "damageMultiplier": 1.25
+                              }
+                            ]
+                          },
+                          "onBehaviorStart": [
+                            {
+                              "onTarget": false,
+                              "command": "/particle the_faint_radiance:flx"
+                            }
+                          ],
+                          "hitEvents": [
+                            {
+                              "type": "success",
+                              "phase": -1,
+                              "onTarget": true,
+                              "command": "/summon the_faint_radiance:holy"
+                            },
+                            {
+                              "type": "blocked",
+                              "phase": -1,
+                              "onTarget": true,
+                              "command": "/particle the_faint_radiance:fragment_2"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "behaviorName": "P2 Placeholder Combo B1",
+              "priority": 1,
+              "weight": 1,
+              "waitTime": 10,
+              "stopByStun": 7,
+              "conditions": [
+                {
+                  "type": "combat_evolution:target_in_distance",
+                  "min": 0,
+                  "max": 7
+                },
+                {
+                  "type": "combat_evolution:health_check",
+                  "health": 0.5,
+                  "comparator": "less_ratio_contain"
+                }
+              ],
+              "animation": "efn:biped/ng_greatsword/ng_great_charge1max",
+              "animationParams": {
+                "transitionTime": 0.15,
+                "playSpeed": 0.8,
+                "phaseParams": [
+                  {
+                    "phase": -1,
+                    "damageMultiplier": 1.25
+                  }
+                ]
+              },
+              "hitEvents": [
+                {
+                  "type": "success",
+                  "phase": -1,
+                  "onTarget": true,
+                  "command": "/summon the_faint_radiance:holy"
+                },
+                {
+                  "type": "blocked",
+                  "phase": -1,
+                  "onTarget": true,
+                  "command": "/particle the_faint_radiance:fracture"
+                }
+              ],
+              "nextBehaviors": [
+                {
+                  "behaviorName": "P2 Placeholder Combo B2",
+                  "conditions": [
+                    {
+                      "type": "epicfight:within_distance",
+                      "min": 0,
+                      "max": 5
+                    }
+                  ],
+                  "animation": "womplus:biped/combat/greataxe_dual_auto3",
+                  "animationParams": {
+                    "transitionTime": 0.15,
+                    "playSpeed": 0.8,
+                    "phaseParams": [
+                      {
+                        "phase": -1,
+                        "damageMultiplier": 1.25
+                      }
+                    ]
+                  },
+                  "onBehaviorStart": [
+                    {
+                      "onTarget": false,
+                      "command": "/particle the_faint_radiance:absolute_lux"
+                    }
+                  ],
+                  "hitEvents": [
+                    {
+                      "type": "success",
+                      "phase": -1,
+                      "onTarget": true,
+                      "command": "/summon the_faint_radiance:holy"
+                    },
+                    {
+                      "type": "blocked",
+                      "phase": -1,
+                      "onTarget": true,
+                      "command": "/particle the_faint_radiance:fracture"
+                    }
+                  ]
+                }
+              ],
+              "onBehaviorStart": [
+                {
+                  "onTarget": false,
+                  "command": "/particle the_faint_radiance:flx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rootName": "Phase 2 Roar",
+          "priority": 4,
+          "weight": 1,
+          "maxCooldown": 1000000,
+          "cooldown": 0,
+          "isGlobal": false,
+          "backAfterFinished": true,
+          "firstBehaviors": [
+            {
+              "behaviorName": "Phase 2 Roar",
+              "stopByStun": 7,
+              "conditions": [
+                {
+                  "type": "combat_evolution:target_in_distance",
+                  "min": 0,
+                  "max": 40
+                },
+                {
+                  "type": "combat_evolution:health_check",
+                  "health": 0.5,
+                  "comparator": "less_ratio_contain"
+                }
+              ],
+              "animation": "epicfight_dd:biped/skill/tremedeous_retaliation",
+              "animationParams": {
+                "transitionTime": 0.15,
+                "playSpeed": 0.65,
+                "phaseParams": [
+                  {
+                    "phase": -1,
+                    "damageMultiplier": 0.1,
+                    "stunType": "knockdown"
+                  }
+                ]
+              },
+              "onBehaviorStart": [
+                {
+                  "onTarget": false,
+                  "command": "/tag @s add ferrum_boss"
+                },
+                {
+                  "onTarget": false,
+                  "command": "/particle the_faint_radiance:flx"
+                },
+                {
+                  "onTarget": false,
+                  "command": "/particle the_faint_radiance:fragment"
+                }
+              ],
+              "timeEvents": [
+                {
+                  "type": "in_time",
+                  "timeStart": 0.8,
+                  "onTarget": false,
+                  "command": "/execute at @s run playsound minecraft:entity.ravager.roar hostile @a ~ ~ ~ 4 0.6"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 0.8,
+                  "onTarget": false,
+                  "command": "/function ferrum:roar_knock"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 0.8,
+                  "onTarget": false,
+                  "command": "/function ferrum:roar_smoke"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 0.9,
+                  "onTarget": false,
+                  "command": "/function ferrum:roar_smoke"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 1.0,
+                  "onTarget": false,
+                  "command": "/function ferrum:roar_smoke"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 1.1,
+                  "onTarget": false,
+                  "command": "/function ferrum:roar_smoke"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

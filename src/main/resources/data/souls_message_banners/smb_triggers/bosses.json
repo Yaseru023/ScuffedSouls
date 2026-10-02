@@ -1,5 +1,6 @@
 {
-  "targets": [
+  "type": "entity_died",
+  "target_entities": [
     "#forge:bosses",
     "#c:bosses",
     "cataclysm:the_harbinger",
@@ -21,7 +22,8 @@
     "legendary_monsters:posessed_paladin",
     "legendary_monsters:ancient_guardian",
     "the_faint_radiance:lychnus",
-    "tkvm_dark_knight:dark_knight"
+    "tkvm_dark_knight:dark_knight",
+    "scuffedsouls:ferrum"
   ],
   "message": {
     "translate": "souls_message_banners.message.entity_felled"

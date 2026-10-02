@@ -3,6 +3,7 @@ package net.yaseruxd.scuffedsouls.entity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.BossEvent;
@@ -22,7 +23,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.network.NetworkHooks;
-import net.yaseruxd.scuffedsouls.registry.ModItems;
+import net.minecraftforge.registries.ForgeRegistries;
 
 public class FerrumEntity extends Monster {
 
@@ -39,17 +40,53 @@ public class FerrumEntity extends Monster {
         this.xpReward = 100;
         this.setCanPickUpLoot(false);
         this.setPersistenceRequired();
+
+        // Armor
+        this.setItemSlot(EquipmentSlot.HEAD,
+                new ItemStack(ForgeRegistries.ITEMS.getValue(
+                        new ResourceLocation("fantasy_armor", "dragonslayer_helmet")
+                ))
+        );
+        this.setItemSlot(EquipmentSlot.CHEST,
+                new ItemStack(ForgeRegistries.ITEMS.getValue(
+                        new ResourceLocation("fantasy_armor", "dragonslayer_chestplate")
+                ))
+        );
+        this.setItemSlot(EquipmentSlot.LEGS,
+                new ItemStack(ForgeRegistries.ITEMS.getValue(
+                        new ResourceLocation("fantasy_armor", "dragonslayer_leggings")
+                ))
+        );
+        this.setItemSlot(EquipmentSlot.FEET,
+                new ItemStack(ForgeRegistries.ITEMS.getValue(
+                        new ResourceLocation("fantasy_armor", "dragonslayer_boots")
+                ))
+        );
+
+        // Weapon
+        this.setItemSlot(EquipmentSlot.MAINHAND,
+                new ItemStack(ForgeRegistries.ITEMS.getValue(
+                        new ResourceLocation("epicfight_dd", "iudex_gundyr_halberd")
+                ))
+        );
+
+        // Prevent Ferrum from dropping equipment on death
+        this.setDropChance(EquipmentSlot.HEAD, 0.0F);
+        this.setDropChance(EquipmentSlot.CHEST, 0.0F);
+        this.setDropChance(EquipmentSlot.LEGS, 0.0F);
+        this.setDropChance(EquipmentSlot.FEET, 0.0F);
+        this.setDropChance(EquipmentSlot.MAINHAND, 0.0F);
     }
 
     public static AttributeSupplier.Builder createAttributes() {
         return Monster.createMonsterAttributes()
-                .add(Attributes.MAX_HEALTH, 300.0)
+                .add(Attributes.MAX_HEALTH, 1000.0)
                 .add(Attributes.ATTACK_DAMAGE, 12.0)
                 .add(Attributes.MOVEMENT_SPEED, 0.26)
                 .add(Attributes.FOLLOW_RANGE, 48.0)
                 .add(Attributes.KNOCKBACK_RESISTANCE, 1.0)
-                .add(Attributes.ARMOR, 10.0)
-                .add(Attributes.ARMOR_TOUGHNESS, 4.0);
+                .add(Attributes.ARMOR, 15.0)
+                .add(Attributes.ARMOR_TOUGHNESS, 10.0);
     }
 
     @Override

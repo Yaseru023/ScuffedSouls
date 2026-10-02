@@ -19,20 +19,20 @@ public class SkeletonSpawnHandler {
 
     private static final Random RANDOM = new Random();
 
-    private static final List<String> HELMETS = List.of("soldier_helmet");
-    private static final List<String> CHESTS  = List.of("soldier_chestplate");
-    private static final List<String> LEGS    = List.of("soldier_leggings");
-    private static final List<String> BOOTS   = List.of("soldier_boots");
+    private static final List<String> HELMETS = List.of("leather_helmet");
+    private static final List<String> CHESTS  = List.of("chainmail_chestplate");
+    private static final List<String> LEGS    = List.of("chainmail_leggings");
+    private static final List<String> BOOTS   = List.of("leather_boots");
 
     @SubscribeEvent(priority = EventPriority.LOWEST)
     public static void onSkeletonSpawn(MobSpawnEvent.FinalizeSpawn event) {
         if (!(event.getEntity() instanceof Skeleton skeleton)) return;
 
         // Armor
-        Item helmet = getItem("slu", HELMETS.get(RANDOM.nextInt(HELMETS.size())));
-        Item chest  = getItem("slu", CHESTS.get(RANDOM.nextInt(CHESTS.size())));
-        Item legs   = getItem("slu", LEGS.get(RANDOM.nextInt(LEGS.size())));
-        Item boots  = getItem("slu", BOOTS.get(RANDOM.nextInt(BOOTS.size())));
+        Item helmet = getItem("minecraft", HELMETS.get(RANDOM.nextInt(HELMETS.size())));
+        Item chest  = getItem("minecraft", CHESTS.get(RANDOM.nextInt(CHESTS.size())));
+        Item legs   = getItem("minecraft", LEGS.get(RANDOM.nextInt(LEGS.size())));
+        Item boots  = getItem("minecraft", BOOTS.get(RANDOM.nextInt(BOOTS.size())));
 
         if (helmet != null) skeleton.setItemSlot(EquipmentSlot.HEAD,  new ItemStack(helmet));
         if (chest  != null) skeleton.setItemSlot(EquipmentSlot.CHEST, new ItemStack(chest));

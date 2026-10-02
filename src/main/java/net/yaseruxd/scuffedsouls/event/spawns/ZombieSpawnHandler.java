@@ -20,19 +20,19 @@ public class ZombieSpawnHandler {
     private static final float SPAWN_CHANCE = 0.80f;
 
     private static final List<String> HELMETS = List.of(
-            "soldier_helmet"
+            "leather_helmet"
     );
 
     private static final List<String> CHESTS = List.of(
-            "soldier_chestplate"
+            "chainmail_chestplate"
     );
 
     private static final List<String> LEGS = List.of(
-            "soldier_leggings"
+            "chainmail_leggings"
     );
 
     private static final List<String> BOOTS = List.of(
-            "soldier_boots"
+            "leather_boots"
     );
 
 
@@ -60,10 +60,10 @@ public class ZombieSpawnHandler {
     }
 
     private static void spawnEliteZombie(Zombie zombie) {
-        Item helmet = getItem("slave_knight_helmet");
-        Item chest  = getItem("slave_knight_chestplate");
-        Item legs   = getItem("slave_knight_leggings");
-        Item boots  = getItem("slave_knight_boots");
+        Item helmet = getItem("iron_helmet");
+        Item chest  = getItem("iron_chestplate");
+        Item legs   = getItem("iron_leggings");
+        Item boots  = getItem("iron_boots");
 
         if (helmet != null) zombie.setItemSlot(EquipmentSlot.HEAD,  new ItemStack(helmet));
         if (chest  != null) zombie.setItemSlot(EquipmentSlot.CHEST, new ItemStack(chest));
@@ -76,7 +76,7 @@ public class ZombieSpawnHandler {
 
     private static Item getItem(String itemId) {
         return ForgeRegistries.ITEMS.getValue(
-                new ResourceLocation("slu", itemId));
+                new ResourceLocation("minecraft", itemId));
     }
 
     private static Item getEpicItem(String itemId) {

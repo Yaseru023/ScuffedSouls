@@ -1,0 +1,8 @@
+{
+  "music.ferrum_theme": {
+    "category": "master",
+    "sounds": [
+      {"name": "combat_evolution:music/ferrum_theme","stream":true}
+    ]
+  }
+}
