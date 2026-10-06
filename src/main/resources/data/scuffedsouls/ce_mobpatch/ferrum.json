@@ -100,7 +100,7 @@
                   "comparator": "greater_ratio"
                 }
               ],
-              "animation": "efn:biped/nf_meen/nf_meen_charge1",
+              "animation": "wom:biped/skill/torment_berserk_convert",
               "animationParams": {
                 "transitionTime": 0.15,
                 "playSpeed": 0.65
@@ -121,6 +121,10 @@
                 {
                   "onTarget": false,
                   "command": "/function ferrum:start"
+                },
+                {
+                  "onTarget": false,
+                  "command": "/particle the_faint_radiance:fracture"
                 }
               ],
               "hitEvents": [
@@ -164,7 +168,8 @@
                   "comparator": "less_ratio_contain"
                 }
               ],
-              "animation": "efn:biped/ng_greatsword/ng_great_chargeskill",
+              "animation": "bks_weapon_arts:biped/greatsword/biped_greatsword_weapon_art_groundshatter",
+
               "animationParams": {
                 "transitionTime": 0.15,
                 "playSpeed": 0.65
@@ -200,6 +205,55 @@
                   "onTarget": true,
                   "command": "/particle the_faint_radiance:fracture"
                 }
+              ],
+              "timeEvents": [
+                {
+                  "type": "in_time",
+                  "timeStart": 0.2,
+                  "onTarget": false,
+                  "command": "/particle the_faint_radiance:fracture"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 0.3,
+                  "onTarget": false,
+                  "command": "/particle the_faint_radiance:fracture"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 0.4,
+                  "onTarget": false,
+                  "command": "/particle the_faint_radiance:fracture"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 0.5,
+                  "onTarget": false,
+                  "command": "/particle the_faint_radiance:fracture"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 0.6,
+                  "onTarget": false,
+                  "command": "/summon the_faint_radiance:radiance"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 0.6,
+                  "onTarget": false,
+                  "command": "/particle the_faint_radiance:fracture"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 0.7,
+                  "onTarget": false,
+                  "command": "/particle the_faint_radiance:fracture"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 0.7,
+                  "onTarget": false,
+                  "command": "/function ferrum:smite_start"}
               ]
             }
           ]
@@ -624,7 +678,7 @@
                       "max": 5
                     }
                   ],
-                  "animation": "womplus:biped/combat/greataxe_dual_auto3",
+                  "animation": "efn:biped/ng_greatsword/ng_great_airslash",
                   "animationParams": {
                     "transitionTime": 0.15,
                     "playSpeed": 0.8,
@@ -719,39 +773,45 @@
               "timeEvents": [
                 {
                   "type": "in_time",
-                  "timeStart": 0.8,
+                  "timeStart": 0.2,
                   "onTarget": false,
-                  "command": "/execute at @s run playsound minecraft:entity.ravager.roar hostile @a ~ ~ ~ 4 0.6"
+                  "command": "/particle the_faint_radiance:fracture"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 0.2,
+                  "onTarget": false,
+                  "command": "/function ferrum:smite_start"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 0.3,
+                  "onTarget": false,
+                  "command": "/particle the_faint_radiance:fracture"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 0.4,
+                  "onTarget": false,
+                  "command": "/particle the_faint_radiance:fracture"
+                },
+                {
+                  "type": "in_time",
+                  "timeStart": 0.6,
+                  "onTarget": false,
+                  "command": "/particle the_faint_radiance:fracture"
                 },
                 {
                   "type": "in_time",
                   "timeStart": 0.8,
                   "onTarget": false,
-                  "command": "/function ferrum:roar_knock"
-                },
-                {
-                  "type": "in_time",
-                  "timeStart": 0.8,
-                  "onTarget": false,
-                  "command": "/function ferrum:roar_smoke"
-                },
-                {
-                  "type": "in_time",
-                  "timeStart": 0.9,
-                  "onTarget": false,
-                  "command": "/function ferrum:roar_smoke"
+                  "command": "/particle the_faint_radiance:fracture"
                 },
                 {
                   "type": "in_time",
                   "timeStart": 1.0,
                   "onTarget": false,
-                  "command": "/function ferrum:roar_smoke"
-                },
-                {
-                  "type": "in_time",
-                  "timeStart": 1.1,
-                  "onTarget": false,
-                  "command": "/function ferrum:roar_smoke"
+                  "command": "/particle the_faint_radiance:fracture"
                 }
               ]
             }

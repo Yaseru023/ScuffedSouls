@@ -20,12 +20,15 @@ execute as @e[tag=ferrum_photon] run data merge entity @s {Motion:[0.0,0.0,0.0],
 # hit check (radius 2 so it counts from eye height)
 execute as @e[tag=ferrum_photon,scores={ferrum_age=40..}] at @s if entity @p[tag=ferrum_target,distance=..2.2] run function ferrum:hit
 
-# ---- roar orbit photons: spiral outward from Ferrum (gentle turn that eases off, so each arm sweeps away)
-execute as @e[tag=ferrum_orbit_pilot,scores={ferrum_age=1..40}] at @s run tp @s ^ ^ ^0.4 ~3 ~
-execute as @e[tag=ferrum_orbit_pilot,scores={ferrum_age=41..}] at @s run tp @s ^ ^ ^0.45 ~1.5 ~
-execute as @e[tag=ferrum_orbit_pilot] at @s run tp @e[tag=ferrum_orbit_photon,sort=nearest,limit=1] ~ ~ ~
-execute as @e[tag=ferrum_orbit_photon] run data merge entity @s {Motion:[0.0,0.0,0.0],inGround:0b}
-execute as @e[tag=ferrum_orbit_photon,scores={ferrum_age=1..}] at @s if entity @a[distance=..1.5,gamemode=!spectator] run function ferrum:orbit_hit
+# ---- RADIANCE STRIKES: absolute_lux pulses mark each spot, the radiance lands at 20 ticks (1s)
+execute as @e[tag=smite_mark,scores={ferrum_age=1}] at @s if entity @e[tag=ferrum_boss,distance=..6] run kill @s
+execute as @e[tag=smite_mark,scores={ferrum_age=19}] run effect give @e[tag=ferrum_boss] minecraft:resistance 1 4 true
+execute as @e[tag=smite_mark,scores={ferrum_age=1}] at @s run particle the_faint_radiance:absolute_lux ~ ~0.1 ~ 0 0 0 0 1
+execute as @e[tag=smite_mark,scores={ferrum_age=8}] at @s run particle the_faint_radiance:absolute_lux ~ ~0.1 ~ 0 0 0 0 1
+execute as @e[tag=smite_mark,scores={ferrum_age=15}] at @s run particle the_faint_radiance:absolute_lux ~ ~0.1 ~ 0 0 0 0 1
+execute as @e[tag=smite_mark,scores={ferrum_age=20}] at @s run summon the_faint_radiance:radiance ~ ~ ~
+execute as @e[tag=smite_mark,scores={ferrum_age=20}] at @s run summon the_faint_radiance:holy ~ ~ ~
+kill @e[tag=smite_mark,scores={ferrum_age=20..}]
 
 # cleanup (6s max life, covers all ferrum_fx entities)
 kill @e[tag=ferrum_fx,scores={ferrum_age=120..}]
