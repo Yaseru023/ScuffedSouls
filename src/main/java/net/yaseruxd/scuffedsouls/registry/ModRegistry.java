@@ -2,8 +2,7 @@ package net.yaseruxd.scuffedsouls.registry;
 
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
-import net.yaseruxd.scuffedsouls.registry.ModEntities;
-import net.yaseruxd.scuffedsouls.entity.FerrumEntity;
+import net.yaseruxd.scuffedsouls.entity.MemorCustos;
 import net.yaseruxd.scuffedsouls.network.ModNetwork;
 import net.yaseruxd.scuffedsouls.recipe.ModRecipeTypes;
 
@@ -25,7 +24,7 @@ public class ModRegistry {
 
     // Add this method
     private static void registerAttributes(EntityAttributeCreationEvent event) {
-        event.put(ModEntities.FERRUM.get(),
-                FerrumEntity.createAttributes().build());
+        event.put(ModEntities.MEMORCUSTOS.get(),
+                MemorCustos.createAttributes().build());
     }
 }

@@ -25,11 +25,11 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.registries.ForgeRegistries;
 
-public class FerrumEntity extends Monster {
+public class MemorCustos extends Monster {
 
     private final ServerBossEvent bossInfo;
 
-    public FerrumEntity(EntityType<? extends FerrumEntity> type, Level level) {
+    public MemorCustos(EntityType<? extends MemorCustos> type, Level level) {
         super(type, level);
         this.bossInfo = new ServerBossEvent(
                 this.getDisplayName(),
@@ -44,22 +44,22 @@ public class FerrumEntity extends Monster {
         // Armor
         this.setItemSlot(EquipmentSlot.HEAD,
                 new ItemStack(ForgeRegistries.ITEMS.getValue(
-                        new ResourceLocation("fantasy_armor", "dragonslayer_helmet")
+                        new ResourceLocation("fantasy_armor", "twinned_helmet")
                 ))
         );
         this.setItemSlot(EquipmentSlot.CHEST,
                 new ItemStack(ForgeRegistries.ITEMS.getValue(
-                        new ResourceLocation("fantasy_armor", "dragonslayer_chestplate")
+                        new ResourceLocation("fantasy_armor", "twinned_chestplate")
                 ))
         );
         this.setItemSlot(EquipmentSlot.LEGS,
                 new ItemStack(ForgeRegistries.ITEMS.getValue(
-                        new ResourceLocation("fantasy_armor", "dragonslayer_leggings")
+                        new ResourceLocation("fantasy_armor", "twinned_leggings")
                 ))
         );
         this.setItemSlot(EquipmentSlot.FEET,
                 new ItemStack(ForgeRegistries.ITEMS.getValue(
-                        new ResourceLocation("fantasy_armor", "dragonslayer_boots")
+                        new ResourceLocation("fantasy_armor", "twinned_boots")
                 ))
         );
 

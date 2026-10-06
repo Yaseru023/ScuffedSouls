@@ -28,7 +28,7 @@ public class ModItems {
     // In ModItems.java
     public static final RegistryObject<Item> FERRUM_SPAWN_EGG =
             ITEMS.register("ferrum_spawn_egg",
-                    () -> new ForgeSpawnEggItem(ModEntities.FERRUM, 0x2C2C2C, 0x8B0000,
+                    () -> new ForgeSpawnEggItem(ModEntities.MEMORCUSTOS, 0x2C2C2C, 0x8B0000,
                             new Item.Properties())
             );
 

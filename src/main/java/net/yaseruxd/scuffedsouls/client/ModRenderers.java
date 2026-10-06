@@ -5,7 +5,7 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.yaseruxd.scuffedsouls.ScuffedSouls;
-import net.yaseruxd.scuffedsouls.client.renderer.FerrumRenderer;
+import net.yaseruxd.scuffedsouls.client.renderer.MemorCustosRenderer;
 import net.yaseruxd.scuffedsouls.registry.ModEntities;
 
 @Mod.EventBusSubscriber(
@@ -18,8 +18,8 @@ public class ModRenderers {
     @SubscribeEvent
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(
-                ModEntities.FERRUM.get(),
-                FerrumRenderer::new
+                ModEntities.MEMORCUSTOS.get(),
+                MemorCustosRenderer::new
         );
     }
 }

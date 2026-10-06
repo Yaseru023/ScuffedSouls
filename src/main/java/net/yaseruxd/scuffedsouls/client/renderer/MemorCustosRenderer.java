@@ -8,14 +8,14 @@ import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
 import net.minecraft.resources.ResourceLocation;
 import net.yaseruxd.scuffedsouls.ScuffedSouls;
-import net.yaseruxd.scuffedsouls.entity.FerrumEntity;
+import net.yaseruxd.scuffedsouls.entity.MemorCustos;
 
-public class FerrumRenderer extends HumanoidMobRenderer<FerrumEntity, HumanoidModel<FerrumEntity>> {
+public class MemorCustosRenderer extends HumanoidMobRenderer<MemorCustos, HumanoidModel<MemorCustos>> {
 
     private static final ResourceLocation TEXTURE =
             new ResourceLocation(ScuffedSouls.MODID, "textures/entity/hollow_skin.png");
 
-    public FerrumRenderer(EntityRendererProvider.Context context) {
+    public MemorCustosRenderer(EntityRendererProvider.Context context) {
         super(context,
                 new HumanoidModel<>(context.bakeLayer(ModelLayers.ZOMBIE)),
                 0.5F
@@ -29,12 +29,12 @@ public class FerrumRenderer extends HumanoidMobRenderer<FerrumEntity, HumanoidMo
     }
 
     @Override
-    protected void scale(FerrumEntity entity, PoseStack poseStack, float partialTick) {
+    protected void scale(MemorCustos entity, PoseStack poseStack, float partialTick) {
         poseStack.scale(1.2F, 1.2F, 1.2F);
     }
 
     @Override
-    public ResourceLocation getTextureLocation(FerrumEntity entity) {
+    public ResourceLocation getTextureLocation(MemorCustos entity) {
         return TEXTURE;
     }
 }
