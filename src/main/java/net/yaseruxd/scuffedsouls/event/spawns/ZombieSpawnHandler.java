@@ -17,22 +17,22 @@ import java.util.Random;
 public class ZombieSpawnHandler {
 
     private static final Random RANDOM = new Random();
-    private static final float SPAWN_CHANCE = 0.80f;
+    private static final float SPAWN_CHANCE = 1.0f;
 
     private static final List<String> HELMETS = List.of(
-            "leather_helmet"
+            "eastern_helmet"
     );
 
     private static final List<String> CHESTS = List.of(
-            "chainmail_chestplate"
+            "eastern_chestplate"
     );
 
     private static final List<String> LEGS = List.of(
-            "chainmail_leggings"
+            "eastern_leggings"
     );
 
     private static final List<String> BOOTS = List.of(
-            "leather_boots"
+            "eastern_boots"
     );
 
 
@@ -60,10 +60,10 @@ public class ZombieSpawnHandler {
     }
 
     private static void spawnEliteZombie(Zombie zombie) {
-        Item helmet = getItem("iron_helmet");
-        Item chest  = getItem("iron_chestplate");
-        Item legs   = getItem("iron_leggings");
-        Item boots  = getItem("iron_boots");
+        Item helmet = getItem("raksasha_helmet");
+        Item chest  = getItem("raksasha_chestplate");
+        Item legs   = getItem("raksasha_leggings");
+        Item boots  = getItem("raksasha_boots");
 
         if (helmet != null) zombie.setItemSlot(EquipmentSlot.HEAD,  new ItemStack(helmet));
         if (chest  != null) zombie.setItemSlot(EquipmentSlot.CHEST, new ItemStack(chest));

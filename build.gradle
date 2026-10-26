@@ -108,6 +108,7 @@ dependencies {
     minecraft "net.minecraftforge:forge:1.20.1-47.4.0"
 
     implementation files("libs/epic_stats_mod_remastered-2.0.1-forge-1.20.1.jar")
+    implementation files("libs/bks_spellcraft-0.1.1.jar")
     implementation files("libs/jei-1.20.1-forge-15.20.0.129.jar")
     implementation fg.deobf("curse.maven:epic-fight-mod-405076:8049910")
     dependencies {

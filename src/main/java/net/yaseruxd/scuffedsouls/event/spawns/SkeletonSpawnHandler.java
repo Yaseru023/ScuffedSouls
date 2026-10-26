@@ -19,10 +19,10 @@ public class SkeletonSpawnHandler {
 
     private static final Random RANDOM = new Random();
 
-    private static final List<String> HELMETS = List.of("leather_helmet");
-    private static final List<String> CHESTS  = List.of("chainmail_chestplate");
-    private static final List<String> LEGS    = List.of("chainmail_leggings");
-    private static final List<String> BOOTS   = List.of("leather_boots");
+    private static final List<String> HELMETS = List.of("fallen_knight_helmet");
+    private static final List<String> CHESTS  = List.of("fallen_knight_chestplate");
+    private static final List<String> LEGS    = List.of("fallen_knight_leggings");
+    private static final List<String> BOOTS   = List.of("fallen_knight_boots");
 
     @SubscribeEvent(priority = EventPriority.LOWEST)
     public static void onSkeletonSpawn(MobSpawnEvent.FinalizeSpawn event) {

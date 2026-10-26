@@ -22,6 +22,7 @@ public class ModTabs {
 
                                 output.accept(ModItems.TORMENTED_SOUL.get());
                                 output.accept(ModItems.WEEPING_CORE.get());
+
                             })
                             .build());
 }

@@ -21,6 +21,25 @@ public class ModNetwork {
 
     public static void register() {
 
+        // CLIENT -> SERVER: player confirms class selection
+        CHANNEL.registerMessage(
+                packetId++,
+                ClassSelectionPacket.class,
+                ClassSelectionPacket::encode,
+                ClassSelectionPacket::decode,
+                ClassSelectionPacket::handle
+        );
+
+        // SERVER -> CLIENT: tell client to open class selection screen
+        CHANNEL.registerMessage(
+                packetId++,
+                OpenClassScreenPacket.class,
+                OpenClassScreenPacket::encode,
+                OpenClassScreenPacket::decode,
+                OpenClassScreenPacket::handle,
+                java.util.Optional.of(NetworkDirection.PLAY_TO_CLIENT)
+        );
+
         CHANNEL.registerMessage(
                 packetId++,
                 LychnusMusicPacket.class,
@@ -65,6 +84,5 @@ public class ModNetwork {
                 HollowSyncPacket::handle,
                 java.util.Optional.of(NetworkDirection.PLAY_TO_CLIENT)
         );
-
     }
 }

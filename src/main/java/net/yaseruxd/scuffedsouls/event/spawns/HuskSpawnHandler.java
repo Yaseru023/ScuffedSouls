@@ -18,41 +18,33 @@ import java.util.Random;
 public class HuskSpawnHandler {
 
     private static final Random RANDOM = new Random();
-    private static final float SPAWN_CHANCE           = 0.80f;
+    private static final float SPAWN_CHANCE           = 1.0f;
     private static final float SEAL_CRYSTAL_DROP_CHANCE       = 0.02f;
     private static final float SEAL_CRYSTAL_ELITE_DROP_CHANCE = 0.05f;
     private static final float ELITE_CHANCE           = 0.10f;
 
     // TODO: replace with actual bks_invaders item IDs
     private static final List<String> HELMETS = List.of(
-            "look_open_pot_helmet",
-            "look_sallet_knight_helmet",
-            "look_hound_helmet"
+            "godrick_soldier_helmet"
     );
 
     private static final List<String> CHESTS = List.of(
-            "look_saxon_tunic_chestplate",
-            "look_sallet_knight_chestplate",
-            "look_hound_chestplate"
+            "godrick_soldier_chestplate"
     );
 
     private static final List<String> LEGS = List.of(
-            "look_saxon_tunic_leggings",
-            "look_sallet_knight_leggings",
-            "look_hound_leggings"
+            "godrick_soldier_leggings"
     );
 
     private static final List<String> BOOTS = List.of(
-            "look_saxon_tunic_boots",
-            "look_sallet_knight_boots",
-            "look_hound_boots"
+            "godrick_soldier_boots"
     );
 
     // TODO: replace with actual bks_invaders elite item IDs
-    private static final String ELITE_HELMET     = "look_bastion_helmet";
-    private static final String ELITE_CHESTPLATE = "look_bastion_chestplate";
-    private static final String ELITE_LEGGINGS   = "look_bastion_leggings";
-    private static final String ELITE_BOOTS      = "look_bastion_boots";
+    private static final String ELITE_HELMET     = "godrick_knight_helmet";
+    private static final String ELITE_CHESTPLATE = "godrick_knight_chestplate";
+    private static final String ELITE_LEGGINGS   = "godrick_knight_leggings";
+    private static final String ELITE_BOOTS      = "godrick_knight_boots";
 
     @SubscribeEvent
     public static void onHuskSpawn(MobSpawnEvent.FinalizeSpawn event) {
@@ -117,7 +109,7 @@ public class HuskSpawnHandler {
 
     private static Item getBksItem(String itemId) {
         return ForgeRegistries.ITEMS.getValue(
-                new ResourceLocation("bks_invaders", itemId));
+                new ResourceLocation("bks_armor", itemId));
     }
 
     private static Item getNetherItem(String itemId) {
