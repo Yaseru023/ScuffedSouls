@@ -12,6 +12,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
@@ -38,10 +40,18 @@ import net.yaseruxd.scuffedsouls.network.HollowSyncPacket;
 import net.yaseruxd.scuffedsouls.network.ModNetwork;
 import net.yaseruxd.scuffedsouls.registry.ModBlocks;
 
-import net.minecraft.world.item.Items;
-import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent;
 import net.yaseruxd.scuffedsouls.hollow.HollowData;
 import net.yaseruxd.scuffedsouls.hollow.HollowManager;
+
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.world.phys.Vec3;
+
+import net.minecraft.core.registries.Registries;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.entity.EntityType;
+
+import net.yaseruxd.scuffedsouls.playerclass.ClassManager;
+import net.yaseruxd.scuffedsouls.network.OpenClassScreenPacket;
 
 @EventBusSubscriber(
         modid = "scuffedsouls",
@@ -109,6 +119,13 @@ public class PlayerEventHandler {
             pendingJoinSync.add(uuid);
             joinTickCounter.put(uuid, 0);
 
+            if (!ClassManager.hasClass(player)) {
+                ModNetwork.CHANNEL.send(
+                        PacketDistributor.PLAYER.with(() -> player),
+                        new OpenClassScreenPacket()
+                );
+            }
+
             // Reapply hollow modifiers from stored NBT level
             HollowManager.removeModifiers(player);
             HollowManager.applyModifiers(player);
@@ -118,14 +135,20 @@ public class PlayerEventHandler {
 
     @SubscribeEvent
     public static void onPlayerClone(PlayerEvent.Clone event) {
-        if (!event.isWasDeath()) return; // only on death respawn, not end portal
+        if (!event.isWasDeath()) return;
 
         Player original = event.getOriginal();
         Player clone = event.getEntity();
 
-        // Required to access the original player's persistent data
         original.reviveCaps();
 
+        // Preserve class selection
+        clone.getPersistentData().putString(
+                "scuffedsouls_class",
+                original.getPersistentData().getString("scuffedsouls_class")
+        );
+
+        // Preserve Hollow data
         int hollowLevel = HollowData.getLevel(original);
         HollowData.setLevel(clone, hollowLevel);
 
@@ -222,18 +245,79 @@ public class PlayerEventHandler {
     }
 
     @SubscribeEvent
-    public static void onItemFinishedUsing(LivingEntityUseItemEvent.Finish event) {
-        if (!(event.getEntity() instanceof ServerPlayer player)) return;
-        if (event.getItem().getItem() != Items.ENCHANTED_GOLDEN_APPLE) return;
-        if (player.level().isClientSide()) return;
+    public static void onHumanoidKilled(LivingDeathEvent event) {
+        LivingEntity killed = event.getEntity();
 
-        int currentLevel = HollowData.getLevel(player);
-        if (currentLevel <= 0) return;
+        // Only process humanoid mobs
+        if (!isHumanoid(killed)) return;
 
+        // Only process player kills
+        if (!(event.getSource().getEntity() instanceof ServerPlayer player)) {
+            return;
+        }
+
+        // Player must currently have Hollow
+        int hollowLevel = HollowData.getLevel(player);
+        if (hollowLevel <= 0) return;
+
+        // Decrease Hollow
         HollowData.decrement(player);
+
+// Play Soul Speed's soul escape sound
+        player.playNotifySound(
+                SoundEvents.SOUL_ESCAPE,
+                SoundSource.PLAYERS,
+                1.8F,
+                0.85F
+        );
+
+        // Update player attributes
         HollowManager.removeModifiers(player);
         HollowManager.applyModifiers(player);
+
+        // Update HUD
         syncHollowToClient(player);
+
+        // Release souls from the killed mob
+        summonSoulParticles(killed, player);
+    }
+
+    private static void summonSoulParticles(
+            LivingEntity killed,
+            ServerPlayer player
+    ) {
+        if (!(killed.level() instanceof ServerLevel level)) return;
+
+        Vec3 target = player.position().add(0, 1.0, 0);
+
+        // Create a burst of souls around the dead mob
+        for (int i = 0; i < 16; i++) {
+
+            double x = killed.getX()
+                    + (killed.getRandom().nextDouble() - 0.5) * 1.5;
+
+            double y = killed.getY()
+                    + killed.getRandom().nextDouble() * killed.getBbHeight();
+
+            double z = killed.getZ()
+                    + (killed.getRandom().nextDouble() - 0.5) * 1.5;
+
+            Vec3 particlePosition = new Vec3(x, y, z);
+
+            // Direction toward the player
+            Vec3 direction = target.subtract(particlePosition).normalize();
+
+            // Spawn one particle with directed velocity
+            level.sendParticles(
+                    ParticleTypes.SOUL,
+                    x, y, z,
+                    0,
+                    direction.x * 0.25,
+                    direction.y * 0.25,
+                    direction.z * 0.25,
+                    1.0
+            );
+        }
     }
 
     private static void syncHollowToClient(ServerPlayer player) {
@@ -241,5 +325,15 @@ public class PlayerEventHandler {
                 PacketDistributor.PLAYER.with(() -> player),
                 new HollowSyncPacket(HollowData.getLevel(player))
         );
+    }
+
+    private static final TagKey<EntityType<?>> HUMANOID =
+            TagKey.create(
+                    Registries.ENTITY_TYPE,
+                    new ResourceLocation("scuffedsouls", "humanoid")
+            );
+
+    private static boolean isHumanoid(LivingEntity entity) {
+        return entity.getType().is(HUMANOID);
     }
 }

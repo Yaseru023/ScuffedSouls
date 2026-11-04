@@ -29,11 +29,11 @@ public enum PlayerClass {
             "Strength is the only truth.\nEverything else is noise.",
             9, 8, 6, 4, 3, 5, 7, 6,
             List.of(
-                    erAnim("iron_battleaxe"),       // PLACEHOLDER: confirm exact ID
+                    epicFight("iron_longsword"),
                     vanillaItem("shield"),
-                    bksArmor("iron_chestplate"), // PLACEHOLDER
-                    bksArmor("iron_leggings"),   // PLACEHOLDER
-                    bksArmor("iron_boots"),   // PLACEHOLDER
+                    bksArmor("iron_chestplate"),
+                    bksArmor("iron_leggings"),
+                    bksArmor("iron_boots"),
                     vanillaItem("bread", 16)
             ),
             List.of()

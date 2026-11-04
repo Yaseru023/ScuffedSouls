@@ -3,97 +3,97 @@
     {
       "item": "epicfight:iron_longsword",
       "stats": [
-        {"stat": "strength", "min": 10}
+        {"stat": "strength", "min": 5}
       ]
     },
     {
       "item": "epicfight:golden_longsword",
       "stats": [
-        {"stat": "strength", "min": 20}
+        {"stat": "strength", "min": 15}
       ]
     },
     {
       "item": "epicfight:diamond_longsword",
       "stats": [
-        {"stat": "strength", "min": 20}
+        {"stat": "strength", "min": 25}
       ]
     },
     {
       "item": "epicfight:netherite_longsword",
       "stats": [
-        {"stat": "strength", "min": 30}
+        {"stat": "strength", "min": 35}
       ]
     },
     {
       "item": "epicfight:iron_greatsword",
       "stats": [
-        {"stat": "strength", "min": 16}
+        {"stat": "strength", "min": 10}
       ]
     },
     {
       "item": "epicfight:golden_greatsword",
       "stats": [
-        {"stat": "strength", "min": 30}
+        {"stat": "strength", "min": 25}
       ]
     },
     {
       "item": "epicfight:diamond_greatsword",
       "stats": [
-        {"stat": "strength", "min": 30}
+        {"stat": "strength", "min": 35}
       ]
     },
     {
       "item": "epicfight:netherite_greatsword",
       "stats": [
-        {"stat": "strength", "min": 42}
+        {"stat": "strength", "min": 45}
       ]
     },
     {
       "item": "epicfight:iron_spear",
       "stats": [
-        {"stat": "dexterity", "min": 12}
+        {"stat": "dexterity", "min": 5}
       ]
     },
     {
       "item": "epicfight:golden_spear",
       "stats": [
-        {"stat": "dexterity", "min": 22}
+        {"stat": "dexterity", "min": 15}
       ]
     },
     {
       "item": "epicfight:diamond_spear",
       "stats": [
-        {"stat": "dexterity", "min": 22}
+        {"stat": "dexterity", "min": 20}
       ]
     },
     {
       "item": "epicfight:netherite_spear",
       "stats": [
-        {"stat": "dexterity", "min": 32}
+        {"stat": "dexterity", "min": 35}
       ]
     },
     {
       "item": "epicfight:iron_tachi",
       "stats": [
-        {"stat": "dexterity", "min": 14}
+        {"stat": "dexterity", "min": 5}
       ]
     },
     {
       "item": "epicfight:golden_tachi",
       "stats": [
-        {"stat": "dexterity", "min": 26}
+        {"stat": "dexterity", "min": 15}
       ]
     },
     {
       "item": "epicfight:diamond_tachi",
       "stats": [
-        {"stat": "dexterity", "min": 26}
+        {"stat": "dexterity", "min": 25}
       ]
     },
     {
       "item": "epicfight:netherite_tachi",
       "stats": [
-        {"stat": "dexterity", "min": 38}
+        {"stat": "dexterity", "min": 30}
       ]
     },
     {
@@ -105,25 +105,25 @@
     {
       "item": "epicfight:iron_dagger",
       "stats": [
-        {"stat": "dexterity", "min": 8}
+        {"stat": "dexterity", "min": 5}
       ]
     },
     {
       "item": "epicfight:golden_dagger",
       "stats": [
-        {"stat": "dexterity", "min": 14}
+        {"stat": "dexterity", "min": 10}
       ]
     },
     {
       "item": "epicfight:diamond_dagger",
       "stats": [
-        {"stat": "dexterity", "min": 16}
+        {"stat": "dexterity", "min": 20}
       ]
     },
     {
       "item": "epicfight:netherite_dagger",
       "stats": [
-        {"stat": "dexterity", "min": 24}
+        {"stat": "dexterity", "min": 25}
       ]
     }
   ]

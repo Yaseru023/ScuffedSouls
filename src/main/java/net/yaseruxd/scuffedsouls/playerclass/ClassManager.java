@@ -14,30 +14,23 @@ public class ClassManager {
     private static final String CLASS_KEY = "scuffedsouls_class";
 
     public static void assignClass(ServerPlayer player, PlayerClass playerClass) {
-        // Save class to persistent NBT
         player.getPersistentData().putString(CLASS_KEY, playerClass.name());
 
         giveStartingItems(player, playerClass);
         giveEstusFlask(player);
         applyStats(player, playerClass);
-        applySpells(player, playerClass);  // immediate, no delay needed
-
-        // Save player data
-        MinecraftServer server = player.getServer();
-        if (server != null) {
-            new Thread(() -> {
-                try { Thread.sleep(1000); } catch (InterruptedException e) { e.printStackTrace(); }
-                server.execute(() -> server.getPlayerList().saveAll());
-            }).start();
-        }
+        applySpells(player, playerClass);
     }
 
     public static boolean hasClass(ServerPlayer player) {
-        return player.getPersistentData().contains(CLASS_KEY);
+        return getClass(player) != null;
     }
 
     public static PlayerClass getClass(ServerPlayer player) {
         String className = player.getPersistentData().getString(CLASS_KEY);
+
+        if (className.isEmpty()) return null;
+
         try {
             return PlayerClass.valueOf(className);
         } catch (IllegalArgumentException e) {

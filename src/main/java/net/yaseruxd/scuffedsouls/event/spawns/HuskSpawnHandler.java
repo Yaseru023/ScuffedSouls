@@ -1,3 +1,4 @@
+
 package net.yaseruxd.scuffedsouls.event.spawns;
 
 import net.minecraft.resources.ResourceLocation;
@@ -5,8 +6,10 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.monster.Husk;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.event.entity.living.MobSpawnEvent;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -14,115 +17,151 @@ import net.minecraftforge.registries.ForgeRegistries;
 import java.util.List;
 import java.util.Random;
 
-@Mod.EventBusSubscriber(modid = "scuffedsouls", bus = Mod.EventBusSubscriber.Bus.FORGE)
+@Mod.EventBusSubscriber(
+        modid = "scuffedsouls",
+        bus = Mod.EventBusSubscriber.Bus.FORGE
+)
 public class HuskSpawnHandler {
 
+    private record ItemRef(String namespace, String path) {}
+
     private static final Random RANDOM = new Random();
-    private static final float SPAWN_CHANCE           = 1.0f;
-    private static final float SEAL_CRYSTAL_DROP_CHANCE       = 0.02f;
+
+    private static final float ELITE_CHANCE = 0.10f;
+    private static final float SEAL_CRYSTAL_DROP_CHANCE = 0.02f;
     private static final float SEAL_CRYSTAL_ELITE_DROP_CHANCE = 0.05f;
-    private static final float ELITE_CHANCE           = 0.10f;
 
-    // TODO: replace with actual bks_invaders item IDs
-    private static final List<String> HELMETS = List.of(
-            "godrick_soldier_helmet"
+    private static final String ELITE_TAG = "scuffedsouls_elite_husk";
+
+    private static final String ME = "magistuarmory";
+    private static final String MEA = "magistuarmoryaddon";
+
+    // Normal husk equipment
+    private static final List<ItemRef> HELMETS = List.of(
+            new ItemRef(ME, "rustedchainmail_helmet"),
+            new ItemRef(ME, "rustedkettlehat"),
+            new ItemRef(ME, "rustedbarbute")
     );
 
-    private static final List<String> CHESTS = List.of(
-            "godrick_soldier_chestplate"
+    private static final List<ItemRef> CHESTS = List.of(
+            new ItemRef(ME, "rustedhalfarmor_chestplate"),
+            new ItemRef(ME, "rustedchainmail_chestplate")
     );
 
-    private static final List<String> LEGS = List.of(
-            "godrick_soldier_leggings"
+    private static final List<ItemRef> LEGS = List.of(
+            new ItemRef(ME, "rustedchainmail_leggings")
     );
 
-    private static final List<String> BOOTS = List.of(
-            "godrick_soldier_boots"
+    private static final List<ItemRef> BOOTS = List.of(
+            new ItemRef(ME, "rustedchainmail_boots")
     );
 
-    // TODO: replace with actual bks_invaders elite item IDs
-    private static final String ELITE_HELMET     = "godrick_knight_helmet";
-    private static final String ELITE_CHESTPLATE = "godrick_knight_chestplate";
-    private static final String ELITE_LEGGINGS   = "godrick_knight_leggings";
-    private static final String ELITE_BOOTS      = "godrick_knight_boots";
+    private static final List<ItemRef> WEAPONS = List.of(
+            new ItemRef(ME, "rusted_heavymace"),
+            new ItemRef(ME, "club"),
+            new ItemRef(ME, "rusted_bastardsword"),
+            new ItemRef(ME, "barbedclub")
+    );
 
-    @SubscribeEvent
+    // Elite husk equipment
+    private static final ItemRef ELITE_HELMET =
+            new ItemRef(ME, "rustedgreathelm");
+
+    private static final ItemRef ELITE_CHESTPLATE =
+            new ItemRef(ME, "rustedcrusader_chestplate");
+
+    private static final ItemRef ELITE_LEGGINGS =
+            new ItemRef(ME, "rustedchainmail_leggings");
+
+    private static final ItemRef ELITE_BOOTS =
+            new ItemRef(ME, "rustedcrusader_boots");
+
+    private static final ItemRef ELITE_WEAPON =
+            new ItemRef(ME, "stone_flamebladedsword");
+
+    // Run after vanilla's equipment roll.
+    @SubscribeEvent(priority = EventPriority.LOWEST)
     public static void onHuskSpawn(MobSpawnEvent.FinalizeSpawn event) {
         if (!(event.getEntity() instanceof Husk husk)) return;
-        if (RANDOM.nextFloat() > SPAWN_CHANCE) return;
 
+        // Every husk gets either normal or elite equipment.
         if (RANDOM.nextFloat() < ELITE_CHANCE) {
             spawnEliteHusk(husk);
-            return;
+        } else {
+            spawnNormalHusk(husk);
         }
-
-        spawnNormalHusk(husk);
     }
 
     @SubscribeEvent
     public static void onHuskDrop(LivingDropsEvent event) {
-        if (!(event.getEntity() instanceof Husk)) return;
+        if (!(event.getEntity() instanceof Husk husk)) return;
 
-        Item sealCrystal = getNetherItem("seal_crystal");
+        Item sealCrystal = getItem(
+                new ItemRef("nether_remastered", "seal_crystal")
+        );
+
         if (sealCrystal == null) return;
 
-        if (event.getEntity().hasCustomName()) {
-            // elite drop
-            if (RANDOM.nextFloat() < SEAL_CRYSTAL_ELITE_DROP_CHANCE) {
-                event.getEntity().spawnAtLocation(new ItemStack(sealCrystal));
-            }
-        } else {
-            // normal drop
-            if (RANDOM.nextFloat() < SEAL_CRYSTAL_DROP_CHANCE) {
-                event.getEntity().spawnAtLocation(new ItemStack(sealCrystal));
-            }
+        boolean elite = husk.getPersistentData().getBoolean(ELITE_TAG);
+
+        float chance = elite
+                ? SEAL_CRYSTAL_ELITE_DROP_CHANCE
+                : SEAL_CRYSTAL_DROP_CHANCE;
+
+        if (RANDOM.nextFloat() < chance) {
+            husk.spawnAtLocation(new ItemStack(sealCrystal));
         }
     }
 
     private static void spawnNormalHusk(Husk husk) {
-        Item helmet = getBksItem(HELMETS.get(RANDOM.nextInt(HELMETS.size())));
-        Item chest  = getBksItem(CHESTS.get(RANDOM.nextInt(CHESTS.size())));
-        Item legs   = getBksItem(LEGS.get(RANDOM.nextInt(LEGS.size())));
-        Item boots  = getBksItem(BOOTS.get(RANDOM.nextInt(BOOTS.size())));
-
-        if (helmet != null) husk.setItemSlot(EquipmentSlot.HEAD,  new ItemStack(helmet));
-        if (chest  != null) husk.setItemSlot(EquipmentSlot.CHEST, new ItemStack(chest));
-        if (legs   != null) husk.setItemSlot(EquipmentSlot.LEGS,  new ItemStack(legs));
-        if (boots  != null) husk.setItemSlot(EquipmentSlot.FEET,  new ItemStack(boots));
+        equip(husk, EquipmentSlot.HEAD, pick(HELMETS));
+        equip(husk, EquipmentSlot.CHEST, pick(CHESTS));
+        equip(husk, EquipmentSlot.LEGS, pick(LEGS));
+        equip(husk, EquipmentSlot.FEET, pick(BOOTS));
+        equip(husk, EquipmentSlot.MAINHAND, pick(WEAPONS));
 
         setNoGearDrop(husk);
     }
 
     private static void spawnEliteHusk(Husk husk) {
-        Item helmet = getBksItem(ELITE_HELMET);
-        Item chest  = getBksItem(ELITE_CHESTPLATE);
-        Item legs   = getBksItem(ELITE_LEGGINGS);
-        Item boots  = getBksItem(ELITE_BOOTS);
+        husk.getPersistentData().putBoolean(ELITE_TAG, true);
 
-        if (helmet != null) husk.setItemSlot(EquipmentSlot.HEAD,  new ItemStack(helmet));
-        if (chest  != null) husk.setItemSlot(EquipmentSlot.CHEST, new ItemStack(chest));
-        if (legs   != null) husk.setItemSlot(EquipmentSlot.LEGS,  new ItemStack(legs));
-        if (boots  != null) husk.setItemSlot(EquipmentSlot.FEET,  new ItemStack(boots));
+        equip(husk, EquipmentSlot.HEAD, ELITE_HELMET);
+        equip(husk, EquipmentSlot.CHEST, ELITE_CHESTPLATE);
+        equip(husk, EquipmentSlot.LEGS, ELITE_LEGGINGS);
+        equip(husk, EquipmentSlot.FEET, ELITE_BOOTS);
+        equip(husk, EquipmentSlot.MAINHAND, ELITE_WEAPON);
 
         setNoGearDrop(husk);
     }
 
-    private static Item getBksItem(String itemId) {
-        return ForgeRegistries.ITEMS.getValue(
-                new ResourceLocation("bks_armor", itemId));
+    private static ItemRef pick(List<ItemRef> list) {
+        return list.isEmpty()
+                ? null
+                : list.get(RANDOM.nextInt(list.size()));
     }
 
-    private static Item getNetherItem(String itemId) {
-        return ForgeRegistries.ITEMS.getValue(
-                new ResourceLocation("nether_remastered", itemId));
+    private static void equip(Husk husk, EquipmentSlot slot, ItemRef ref) {
+        Item item = getItem(ref);
+
+        if (item != null) {
+            husk.setItemSlot(slot, new ItemStack(item));
+        }
+    }
+
+    private static Item getItem(ItemRef ref) {
+        if (ref == null) return null;
+
+        Item item = ForgeRegistries.ITEMS.getValue(
+                new ResourceLocation(ref.namespace(), ref.path())
+        );
+
+        return (item == null || item == Items.AIR) ? null : item;
     }
 
     private static void setNoGearDrop(Husk husk) {
-        husk.setDropChance(EquipmentSlot.MAINHAND, 0f);
-        husk.setDropChance(EquipmentSlot.OFFHAND,  0f);
-        husk.setDropChance(EquipmentSlot.HEAD,     0f);
-        husk.setDropChance(EquipmentSlot.CHEST,    0f);
-        husk.setDropChance(EquipmentSlot.LEGS,     0f);
-        husk.setDropChance(EquipmentSlot.FEET,     0f);
+        for (EquipmentSlot slot : EquipmentSlot.values()) {
+            husk.setDropChance(slot, 0f);
+        }
     }
 }
