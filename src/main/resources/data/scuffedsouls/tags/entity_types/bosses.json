@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ender_dragon",
+    "minecraft:wither",
+    "elder_bosses:malenia",
+    "elder_bosses:promised_consort",
+    "souls_like_bosses:soul_of_cinder",
+    "souls_like_bosses:abyss_watcher",
+    "souls_like_bosses:melkor",
+    "souls_like_bosses:nightlord"
+  ]
+}

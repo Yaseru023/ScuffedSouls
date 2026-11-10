@@ -1,0 +1,12 @@
+{
+  "scaling": [
+    {
+      "item": "epicfight_awaken:will_of_king",
+      "stats": [
+        {"stat": "strength", "per_level": 0.12, "start": 10, "cap": 60},
+        {"stat": "intelligence", "per_level": 0.06, "cap": 50},
+        {"stat": "dexterity", "per_level": 0.03}
+      ]
+    }
+  ]
+}

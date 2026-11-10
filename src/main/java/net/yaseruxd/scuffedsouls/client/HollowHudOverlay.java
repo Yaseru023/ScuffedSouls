@@ -26,7 +26,8 @@ public class HollowHudOverlay {
     @SubscribeEvent
     public static void onRenderGuiOverlay(RenderGuiOverlayEvent.Post event) {
 
-        if (event.getOverlay() != VanillaGuiOverlay.EXPERIENCE_BAR.type()) return;
+        // Bind to the crosshair overlay
+        if (event.getOverlay() != VanillaGuiOverlay.CROSSHAIR.type()) return;
 
         Minecraft mc = Minecraft.getInstance();
         if (mc.player == null) return;
@@ -39,7 +40,7 @@ public class HollowHudOverlay {
         int screenWidth = mc.getWindow().getGuiScaledWidth();
         int screenHeight = mc.getWindow().getGuiScaledHeight();
 
-// Centered above the XP bar
+        // Original position — unchanged
         int x = (screenWidth / 2) - (ICON_SIZE / 2);
         int y = screenHeight - 70;
 
@@ -56,6 +57,7 @@ public class HollowHudOverlay {
 
         RenderSystem.disableBlend();
 
+        // Hollow counter below the icon
         String text = String.valueOf(level);
 
         int textWidth = mc.font.width(text);

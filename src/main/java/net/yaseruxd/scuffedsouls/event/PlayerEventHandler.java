@@ -1,3 +1,4 @@
+
 package net.yaseruxd.scuffedsouls.event;
 
 import java.util.ArrayList;
@@ -8,17 +9,22 @@ import java.util.Set;
 import java.util.UUID;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.Vec3;
 
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.TickEvent.Phase;
@@ -34,24 +40,15 @@ import net.yaseruxd.scuffedsouls.block.SoulAnchorData;
 import net.yaseruxd.scuffedsouls.buildup.BuildupData;
 import net.yaseruxd.scuffedsouls.buildup.BuildupDefinitions;
 import net.yaseruxd.scuffedsouls.buildup.BuildupStorage;
+import net.yaseruxd.scuffedsouls.hollow.HollowData;
+import net.yaseruxd.scuffedsouls.hollow.HollowManager;
 import net.yaseruxd.scuffedsouls.network.BuildupDefinitionsSyncPacket;
 import net.yaseruxd.scuffedsouls.network.BuildupSyncPacket;
 import net.yaseruxd.scuffedsouls.network.HollowSyncPacket;
 import net.yaseruxd.scuffedsouls.network.ModNetwork;
-import net.yaseruxd.scuffedsouls.registry.ModBlocks;
-
-import net.yaseruxd.scuffedsouls.hollow.HollowData;
-import net.yaseruxd.scuffedsouls.hollow.HollowManager;
-
-import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.world.phys.Vec3;
-
-import net.minecraft.core.registries.Registries;
-import net.minecraft.tags.TagKey;
-import net.minecraft.world.entity.EntityType;
-
-import net.yaseruxd.scuffedsouls.playerclass.ClassManager;
 import net.yaseruxd.scuffedsouls.network.OpenClassScreenPacket;
+import net.yaseruxd.scuffedsouls.playerclass.ClassManager;
+import net.yaseruxd.scuffedsouls.registry.ModBlocks;
 
 @EventBusSubscriber(
         modid = "scuffedsouls",
@@ -59,9 +56,20 @@ import net.yaseruxd.scuffedsouls.network.OpenClassScreenPacket;
 )
 public class PlayerEventHandler {
 
-
     private static final Set<UUID> pendingJoinSync = new HashSet<>();
     private static final Map<UUID, Integer> joinTickCounter = new HashMap<>();
+
+    private static final TagKey<EntityType<?>> HUMANOID =
+            TagKey.create(
+                    Registries.ENTITY_TYPE,
+                    new ResourceLocation("scuffedsouls", "humanoid")
+            );
+
+    private static final TagKey<EntityType<?>> BOSSES =
+            TagKey.create(
+                    Registries.ENTITY_TYPE,
+                    new ResourceLocation("scuffedsouls", "bosses")
+            );
 
     public PlayerEventHandler() {
     }
@@ -80,6 +88,7 @@ public class PlayerEventHandler {
 
             // Hollow increment — always happens on death, regardless of XP
             HollowData.increment(player);
+
             if (player instanceof ServerPlayer serverPlayer) {
                 syncHollowToClient(serverPlayer);
             }
@@ -182,6 +191,7 @@ public class PlayerEventHandler {
         Player player = event.getEntity();
 
         if (!player.level().isClientSide()) {
+
             // Existing buildup reset
             BuildupData data = BuildupStorage.get(player);
             data.resetAll();
@@ -199,6 +209,7 @@ public class PlayerEventHandler {
             // Apply hollow modifiers based on stored level
             HollowManager.removeModifiers(player);
             HollowManager.applyModifiers(player);
+
             if (player instanceof ServerPlayer serverPlayer) {
                 syncHollowToClient(serverPlayer);
             }
@@ -215,8 +226,10 @@ public class PlayerEventHandler {
         if (server.getTickCount() % 6000 == 0) {
             for (ServerLevel level : server.getAllLevels()) {
                 SoulAnchorData data = SoulAnchorData.get(level);
+
                 for (Long posKey : new ArrayList<>(data.xpMap.keySet())) {
                     BlockPos pos = BlockPos.of(posKey);
+
                     if (SoulAnchorData.isExpired(level, pos)) {
                         level.destroyBlock(pos, false);
                         SoulAnchorData.clearXp(level, pos);
@@ -235,13 +248,46 @@ public class PlayerEventHandler {
 
         if (destination.equals(paradise)) {
             player.addEffect(new MobEffectInstance(
-                    MobEffects.NIGHT_VISION, Integer.MAX_VALUE, 0, false, false));
+                    MobEffects.NIGHT_VISION,
+                    Integer.MAX_VALUE,
+                    0,
+                    false,
+                    false
+            ));
         }
 
         ResourceLocation source = event.getFrom().location();
+
         if (source.equals(paradise)) {
             player.removeEffect(MobEffects.NIGHT_VISION);
         }
+    }
+
+    // Completely reset Hollow when a player kills a boss
+    @SubscribeEvent
+    public static void onBossKilled(LivingDeathEvent event) {
+        LivingEntity killed = event.getEntity();
+
+        // Only process entities in the boss tag
+        if (!killed.getType().is(BOSSES)) return;
+
+        // Only process player kills
+        if (!(event.getSource().getEntity() instanceof ServerPlayer player)) {
+            return;
+        }
+
+        // No need to reset if the player has no Hollow
+        if (HollowData.getLevel(player) <= 0) return;
+
+        // Completely remove Hollow
+        HollowData.setLevel(player, 0);
+
+        // Remove Hollow penalties immediately
+        HollowManager.removeModifiers(player);
+        HollowManager.applyModifiers(player);
+
+        // Update the Hollow HUD
+        syncHollowToClient(player);
     }
 
     @SubscribeEvent
@@ -263,7 +309,7 @@ public class PlayerEventHandler {
         // Decrease Hollow
         HollowData.decrement(player);
 
-// Play Soul Speed's soul escape sound
+        // Play Soul Speed's soul escape sound
         player.playNotifySound(
                 SoundEvents.SOUL_ESCAPE,
                 SoundSource.PLAYERS,
@@ -326,12 +372,6 @@ public class PlayerEventHandler {
                 new HollowSyncPacket(HollowData.getLevel(player))
         );
     }
-
-    private static final TagKey<EntityType<?>> HUMANOID =
-            TagKey.create(
-                    Registries.ENTITY_TYPE,
-                    new ResourceLocation("scuffedsouls", "humanoid")
-            );
 
     private static boolean isHumanoid(LivingEntity entity) {
         return entity.getType().is(HUMANOID);

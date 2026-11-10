@@ -1,4 +1,3 @@
-
 {
   "replace": false,
   "values": [
@@ -6,31 +5,20 @@
     "minecraft:husk",
     "minecraft:drowned",
     "minecraft:zombie_villager",
-
     "minecraft:skeleton",
     "minecraft:stray",
     "minecraft:wither_skeleton",
-
     "minecraft:piglin",
     "minecraft:piglin_brute",
     "minecraft:zombified_piglin",
-
     "minecraft:witch",
     "minecraft:enderman",
-
     "minecraft:evoker",
     "minecraft:vindicator",
     "minecraft:pillager",
     "minecraft:illusioner",
-
     "minecraft:villager",
     "minecraft:wandering_trader",
-
-    "human_encounters:human",
-    "human_encounters:human_ranger",
-    "human_encounters:knight_errant",
-    "human_encounters:vandal",
-
     "mca:male_villager",
     "mca:female_villager"
   ]

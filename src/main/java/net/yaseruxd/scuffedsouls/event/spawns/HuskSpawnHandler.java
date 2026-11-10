@@ -34,7 +34,6 @@ public class HuskSpawnHandler {
     private static final String ELITE_TAG = "scuffedsouls_elite_husk";
 
     private static final String ME = "magistuarmory";
-    private static final String MEA = "magistuarmoryaddon";
 
     // Normal husk equipment
     private static final List<ItemRef> HELMETS = List.of(
